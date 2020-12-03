@@ -55,6 +55,7 @@ dk_weekly_scores$Team <- sub("LVR", "LV", dk_weekly_scores$Team)
 dk_weekly_scores$Team <- sub("SFO", "SF", dk_weekly_scores$Team)
 dk_weekly_scores$Team <- sub("TAM", "TB", dk_weekly_scores$Team)
 dk_weekly_scores$Team <- sub("LAR", "LA", dk_weekly_scores$Team)
+dk_weekly_scores$Team <- sub("JAC", "JAX", dk_weekly_scores$Team)
 
 dk_weekly_scores$Oppt <- sub("NWE", "NE", dk_weekly_scores$Oppt)
 dk_weekly_scores$Oppt <- sub("GNB", "GB", dk_weekly_scores$Oppt)
@@ -65,6 +66,7 @@ dk_weekly_scores$Oppt <- sub("LVR", "LV", dk_weekly_scores$Oppt)
 dk_weekly_scores$Oppt <- sub("SFO", "SF", dk_weekly_scores$Oppt)
 dk_weekly_scores$Oppt <- sub("TAM", "TB", dk_weekly_scores$Oppt)
 dk_weekly_scores$Oppt <- sub("LAR", "LA", dk_weekly_scores$Oppt)
+dk_weekly_scores$Oppt <- sub("JAC", "JAX", dk_weekly_scores$Oppt)
 
 write_csv(dk_weekly_scores, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/2020 DraftKings Weekly Scores.csv")
 
@@ -86,7 +88,7 @@ while (i <= 16){
   roto_guru_html <- as.data.frame(roto_guru_html)
   roto_guru_html = transform(roto_guru_html, roto_guru_html = colsplit(roto_guru_html, split = "\\;",
                                                                        names = c('week', 'year','GID','player','Pos',
-                                                                                 'Team','H/A','Oppt','DKP','DKSalary')))
+                                                                                 'Team','H/A','Oppt','FDP','DKSalary')))
   roto_guru_html <- roto_guru_html[-1,] 
   paste0("roto_guru_html",i)
   assign(paste("week",i,"DFS",sep=""), roto_guru_html)
@@ -108,5 +110,30 @@ fd_weekly_scores <- fd_weekly_scores %>%
 
 fd_weekly_scores$player <- sub("^(\\S*\\s+\\S+).*", "\\1", fd_weekly_scores$player)
 fd_weekly_scores$player <- gsub("[.]", "", fd_weekly_scores$player)
+
+fd_weekly_scores$Team <- toupper(fd_weekly_scores$Team)
+fd_weekly_scores$Oppt <- toupper(fd_weekly_scores$Oppt)
+
+fd_weekly_scores$Team <- sub("NWE", "NE", fd_weekly_scores$Team)
+fd_weekly_scores$Team <- sub("GNB", "GB", fd_weekly_scores$Team)
+fd_weekly_scores$Team <- sub("NOR", "NO", fd_weekly_scores$Team)
+fd_weekly_scores$Team <- sub("OAK", "LV", fd_weekly_scores$Team)
+fd_weekly_scores$Team <- sub("KAN", "KC", fd_weekly_scores$Team)
+fd_weekly_scores$Team <- sub("LVR", "LV", fd_weekly_scores$Team)
+fd_weekly_scores$Team <- sub("SFO", "SF", fd_weekly_scores$Team)
+fd_weekly_scores$Team <- sub("TAM", "TB", fd_weekly_scores$Team)
+fd_weekly_scores$Team <- sub("LAR", "LA", fd_weekly_scores$Team)
+fd_weekly_scores$Team <- sub("JAC", "JAX", fd_weekly_scores$Team)
+
+fd_weekly_scores$Oppt <- sub("NWE", "NE", fd_weekly_scores$Oppt)
+fd_weekly_scores$Oppt <- sub("GNB", "GB", fd_weekly_scores$Oppt)
+fd_weekly_scores$Oppt <- sub("NOR", "NO", fd_weekly_scores$Oppt)
+fd_weekly_scores$Oppt <- sub("OAK", "LV", fd_weekly_scores$Oppt)
+fd_weekly_scores$Oppt <- sub("KAN", "KC", fd_weekly_scores$Oppt)
+fd_weekly_scores$Oppt <- sub("LVR", "LV", fd_weekly_scores$Oppt)
+fd_weekly_scores$Oppt <- sub("SFO", "SF", fd_weekly_scores$Oppt)
+fd_weekly_scores$Oppt <- sub("TAM", "TB", fd_weekly_scores$Oppt)
+fd_weekly_scores$Oppt <- sub("LAR", "LA", fd_weekly_scores$Oppt)
+fd_weekly_scores$Oppt <- sub("JAC", "JAX", fd_weekly_scores$Oppt)
 
 write_csv(fd_weekly_scores, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/2020 FanDuel Weekly Scores.csv")
