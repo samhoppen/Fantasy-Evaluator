@@ -1,11 +1,5 @@
 library(tidyverse)
 library(dplyr)
-library(ggimage)
-library(ggrepel)
-library(nflfastR)
-library(magick)
-library(cowplot)
-library(showtext)
 library(rvest)
 library(reshape)
 
