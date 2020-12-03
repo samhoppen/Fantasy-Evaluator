@@ -6,7 +6,7 @@ library(reshape)
 
 ## DraftKings Scrape
 i <- 1
-while (i <= 16){
+while (i <= 17){
   url1 <- "http://rotoguru1.com/cgi-bin/fyday.pl?week="
   url2 <- "&game=dk&scsv=1"
   url <- paste(url1,i,url2,sep="")
@@ -74,7 +74,7 @@ write_csv(dk_weekly_scores, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/D
 
 ## FanDuel Scrape
 i <- 1
-while (i <= 16){
+while (i <= 17){
   url1 <- "http://rotoguru1.com/cgi-bin/fyday.pl?week="
   url2 <- "&game=fd&scsv=1"
   url <- paste(url1,i,url2,sep="")
