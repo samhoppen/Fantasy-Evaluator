@@ -47,3 +47,4 @@ dk_weekly_scores <- dk_weekly_scores %>%
 dk_weekly_scores$player <- sub("^(\\S*\\s+\\S+).*", "\\1", dk_weekly_scores$player)
 dk_weekly_scores$player <- gsub("[.]", "", dk_weekly_scores$player)
 
+write_csv(dk_weekly_scores, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/DraftKings Weekly Scores.csv")
