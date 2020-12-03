@@ -43,6 +43,29 @@ dk_weekly_scores <- dk_weekly_scores %>%
 dk_weekly_scores$player <- sub("^(\\S*\\s+\\S+).*", "\\1", dk_weekly_scores$player)
 dk_weekly_scores$player <- gsub("[.]", "", dk_weekly_scores$player)
 
+dk_weekly_scores$Team <- toupper(dk_weekly_scores$Team)
+dk_weekly_scores$Oppt <- toupper(dk_weekly_scores$Oppt)
+
+dk_weekly_scores$Team <- sub("NWE", "NE", dk_weekly_scores$Team)
+dk_weekly_scores$Team <- sub("GNB", "GB", dk_weekly_scores$Team)
+dk_weekly_scores$Team <- sub("NOR", "NO", dk_weekly_scores$Team)
+dk_weekly_scores$Team <- sub("OAK", "LV", dk_weekly_scores$Team)
+dk_weekly_scores$Team <- sub("KAN", "KC", dk_weekly_scores$Team)
+dk_weekly_scores$Team <- sub("LVR", "LV", dk_weekly_scores$Team)
+dk_weekly_scores$Team <- sub("SFO", "SF", dk_weekly_scores$Team)
+dk_weekly_scores$Team <- sub("TAM", "TB", dk_weekly_scores$Team)
+dk_weekly_scores$Team <- sub("LAR", "LA", dk_weekly_scores$Team)
+
+dk_weekly_scores$Oppt <- sub("NWE", "NE", dk_weekly_scores$Oppt)
+dk_weekly_scores$Oppt <- sub("GNB", "GB", dk_weekly_scores$Oppt)
+dk_weekly_scores$Oppt <- sub("NOR", "NO", dk_weekly_scores$Oppt)
+dk_weekly_scores$Oppt <- sub("OAK", "LV", dk_weekly_scores$Oppt)
+dk_weekly_scores$Oppt <- sub("KAN", "KC", dk_weekly_scores$Oppt)
+dk_weekly_scores$Oppt <- sub("LVR", "LV", dk_weekly_scores$Oppt)
+dk_weekly_scores$Oppt <- sub("SFO", "SF", dk_weekly_scores$Oppt)
+dk_weekly_scores$Oppt <- sub("TAM", "TB", dk_weekly_scores$Oppt)
+dk_weekly_scores$Oppt <- sub("LAR", "LA", dk_weekly_scores$Oppt)
+
 write_csv(dk_weekly_scores, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/2020 DraftKings Weekly Scores.csv")
 
 
