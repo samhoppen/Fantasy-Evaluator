@@ -1,4 +1,4 @@
-week,year,Pos,Team,H.A,Oppt,FDP,FDSalary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
+week,year,Pos,Team,H.A,Oppt,FPTS,FDSalary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
 1,2014,QB,ATL,h,NO,31.42,8100,Matt Ryan,34,37,71,NA,NA,-3,NA,NA,51,NA,NA,win
 1,2014,QB,DET,h,NYG,30.04,9300,Matthew Stafford,14,35,49,NA,NA,6.5,NA,NA,45,NA,NA,win
 1,2014,QB,IND,a,DEN,28.7,9200,Andrew Luck,24,31,55,NA,NA,8,NA,NA,52.5,NA,NA,loss

@@ -1,4 +1,4 @@
-week,year,Pos,Team,H.A,Oppt,FDP,FDSalary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
+week,year,Pos,Team,H.A,Oppt,FPTS,FDSalary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
 1,2018,QB,TB,a,NO,42.28,6200,Ryan Fitzpatrick,48,40,88,NA,NA,10,NA,NA,50,NA,NA,win
 1,2018,QB,NO,h,TB,31.56,8400,Drew Brees,48,40,88,NA,NA,10,NA,NA,50,NA,NA,loss
 1,2018,QB,LAC,h,KC,29.96,7500,Philip Rivers,38,28,66,NA,NA,3.5,NA,NA,48,NA,NA,loss

@@ -1,4 +1,4 @@
-week,year,Pos,Team,H.A,Oppt,FDP,FDSalary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
+week,year,Pos,Team,H.A,Oppt,FPTS,FDSalary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
 1,2016,QB,IND,h,DET,35.5,8700,Andrew Luck,39,35,74,NA,NA,2.5,NA,NA,51.5,NA,NA,loss
 1,2016,QB,NO,h,LV,31.42,8700,Drew Brees,35,34,69,NA,NA,2.5,NA,NA,50,NA,NA,loss
 1,2016,QB,KC,h,LAC,29.02,7000,Alex Smith,27,33,60,NA,NA,6.5,NA,NA,45.5,NA,NA,win
