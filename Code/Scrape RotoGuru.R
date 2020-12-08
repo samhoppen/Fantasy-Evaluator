@@ -35,7 +35,7 @@ while (i <= 17){
   roto_guru_html <- as.data.frame(roto_guru_html)
   roto_guru_html = transform(roto_guru_html, roto_guru_html = colsplit(roto_guru_html, split = "\\;",
                                                                        names = c('week', 'year','GID','player','Pos',
-                                                                                 'Team','H/A','Oppt','FPTS','DKSalary')))
+                                                                                 'Team','H/A','Oppt','FPTS','Salary')))
   roto_guru_html <- roto_guru_html[-1,] 
   paste0("roto_guru_html",i)
   assign(paste("week",i,"DFS",sep=""), roto_guru_html)
@@ -116,7 +116,7 @@ while (i <= 17){
   roto_guru_html <- as.data.frame(roto_guru_html)
   roto_guru_html = transform(roto_guru_html, roto_guru_html = colsplit(roto_guru_html, split = "\\;",
                                                                        names = c('week', 'year','GID','player','Pos',
-                                                                                 'Team','H/A','Oppt','FPTS','FDSalary')))
+                                                                                 'Team','H/A','Oppt','FPTS','Salary')))
   roto_guru_html <- roto_guru_html[-1,] 
   paste0("roto_guru_html",i)
   assign(paste("week",i,"DFS",sep=""), roto_guru_html)
@@ -182,32 +182,12 @@ write_csv(fd_weekly_scores2, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/
 
 
 ## add 2020 to total data
-dk_weekly_scores_2014 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2014%20DraftKings%20Weekly%20Scores.csv"))
-dk_weekly_scores_2015 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2015%20DraftKings%20Weekly%20Scores.csv"))
-dk_weekly_scores_2016 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2016%20DraftKings%20Weekly%20Scores.csv"))
-dk_weekly_scores_2017 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2017%20DraftKings%20Weekly%20Scores.csv"))
-dk_weekly_scores_2018 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2018%20DraftKings%20Weekly%20Scores.csv"))
-dk_weekly_scores_2019 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2019%20DraftKings%20Weekly%20Scores.csv"))
-dk_weekly_scores_2020 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2020%20DraftKings%20Weekly%20Scores.csv"))
-
-dk_weekly_scores_tot <- rbind(dk_weekly_scores_2014,
-                              dk_weekly_scores_2015,
-                              dk_weekly_scores_2016,
-                              dk_weekly_scores_2017,
-                              dk_weekly_scores_2018,
-                              dk_weekly_scores_2019,
-                              dk_weekly_scores_2020)
-
-write_csv(dk_weekly_scores_tot, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/DraftKings Weekly Scores Total.csv")
-
-
 fd_weekly_scores_2014 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2014%20FanDuel%20Weekly%20Scores.csv"))
 fd_weekly_scores_2015 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2015%20FanDuel%20Weekly%20Scores.csv"))
 fd_weekly_scores_2016 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2016%20FanDuel%20Weekly%20Scores.csv"))
 fd_weekly_scores_2017 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2017%20FanDuel%20Weekly%20Scores.csv"))
 fd_weekly_scores_2018 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2018%20FanDuel%20Weekly%20Scores.csv"))
 fd_weekly_scores_2019 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2019%20FanDuel%20Weekly%20Scores.csv"))
-fd_weekly_scores_2020 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2020%20FanDuel%20Weekly%20Scores.csv"))
 
 fd_weekly_scores_tot <- rbind(fd_weekly_scores_2014,
                               fd_weekly_scores_2015,
@@ -218,3 +198,25 @@ fd_weekly_scores_tot <- rbind(fd_weekly_scores_2014,
                               fd_weekly_scores2)
 
 write_csv(fd_weekly_scores_tot, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/FanDuel Weekly Scores Total.csv")
+
+kickers <- fd_weekly_scores_tot %>% 
+  filter(Pos == "PK")
+
+
+dk_weekly_scores_2014 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2014%20DraftKings%20Weekly%20Scores.csv"))
+dk_weekly_scores_2015 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2015%20DraftKings%20Weekly%20Scores.csv"))
+dk_weekly_scores_2016 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2016%20DraftKings%20Weekly%20Scores.csv"))
+dk_weekly_scores_2017 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2017%20DraftKings%20Weekly%20Scores.csv"))
+dk_weekly_scores_2018 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2018%20DraftKings%20Weekly%20Scores.csv"))
+dk_weekly_scores_2019 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2019%20DraftKings%20Weekly%20Scores.csv"))
+
+dk_weekly_scores_tot <- rbind(dk_weekly_scores_2014,
+                              dk_weekly_scores_2015,
+                              dk_weekly_scores_2016,
+                              dk_weekly_scores_2017,
+                              dk_weekly_scores_2018,
+                              dk_weekly_scores_2019,
+                              dk_weekly_scores2,
+                              kickers)
+
+write_csv(dk_weekly_scores_tot, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/DraftKings Weekly Scores Total.csv")
