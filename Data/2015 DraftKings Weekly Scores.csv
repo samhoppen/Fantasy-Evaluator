@@ -1,4 +1,4 @@
-week,year,Pos,Team,H.A,Oppt,FPTS,DKSalary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
+week,year,Pos,Team,H.A,Oppt,FPTS,Salary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
 1,2015,QB,ARI,h,NO,28.68,6500,Carson Palmer,19,31,50,NA,NA,2,NA,NA,48.5,NA,NA,win
 1,2015,QB,NE,h,PIT,27.62,7700,Tom Brady,21,28,49,NA,NA,7.5,NA,NA,51,NA,NA,win
 1,2015,QB,DAL,h,NYG,27.14,7300,Tony Romo,26,27,53,NA,NA,7,NA,NA,52,NA,NA,win

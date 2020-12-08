@@ -1,4 +1,4 @@
-week,year,Pos,Team,H.A,Oppt,FPTS,FDSalary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
+week,year,Pos,Team,H.A,Oppt,FPTS,Salary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
 1,2017,QB,KC,a,NE,31.02,6900,Alex Smith,42,27,69,NA,NA,8,NA,NA,47.5,NA,NA,win
 1,2017,QB,DET,h,ARI,28.08,7600,Matthew Stafford,23,35,58,NA,NA,-2.5,NA,NA,48.5,NA,NA,win
 1,2017,QB,MIN,h,NO,25.54,7000,Sam Bradford,19,29,48,NA,NA,3,NA,NA,47.5,NA,NA,win

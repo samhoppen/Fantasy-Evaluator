@@ -1,4 +1,4 @@
-week,year,Pos,Team,H.A,Oppt,FPTS,DKSalary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
+week,year,Pos,Team,H.A,Oppt,FPTS,Salary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
 1,2019,QB,BAL,a,MIA,36.56,6000,Lamar Jackson,59,10,69,NA,NA,-7,NA,NA,41,NA,NA,win
 1,2019,QB,DAL,h,NYG,36.4,5900,Dak Prescott,17,35,52,NA,NA,7,NA,NA,44,NA,NA,win
 1,2019,QB,HOU,a,NO,31.72,6800,Deshaun Watson,28,30,58,NA,NA,6.5,NA,NA,52,NA,NA,loss
