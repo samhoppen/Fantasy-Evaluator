@@ -1,4 +1,4 @@
-week,year,Pos,Team,H.A,Oppt,FDP,DKSalary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
+week,year,Pos,Team,H.A,Oppt,FDP,FDSalary,player,away_score,home_score,total,away_moneyline,home_moneyline,spread_line,away_spread_odds,home_spread_odds,total_line,under_odds,over_odds,result
 1,2020,QB,SEA,a,ATL,31.78,8400,Russell Wilson,38,25,63,NA,NA,1,NA,NA,49.5,NA,NA,win
 1,2020,QB,GB,a,MIN,30.76,7600,Aaron Rodgers,43,34,77,NA,NA,1,NA,NA,45,NA,NA,win
 1,2020,QB,BUF,h,NYJ,28.18,7900,Josh Allen,17,27,44,NA,NA,6.5,NA,NA,39.5,NA,NA,win
