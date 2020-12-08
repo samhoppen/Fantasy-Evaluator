@@ -35,7 +35,7 @@ while (i <= 17){
   roto_guru_html <- as.data.frame(roto_guru_html)
   roto_guru_html = transform(roto_guru_html, roto_guru_html = colsplit(roto_guru_html, split = "\\;",
                                                                        names = c('week', 'year','GID','player','Pos',
-                                                                                 'Team','H/A','Oppt','DKP','DKSalary')))
+                                                                                 'Team','H/A','Oppt','FPTS','DKSalary')))
   roto_guru_html <- roto_guru_html[-1,] 
   paste0("roto_guru_html",i)
   assign(paste("week",i,"DFS",sep=""), roto_guru_html)
@@ -116,7 +116,7 @@ while (i <= 17){
   roto_guru_html <- as.data.frame(roto_guru_html)
   roto_guru_html = transform(roto_guru_html, roto_guru_html = colsplit(roto_guru_html, split = "\\;",
                                                                        names = c('week', 'year','GID','player','Pos',
-                                                                                 'Team','H/A','Oppt','FDP','FDSalary')))
+                                                                                 'Team','H/A','Oppt','FPTS','FDSalary')))
   roto_guru_html <- roto_guru_html[-1,] 
   paste0("roto_guru_html",i)
   assign(paste("week",i,"DFS",sep=""), roto_guru_html)
