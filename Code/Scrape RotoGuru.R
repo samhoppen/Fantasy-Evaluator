@@ -3,6 +3,21 @@ library(dplyr)
 library(rvest)
 library(reshape)
 
+#import game data
+games_2020 <- read_csv(url("https://raw.githubusercontent.com/leesharpe/nfldata/master/data/games.csv"))
+games_20202 <- read_csv(url("https://raw.githubusercontent.com/leesharpe/nfldata/master/data/games.csv")) %>% 
+  mutate(home_team = away_team)
+games <- rbind(games_2020, games_20202) %>% 
+  select(-c("away_team", "game_id", "game_type", "gameday", "weekday",
+            "gametime", "location", "result", "overtime", "old_game_id",
+            "away_rest", "home_rest", "div_game", "roof", "surface",
+            "temp", "wind", "away_coach", "home_coach", "referee",
+            "stadium_id", "stadium"))
+
+games$home_team <- sub("OAK", "LV", games$home_team)
+games$home_team <- sub("STL", "LA", games$home_team)
+games$home_team <- sub("SD", "LAC", games$home_team)
+
 
 ## DraftKings Scrape
 i <- 1
@@ -68,7 +83,20 @@ dk_weekly_scores$Oppt <- sub("TAM", "TB", dk_weekly_scores$Oppt)
 dk_weekly_scores$Oppt <- sub("LAR", "LA", dk_weekly_scores$Oppt)
 dk_weekly_scores$Oppt <- sub("JAC", "JAX", dk_weekly_scores$Oppt)
 
-write_csv(dk_weekly_scores, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/2020 DraftKings Weekly Scores.csv")
+dk_weekly_scores$year <- as.numeric(dk_weekly_scores$year)
+dk_weekly_scores$week <- as.numeric(dk_weekly_scores$week)
+
+dk_weekly_scores2 <- dk_weekly_scores %>% 
+  mutate(year = 2020) %>% 
+  left_join(games,
+            by = c("year" = "season",
+                   "week" = "week",
+                   "Team" = "home_team")) %>% 
+  mutate(result = if_else(home_score == away_score, "tie",
+                          if_else(H.A == "h" & home_score >= away_score, "win",
+                                  if_else(H.A == "a" & away_score >= home_score, "win", "loss"))))
+
+write_csv(dk_weekly_scores2, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/2020 DraftKings Weekly Scores.csv")
 
 
 
@@ -88,7 +116,7 @@ while (i <= 17){
   roto_guru_html <- as.data.frame(roto_guru_html)
   roto_guru_html = transform(roto_guru_html, roto_guru_html = colsplit(roto_guru_html, split = "\\;",
                                                                        names = c('week', 'year','GID','player','Pos',
-                                                                                 'Team','H/A','Oppt','FDP','DKSalary')))
+                                                                                 'Team','H/A','Oppt','FDP','FDSalary')))
   roto_guru_html <- roto_guru_html[-1,] 
   paste0("roto_guru_html",i)
   assign(paste("week",i,"DFS",sep=""), roto_guru_html)
@@ -136,4 +164,57 @@ fd_weekly_scores$Oppt <- sub("TAM", "TB", fd_weekly_scores$Oppt)
 fd_weekly_scores$Oppt <- sub("LAR", "LA", fd_weekly_scores$Oppt)
 fd_weekly_scores$Oppt <- sub("JAC", "JAX", fd_weekly_scores$Oppt)
 
-write_csv(fd_weekly_scores, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/2020 FanDuel Weekly Scores.csv")
+fd_weekly_scores$year <- as.numeric(fd_weekly_scores$year)
+fd_weekly_scores$week <- as.numeric(fd_weekly_scores$week)
+
+fd_weekly_scores2 <- fd_weekly_scores %>% 
+  mutate(year = 2020) %>% 
+  left_join(games,
+            by = c("year" = "season",
+                   "week" = "week",
+                   "Team" = "home_team")) %>% 
+  mutate(result = if_else(home_score == away_score, "tie",
+                          if_else(H.A == "h" & home_score >= away_score, "win",
+                                  if_else(H.A == "a" & away_score >= home_score, "win", "loss"))))
+
+write_csv(fd_weekly_scores2, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/2020 FanDuel Weekly Scores.csv")
+
+
+
+## add 2020 to total data
+dk_weekly_scores_2014 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2014%20DraftKings%20Weekly%20Scores.csv"))
+dk_weekly_scores_2015 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2015%20DraftKings%20Weekly%20Scores.csv"))
+dk_weekly_scores_2016 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2016%20DraftKings%20Weekly%20Scores.csv"))
+dk_weekly_scores_2017 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2017%20DraftKings%20Weekly%20Scores.csv"))
+dk_weekly_scores_2018 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2018%20DraftKings%20Weekly%20Scores.csv"))
+dk_weekly_scores_2019 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2019%20DraftKings%20Weekly%20Scores.csv"))
+dk_weekly_scores_2020 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2020%20DraftKings%20Weekly%20Scores.csv"))
+
+dk_weekly_scores_tot <- rbind(dk_weekly_scores_2014,
+                              dk_weekly_scores_2015,
+                              dk_weekly_scores_2016,
+                              dk_weekly_scores_2017,
+                              dk_weekly_scores_2018,
+                              dk_weekly_scores_2019,
+                              dk_weekly_scores_2020)
+
+write_csv(dk_weekly_scores_tot, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/DraftKings Weekly Scores Total.csv")
+
+
+fd_weekly_scores_2014 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2014%20FanDuel%20Weekly%20Scores.csv"))
+fd_weekly_scores_2015 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2015%20FanDuel%20Weekly%20Scores.csv"))
+fd_weekly_scores_2016 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2016%20FanDuel%20Weekly%20Scores.csv"))
+fd_weekly_scores_2017 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2017%20FanDuel%20Weekly%20Scores.csv"))
+fd_weekly_scores_2018 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2018%20FanDuel%20Weekly%20Scores.csv"))
+fd_weekly_scores_2019 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2019%20FanDuel%20Weekly%20Scores.csv"))
+fd_weekly_scores_2020 <- read_csv(url("https://raw.githubusercontent.com/samhoppen/NFL-Analysis/main/Data/2020%20FanDuel%20Weekly%20Scores.csv"))
+
+fd_weekly_scores_tot <- rbind(fd_weekly_scores_2014,
+                              fd_weekly_scores_2015,
+                              fd_weekly_scores_2016,
+                              fd_weekly_scores_2017,
+                              fd_weekly_scores_2018,
+                              fd_weekly_scores_2019,
+                              fd_weekly_scores2)
+
+write_csv(fd_weekly_scores_tot, "C:/Users/Hoppy/OneDrive/NFL Analysis/NFL-Analysis/Data/FanDuel Weekly Scores Total.csv")
