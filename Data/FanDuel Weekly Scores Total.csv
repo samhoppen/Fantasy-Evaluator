@@ -47237,7 +47237,7 @@ week,year,Pos,Team,H.A,Oppt,FPTS,Salary,player,away_score,home_score,total,away_
 16,2020,QB,JAX,h,CHI,14.44,6500,Mike Glennon,41,17,58,NA,NA,-9.5,NA,NA,47,NA,NA,loss
 16,2020,QB,NYG,a,BAL,14.38,6500,Daniel Jones,13,27,40,NA,NA,10,NA,NA,43.5,NA,NA,loss
 16,2020,QB,IND,a,PIT,11.8,7000,Philip Rivers,24,28,52,NA,NA,-1,NA,NA,43,NA,NA,loss
-16,2020,QB,WAS,h,CAR,11.68,16,Taylor Heinicke,20,13,33,NA,NA,-1,NA,NA,41,NA,NA,loss
+16,2020,QB,WAS,h,CAR,11.68,0,Taylor Heinicke,20,13,33,NA,NA,-1,NA,NA,41,NA,NA,loss
 16,2020,QB,MIA,a,LV,11.28,6400,Ryan Fitzpatrick,26,25,51,NA,NA,-2,NA,NA,50,NA,NA,win
 16,2020,QB,LA,a,SEA,10.66,7400,Jared Goff,9,20,29,NA,NA,1.5,NA,NA,48,NA,NA,loss
 16,2020,QB,NO,h,MIN,10.52,7700,Taysom Hill,33,52,85,NA,NA,6.5,NA,NA,49,NA,NA,win
