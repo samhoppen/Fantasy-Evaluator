@@ -66,37 +66,37 @@ brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
   }
   
   # is image taller than wider? if so, make sure the width is at least the base_size
-  #if (asp < 1) {
-  #  base_size_rat_wid <- (5/base_size)
-  #  base_size <- base_size / asp
-  #} else {
-  #  base_size_rat_wid <- (5/base_size) / asp
-  #}
+  if (asp < 1) {
+    base_size_rat_wid <- (5/base_size)
+    base_size <- base_size / asp
+  } else {
+    base_size_rat_wid <- (5/base_size) / asp
+  }
   
   #plt <- ggdraw(plt.final) + draw_image(logo_file, x = 0.002 * (base_size_rat_wid), y = 0, hjust = 0, vjust = 0, height = logo_size, width = 0.08 * (base_size_rat_wid))
-  ggsave(save_name, orig_plot, dpi = 900, height = base_size, width = base_size * (asp))
+  ggsave(save_name, orig_plot, dpi = 480)#, height = base_size, width = base_size * (asp))
   
 }
-
+#?ggsave
 theme_FE <-  theme(
   line = element_line(lineend = 'round', color='black'),     #rounds the edges of all lines; makes the color black
-  text = element_text(family = "incon", color='black'),     #uses the Incon text format for all text; makes the color black
+  text = element_text(color='black'),     #uses the Incon text format for all text; makes the color black
   panel.border = element_rect(color = 'black', fill = NA),     #makes the panel around the plotting area the color black
   panel.background = element_rect(fill = 'white', color = 'transparent'),     #background of the non-plotting area is white
   axis.ticks = element_line(color = 'black', size = 0.5),     #changes the size (width) of the x-axis ticks
   axis.ticks.length = unit(2.75, 'pt'),     #changes the length of the axis ticks
   axis.title = element_text(size = 8),     #changes the size of the axis titles, if any
   axis.text = element_text(size = 7, color = 'black'),     #changes the size of the axis labels
-  plot.title = element_text(size = 14),     #changes the size of the title
-  plot.subtitle = element_text(size = 8),     #changes the size of the subtitle
-  plot.caption = element_text(size = 5),     #changes the size of the caption
+  plot.title = element_text(size = 14, family = "encode"),     #changes the size of the title
+  plot.subtitle = element_text(size = 8, family = "encode"),     #changes the size of the subtitle
+  plot.caption = element_text(size = 5, family = "encode"),     #changes the size of the caption
   legend.background = element_rect(fill = 'grey90', color = 'black'),     #makes background of the legend to be grey
   legend.key = element_blank(),     #removes the legend key
   panel.grid.minor = element_blank(),     #removes the lines on the plot between the ticks
   panel.grid.major = element_line(color='grey85', size = 0.3),     #changes the size of the major gridlines and makes them grey
   axis.title.y = element_text(angle = 0, vjust = 0.5),     #changes the size of the axis labels
   strip.background = element_blank(),
-  strip.text = element_text(size = 6, color = 'black', family = "incon"),
+  strip.text = element_text(size = 6, color = 'black'),
   legend.position = 'bottom',
   panel.spacing.y = unit(0, 'lines'),
   panel.spacing.x = unit(0.1, 'lines')
