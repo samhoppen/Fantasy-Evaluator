@@ -18,6 +18,9 @@ library(gganimate)
 library(gt)
 library(ggridges)
 library(nflfastR)
+library(showtext)
+library(rsvg)
+library(ggsci)
 
 # decide what font I should use based on what is available on computer
 #font_SB <- ifelse(length(grep('HP Simplified',fonts()))>0,'HP Simplified','Bahnschrift')
