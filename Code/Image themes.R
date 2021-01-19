@@ -18,23 +18,31 @@ library(gganimate)
 library(gt)
 library(ggridges)
 library(nflfastR)
-#library(emphatic)
+library(emphatic)
 
 # decide what font I should use based on what is available on computer
-font_SB <- ifelse(length(grep('HP Simplified',fonts()))>0,'HP Simplified','Bahnschrift')
+#font_SB <- ifelse(length(grep('HP Simplified',fonts()))>0,'HP Simplified','Bahnschrift')
+
+nba_teams <- c('ATL', 'BKN', 'BOS', 'CHA', 'CHI', 'CLE', 'DAL', 'DEN', 'DET', 'GSW',
+               'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA', 'MIL', 'MIN', 'NOR', 
+               'NYK', 'OKC', 'ORL', 'PHI', 'PHO', 'POR', 'SAC', 'SAS', 'TOR', 'UTA', 'WAS')
 
 # functions to retrieve images
-wordmark_url = function(x) ifelse(is.na(x),NA,paste0('https://raw.githubusercontent.com/ajreinhard/data-viz/master/wordmark/',x,'.png'))
-helmet_url = function(x) ifelse(is.na(x),NA,paste0('https://raw.githubusercontent.com/ajreinhard/data-viz/master/helmet_left/',x,'.png'))
-ESPN_logo_url = function(x) ifelse(is.na(x),NA,ifelse(x=='KC',paste0('https://raw.githubusercontent.com/ajreinhard/data-viz/master/alt-logo/',x,'.png'),paste0('https://a.espncdn.com/i/teamlogos/nfl/500/',x,'.png')))
-helm2020 <- function(team, side) paste0('https://raw.githubusercontent.com/ajreinhard/data-viz/master/2020_helm/',team,'_',side,'.png')
+nba_wordmark_url = function(x) ifelse(is.na(x),NA,paste0('https://raw.githubusercontent.com/samhoppen/Fantasy-Evaluator/main/Logos/',x,'.png'))
+#wordmark_url = function(x) ifelse(is.na(x),NA,paste0('https://raw.githubusercontent.com/ajreinhard/data-viz/master/wordmark/',x,'.png'))
+#helmet_url = function(x) ifelse(is.na(x),NA,paste0('https://raw.githubusercontent.com/ajreinhard/data-viz/master/helmet_left/',x,'.png'))
+#ESPN_logo_url = function(x) ifelse(is.na(x),NA,ifelse(x=='KC',paste0('https://raw.githubusercontent.com/ajreinhard/data-viz/master/alt-logo/',x,'.png'),paste0('https://a.espncdn.com/i/teamlogos/nfl/500/',x,'.png')))
+#helm2020 <- function(team, side) paste0('https://raw.githubusercontent.com/ajreinhard/data-viz/master/2020_helm/',team,'_',side,'.png')
 
 # my prefered team order for facets
-.tm_div_order <- c('BUF', 'MIA', 'NE', 'NYJ', 'BAL', 'CIN', 'CLE', 'PIT', 'HOU', 'IND', 'JAX', 'TEN', 'DEN', 'KC', 'LAC', 'LV', 'DAL', 'NYG', 'PHI', 'WAS', 'CHI', 'DET', 'GB', 'MIN', 'ATL', 'CAR', 'NO', 'TB', 'ARI', 'LA', 'SEA', 'SF')
-.tm_div_order_alt <- c('BUF', 'MIA', 'NE', 'NYJ', 'DAL', 'NYG', 'PHI', 'WAS', 'BAL', 'CIN', 'CLE', 'PIT', 'CHI', 'DET', 'GB', 'MIN', 'HOU', 'IND', 'JAX', 'TEN', 'ATL', 'CAR', 'NO', 'TB', 'DEN', 'KC', 'LAC', 'LV', 'ARI', 'LA', 'SEA', 'SF')
+#.tm_div_order <- c('BUF', 'MIA', 'NE', 'NYJ', 'BAL', 'CIN', 'CLE', 'PIT', 'HOU', 'IND', 'JAX', 'TEN', 'DEN', 'KC', 'LAC', 'LV', 'DAL', 'NYG', 'PHI', 'WAS', 'CHI', 'DET', 'GB', 'MIN', 'ATL', 'CAR', 'NO', 'TB', 'ARI', 'LA', 'SEA', 'SF')
+#.tm_div_order_alt <- c('BUF', 'MIA', 'NE', 'NYJ', 'DAL', 'NYG', 'PHI', 'WAS', 'BAL', 'CIN', 'CLE', 'PIT', 'CHI', 'DET', 'GB', 'MIN', 'HOU', 'IND', 'JAX', 'TEN', 'ATL', 'CAR', 'NO', 'TB', 'DEN', 'KC', 'LAC', 'LV', 'ARI', 'LA', 'SEA', 'SF')
+font_add_google("Encode Sans Condensed", "encode", regular.wt = 400, bold.wt = 600)
+font_add_google("Inconsolata", "incon")
+showtext_auto()
 
 # main function to save my branded plots
-brand_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, data_home = '', fade_borders = '', fade_prop = 0.5, axis_rot = F, tm_wordmarks = F) {
+brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_wordmarks = F) {
   
   ## start by adding team wordmarks
   if (tm_wordmarks) {
@@ -47,7 +55,7 @@ brand_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, data_home =
     orig_plot_bld$layout$z[grob_strip_index] <- 0
     
     for (i in 1:length(facet_id)) {
-      team_wd <- rasterGrob(image = image_read(wordmark_url(facet_id[i])), vp = viewport(height = .8, width = .6))
+      team_wd <- rasterGrob(image = image_read(nba_wordmark_url(facet_id[i])), vp = viewport(height = 0.8, width = 0.6))
       tot_tree <- grobTree(team_wd)
       
       orig_plot_bld$grobs[[grob_strip_index[i]]] <- tot_tree
@@ -55,541 +63,39 @@ brand_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, data_home =
     orig_plot <- ggdraw(orig_plot_bld)
   }
   
-  logo_size <- 0.06
+  # is image taller than wider? if so, make sure the width is at least the base_size
+  #if (asp < 1) {
+  #  base_size_rat_wid <- (5/base_size)
+  #  base_size <- base_size / asp
+  #} else {
+  #  base_size_rat_wid <- (5/base_size) / asp
+  #}
   
-  ## is image taller than wider? if so, make sure the width is at least the base_size
-  if (asp < 1) {
-    base_size_rat_wid <- (5/base_size)
-    logo_size <- (5/base_size) * logo_size * asp
-    base_size <- base_size / asp
-  } else {
-    base_size_rat_wid <- (5/base_size) / asp
-    logo_size <- (5/base_size) * logo_size
-  }
+  #plt <- ggdraw(plt.final) + draw_image(logo_file, x = 0.002 * (base_size_rat_wid), y = 0, hjust = 0, vjust = 0, height = logo_size, width = 0.08 * (base_size_rat_wid))
+  ggsave(save_name, orig_plot, dpi = 900, height = base_size, width = base_size * (asp))
   
-  ## local logo to read in
-  logo_file <- readPNG(getURLContent('https://raw.githubusercontent.com/samhoppen/Fantasy-Evaluator/main/Logos/Thumbnail.png'))
-  
-  author_txt <- textGrob('By Sam Hoppen', x=unit(0.08 * (base_size_rat_wid), 'npc'), gp=gpar(col='darkslategrey', fontfamily=font_SB, fontsize=6), hjust=0)
-  data_txt <- textGrob(data_home, x=unit(1 - (.01 * (base_size_rat_wid)), 'npc'), gp=gpar(col='grey95', fontfamily=font_SB, fontsize=6), hjust=1)
-  footer_bg <- grid.rect(x = unit(seq(0.5,1.5,length=1000), 'npc'), gp=gpar(col = 'transparent', fill = colorRampPalette(c('grey95', 'darkslategrey'), space = 'rgb')(1000)), draw = F)
-  footer <- grobTree(footer_bg, author_txt, data_txt)
-  
-  if (axis_rot) {axis_adj <- 90} else {axis_adj <- 0}
-  
-  if (fade_borders!='') {
-    ## set up bounds for fade plot
-    x_lim <- axis_limits_x(orig_plot) * fade_prop + ggplot_build(orig_plot)$layout$panel_params[[1]]$x.range * (1-fade_prop)
-    y_lim <- axis_limits_y(orig_plot) * fade_prop + ggplot_build(orig_plot)$layout$panel_params[[1]]$y.range * (1-fade_prop)
-    
-    if (axis_rot) {
-      x_lim <- axis_limits_x(orig_plot) * fade_prop + ggplot_build(orig_plot)$layout$panel_params[[1]]$y.range * (1-fade_prop)
-      y_lim <- axis_limits_y(orig_plot) * fade_prop + ggplot_build(orig_plot)$layout$panel_params[[1]]$x.range * (1-fade_prop)
-    }
-    
-    ## figure out which sides to fade
-    border_layers <- c()
-    if (grepl('t',fade_borders)) {
-      border_layers <- c(border_layers, annotation_custom(make_gradient(deg = 270 + axis_adj), xmin=-Inf, xmax=Inf, ymin=y_lim[2], ymax=Inf))
-    }
-    if (grepl('b',fade_borders)) {
-      if (axis_rot) {
-        border_layers <- c(border_layers, annotation_custom(make_gradient(deg = 180 - axis_adj), xmin=-Inf, xmax=x_lim[1], ymin=-Inf, ymax=Inf))
-      } else {
-        border_layers <- c(border_layers, annotation_custom(make_gradient(deg = 90 + axis_adj), xmin=-Inf, xmax=Inf, ymin=-Inf, ymax=y_lim[1]))
-      }
-    }
-    if (grepl('r',fade_borders)) {
-      border_layers <- c(border_layers, annotation_custom(make_gradient(deg = 0 - axis_adj), xmin=x_lim[2], xmax=Inf, ymin=-Inf, ymax=Inf))
-    }
-    if (grepl('l',fade_borders)) {
-      if (axis_rot) {
-        border_layers <- c(border_layers, annotation_custom(make_gradient(deg = 90 + axis_adj), xmin=-Inf, xmax=Inf, ymin=-Inf, ymax=y_lim[1]))
-      } else {
-        border_layers <- c(border_layers, annotation_custom(make_gradient(deg = 180 - axis_adj), xmin=-Inf, xmax=x_lim[1], ymin=-Inf, ymax=Inf))
-      }
-    }
-    orig_plot$layers <- c(orig_plot$layers, border_layers)
-    
-    ## add axis (or not) to unfaded
-    orig_plot <- orig_plot +
-      theme(
-        axis.line.y.left = element_line(color = ifelse(grepl('l',fade_borders), 'transparent', 'darkslategrey')),
-        axis.line.y.right = element_line(color = ifelse(grepl('r',fade_borders), 'grey95', 'darkslategrey')),
-        axis.line.x.top = element_line(color = ifelse(grepl('t',fade_borders), 'grey95', 'darkslategrey')),
-        axis.line.x.bottom = element_line(color = ifelse(grepl('b',fade_borders), 'transparent', 'darkslategrey')),
-        panel.border = element_rect(color = 'grey95', size = 0.1),
-      )
-  }
-  
-  plt.final <- grid.arrange(orig_plot, footer, heights=unit(c(1, 12), c('null','pt')))
-  plt <- ggdraw(plt.final) + draw_image(logo_file, x = 0.002 * (base_size_rat_wid), y = 0, hjust = 0, vjust = 0, height = logo_size, width = 0.08 * (base_size_rat_wid))
-  ggsave(save_name, plt, dpi = 700, height = base_size, width = base_size * (asp))
 }
 
-# main FE theme
-theme_SB <-  theme(
-  line = element_line(lineend = 'round', color='darkslategrey'),
-  text = element_text(family = font_SB, color='darkslategrey'),
-  plot.background = element_rect(fill = 'grey95', color = 'transparent'),
-  panel.border = element_rect(color = 'darkslategrey', fill = NA),
-  panel.background = element_rect(fill = 'white', color = 'transparent'),
-  axis.ticks = element_line(color = 'darkslategrey', size = 0.5),
-  axis.ticks.length = unit(2.75, 'pt'),
-  axis.title = element_text(size = 8),
-  axis.text = element_text(size = 7, color = 'darkslategrey'),
-  plot.title = element_text(size = 14),
-  plot.subtitle = element_text(size = 8),
-  plot.caption = element_text(size = 5),
-  legend.background = element_rect(fill = 'grey90', color = 'darkslategrey'),
-  legend.key = element_blank(),
-  panel.grid.minor = element_blank(),
-  panel.grid.major = element_line(color='grey85', size = 0.3),
-  axis.title.y = element_text(angle = 0, vjust = 0.5),
+theme_FE <-  theme(
+  line = element_line(lineend = 'round', color='black'),     #rounds the edges of all lines; makes the color black
+  text = element_text(family = "incon", color='black'),     #uses the Incon text format for all text; makes the color black
+  panel.border = element_rect(color = 'black', fill = NA),     #makes the panel around the plotting area the color black
+  panel.background = element_rect(fill = 'white', color = 'transparent'),     #background of the non-plotting area is white
+  axis.ticks = element_line(color = 'black', size = 0.5),     #changes the size (width) of the x-axis ticks
+  axis.ticks.length = unit(2.75, 'pt'),     #changes the length of the axis ticks
+  axis.title = element_text(size = 8),     #changes the size of the axis titles, if any
+  axis.text = element_text(size = 7, color = 'black'),     #changes the size of the axis labels
+  plot.title = element_text(size = 14),     #changes the size of the title
+  plot.subtitle = element_text(size = 8),     #changes the size of the subtitle
+  plot.caption = element_text(size = 5),     #changes the size of the caption
+  legend.background = element_rect(fill = 'grey90', color = 'black'),     #makes background of the legend to be grey
+  legend.key = element_blank(),     #removes the legend key
+  panel.grid.minor = element_blank(),     #removes the lines on the plot between the ticks
+  panel.grid.major = element_line(color='grey85', size = 0.3),     #changes the size of the major gridlines and makes them grey
+  axis.title.y = element_text(angle = 0, vjust = 0.5),     #changes the size of the axis labels
   strip.background = element_blank(),
-  strip.text = element_text(size = 6, color = 'darkslategrey', family = font_SB),
+  strip.text = element_text(size = 6, color = 'black', family = "incon"),
   legend.position = 'bottom',
   panel.spacing.y = unit(0, 'lines'),
   panel.spacing.x = unit(0.1, 'lines')
-) 
-
-# StatButler theme for animations
-vid_theme_SB <-  theme(
-  line = element_line(lineend = 'round', color='darkslategrey'),
-  text = element_text(family = font_SB, color='darkslategrey'),
-  plot.background = element_rect(fill = 'grey95', color = 'transparent'),
-  panel.border = element_rect(color = 'darkslategrey', fill = NA),
-  panel.background = element_rect(fill = 'white', color = 'transparent'),
-  axis.ticks = element_line(color = 'darkslategrey', size = 1.5),
-  axis.ticks.length = unit(8.25, 'pt'),
-  axis.title = element_text(size = 24),
-  axis.text = element_text(size = 21, color = 'darkslategrey'),
-  plot.title = element_text(size = 42),
-  plot.subtitle = element_text(size = 24),
-  plot.caption = element_text(size = 15),
-  legend.background = element_rect(fill = 'grey90', color = 'darkslategrey'),
-  legend.key = element_blank(),
-  panel.grid.minor = element_blank(),
-  panel.grid.major = element_line(color='grey70', size = 0.9),
-  axis.title.y = element_text(angle = 0, vjust = 0.5),
-  strip.background = element_blank(),
-  strip.text = element_text(size = 18, color = 'darkslategrey', family = font_SB)
 )
-
-table_theme_SB <- function (data) {
-  data %>%
-    tab_options(
-      table.font.color = 'darkslategrey',
-      data_row.padding = '2px',
-      row_group.padding = '3px',
-      table.width = '800px',
-      column_labels.border.bottom.color = 'darkslategrey',
-      column_labels.border.bottom.width = 1.4,
-      table_body.border.top.color = 'darkslategrey',
-      row_group.border.top.width = 1.5,
-      row_group.border.top.color = '#999999',
-      table_body.border.bottom.width = 0.7,
-      table_body.border.bottom.color = '#999999',
-      row_group.border.bottom.width = 1,
-      row_group.border.bottom.color = 'darkslategrey',
-      table.border.top.color = 'transparent',
-      table.background.color = '#F2F2F2',
-      table.border.bottom.color = 'transparent',
-      row.striping.background_color = '#FFFFFF',
-      row.striping.include_table_body = TRUE
-    ) %>% return
-}
-
-
-# add logo to table and space around outside of image
-brand_table <- function(gt_table, file, data_home, t = 3, r = 6, b = 8, l = 6) {
-  gt_table %>% gtsave(file)
-  
-  img <- png::readPNG(file)
-  img <- img[11:(nrow(img)-10),11:(ncol(img)-10),]
-  
-  p <- ggplot(iris, aes(Species, Sepal.Length))+
-    annotation_custom(rasterGrob(img, width = unit(1,"npc"), height = unit(1,"npc")), -Inf, Inf, -Inf, Inf) +
-    theme_void() +
-    theme(
-      plot.margin = unit(c(t,r,b,l),units = 'points'),
-      plot.background = element_rect(fill = 'grey95', color = NA)
-    )
-  
-  brand_plot(p, asp = ncol(img)/nrow(img), save_name = file, data_home = data_home)
-}	
-
-
-
-# function to set rounded plot limits
-properLims <- function(vec) {
-  labs <- labeling::extended(min(vec, na.rm = T), max(vec, na.rm = T), m = 5)
-  gap <- diff(labs[1:2])
-  plot_max <- ifelse(rev(labs)[1] < max(vec, na.rm = T), rev(labs)[1] + gap, rev(labs)[1])
-  plot_min <- ifelse(labs[1] > min(vec, na.rm = T), labs[1] - gap, labs[1])
-  return(c(plot_min,plot_max))
-} 
-
-plus_lab = function(x, accuracy = NULL, suffix = '') paste0(ifelse(x>0,'+',''),number(x, accuracy = accuracy, suffix = suffix, scale = ifelse(suffix == '%', 100, 1)))
-plus_lab_format <- function (accuracy = NULL, suffix = '') function(x) plus_lab(x, accuracy = accuracy, suffix = suffix)
-
-full_alpha_hex = function(color, alpha) {
-  old_rgb <- col2rgb(color)
-  new_rgb <- (255 - (255 - old_rgb) * alpha) / 255
-  return(rgb(new_rgb['red',], new_rgb['green',], new_rgb['blue',]))
-}
-
-# function to set rounded plot limits if scale_x_reverse is used
-properLimsRev <- function(vec) {
-  labs <- labeling::extended(min(vec, na.rm = T), max(vec, na.rm = T), m = 5)
-  gap <- diff(labs[1:2])
-  plot_max <- ifelse(rev(labs)[1] < max(vec, na.rm = T), rev(labs)[1] + gap, rev(labs)[1])
-  plot_min <- ifelse(labs[1] > min(vec, na.rm = T), labs[1] - gap, labs[1])
-  return(c(plot_max,plot_min))
-} 
-
-# makes a gradient if I want to fade plot borders
-make_gradient <- function(deg, n = 500, col = 'grey95', corner = F) {
-  rad <- deg / (180 / pi)
-  mat <- matrix(
-    data = rep(seq(0, 1, length.out = n) * cos(rad), n),
-    byrow = TRUE,
-    ncol = n
-  ) +
-    matrix(
-      data = rep(seq(0, 1, length.out = n) * sin(rad), n),
-      byrow = FALSE,
-      ncol = n
-    )
-  mat <- mat - min(mat)
-  mat <- mat / max(mat)
-  mat <- 1 + mat * n
-  
-  mat <- matrix(data = alpha(col, mat/(n+1)), ncol = n)
-  grid::rasterGrob(
-    image = mat,
-    width = unit(1, "npc"),
-    height = unit(1, "npc"), 
-    interpolate = TRUE
-  )
-}
-
-# gets the limits of the x axis from a plot
-axis_limits_x <- function(p) {
-  if (!is.null(ggplot_build(p)$layout$coord$limits$x)) {
-    return(ggplot_build(p)$layout$coord$limits$x)
-  } else if (!is.null(ggplot_build(p)$layout$panel_scales_x[[1]]$range_c$range)) {
-    return(ggplot_build(p)$layout$panel_scales_x[[1]]$range_c$range)
-  } else {
-    return(ggplot_build(p)$layout$panel_scales_x[[1]]$range$range)
-  }
-}
-
-# gets the limits of the y axis from a plot
-axis_limits_y <- function(p) {
-  if (!is.null(ggplot_build(p)$layout$coord$limits$y)) {
-    return(ggplot_build(p)$layout$coord$limits$y)
-  } else if (!is.null(ggplot_build(p)$layout$panel_scales_y[[1]]$range_c$range)) {
-    return(ggplot_build(p)$layout$panel_scales_y[[1]]$range_c$range)
-  } else {
-    return(ggplot_build(p)$layout$panel_scales_y[[1]]$range$range)
-  }
-}
-
-# reads in an image as a grob and allows for some image alterations
-
-grob_img_adj<-function(img_url, alpha = 0, whitewash = 0) {
-  return(lapply(img_url, function(x) {
-    if(is.na(x)) {
-      return(NULL)
-    }else{     
-      img <- image_read(x)[[1]]
-      img[1,,] <- as.raw(255 - (255 - as.integer(img[1,,])) * (1-whitewash))
-      img[2,,] <- as.raw(255 - (255 - as.integer(img[2,,])) * (1-whitewash))
-      img[3,,] <- as.raw(255 - (255 - as.integer(img[3,,])) * (1-whitewash))
-      img[4,,] <- as.raw(as.integer(img[4,,]) * (1-alpha))
-      return(grid::rasterGrob(image = image_read(img)))
-    }
-  }))
-}
-
-#functions to get pbp quickly
-get_pbp <- function(seasons = 2020)  do.call(rbind, lapply(seasons, function(yr) {
-  readRDS(url(paste0('https://raw.githubusercontent.com/guga31bb/nflfastR-data/master/data/play_by_play_',yr,'.rds')))
-}))
-
-get_full_pbp <- function(seasons = 2020)  do.call(rbind, lapply(seasons, function(yr) {
-  readRDS(url(paste0('https://raw.githubusercontent.com/ajreinhard/NFL/master/full-pbp/',yr,'.rds')))
-}))
-
-#function to get nflgamedata.com games
-get_games <- function() readRDS(url('http://nflgamedata.com/games.rds'))
-
-# used to create branded videos
-Scene2 <- ggproto(
-  "Scene2",
-  gganimate:::Scene,
-  plot_frame = function(self, plot, i, newpage = is.null(vp), vp = NULL, widths = NULL, heights = NULL, ...) {
-    plot <- self$get_frame(plot, i)
-    plot <- ggplot_gtable(plot)
-    
-    # insert changes here
-    logo_file <- readPNG(getURLContent('https://raw.githubusercontent.com/ajreinhard/data-viz/master/ggplot/statbutler.png'))
-    
-    author_txt <- textGrob('By Anthony Reinhard', x=unit(0.065, 'npc'), gp=gpar(col='darkslategrey', fontfamily=font_SB, fontsize=18), hjust=0)
-    data_txt <- textGrob(self$data_home, x=unit(1 - (.01), 'npc'), gp=gpar(col='grey95', fontfamily=font_SB, fontsize=18), hjust=1)
-    footer_bg <- grid.rect(x = unit(seq(0.5,1.5,length=1000), 'npc'), gp=gpar(col = 'transparent', fill = colorRampPalette(c('grey95', 'darkslategrey'), space = 'rgb')(1000)), draw = F)
-    footer <- grobTree(footer_bg, author_txt, data_txt)
-    
-    plt.final <- grid.arrange(plot, footer, heights=unit(c(1, 36), c('null','pt')))
-    plot <- ggdraw(plt.final) + draw_image(logo_file, x = 0.002, y = 0, hjust = 0, vjust = 0, height = 0.08, width = 0.1067 * (9/16))
-    
-    if (!is.null(widths)) plot$widths <- widths
-    if (!is.null(heights)) plot$heights <- heights
-    if (newpage) grid.newpage()
-    grDevices::recordGraphics(
-      requireNamespace("gganimate", quietly = TRUE),
-      list(),
-      getNamespace("gganimate")
-    )
-    if (is.null(vp)) {
-      grid.draw(plot)
-    } else {
-      if (is.character(vp)) seekViewport(vp)
-      else pushViewport(vp)
-      grid.draw(plot)
-      upViewport()
-    }
-    invisible(NULL)
-  }
-)
-
-Scene2$data_home <- NULL
-
-### the next four functions will simply duplicate existing nested gganimate functions and replace them with my personalized Scene2 function
-# used to create branded videos
-create_scene2 <- function(transition, view, shadow, ease, transmuters, nframes, data_home) {
-  if (is.null(nframes)) nframes <- 100
-  ggproto(NULL, Scene2, transition = transition, 
-          view = view, shadow = shadow, ease = ease, 
-          transmuters = transmuters, nframes = nframes,
-          data_home = data_home)
-}
-
-# used to create branded videos
-ggplot_build2 <- gganimate:::ggplot_build.gganim
-formals(ggplot_build2) <- c(formals(ggplot_build2), alist(data_home = ))
-body(ggplot_build2) <- body(ggplot_build2) %>%
-  as.list() %>%
-  inset2(4,
-         quote(scene <- create_scene2(plot$transition, plot$view, plot$shadow, 
-                                      plot$ease, plot$transmuters, plot$nframes, data_home))) %>%
-  as.call()
-
-
-# used to create branded videos
-prerender2 <- gganimate:::prerender
-formals(prerender2) <- c(formals(prerender2), alist(data_home = ))
-body(prerender2) <- body(prerender2) %>%
-  as.list() %>%
-  inset2(3,
-         quote(ggplot_build2(plot, data_home))) %>%
-  as.call()
-
-
-# used to create branded videos
-animate_SB <- gganimate:::animate.gganim
-formals(animate_SB) <- c(formals(animate_SB)[-length(formals(animate_SB))], alist(data_home = ''), formals(animate_SB)[length(formals(animate_SB))])
-body(animate_SB) <- body(animate_SB) %>%
-  as.list() %>%
-  inset2(8,
-         quote(plot <- prerender2(plot, nframes_total, data_home))) %>%
-  as.call()
-
-
-# functions for manipulating games files from 538 or nflgamedata.com				     
-double_games <- function(df) {
-  home_tms <- df %>% 
-    rename_with(function(x) gsub('home_','team_', x), contains('home_')) %>% 
-    rename_with(function(x) gsub('away_','opp_', x), contains('away_')) %>% 
-    rename(team = team_team, opp = opp_team)
-  
-  away_tms <- df %>% 
-    rename_with(function(x) gsub('away_','team_', x), contains('away_')) %>% 
-    rename_with(function(x) gsub('home_','opp_', x), contains('home_')) %>% 
-    rename(team = team_team, opp = opp_team) %>% 
-    mutate(location = ifelse(location == 'Home', 'Away', location)) %>% 
-    mutate_at(vars(one_of('result','spread_line')), function(x) -x) %>% 
-    relocate(home_tms %>% names)
-  
-  rbind(away_tms, home_tms) %>% arrange(gameday) %>% return
-}
-
-# convert team cols to franchise
-team2fran <- function (df) {
-  df %>% 
-    mutate_at(
-      .vars = vars(ends_with('team')),
-      .funs = function(tm) {
-        case_when(
-          tm %in% c('OAK','LRD') ~ 'LV',
-          tm %in% c('STL', 'LAR', 'LRM') ~ 'LA',
-          tm == 'SD' ~ 'LAC',
-          tm == 'HSO' ~ 'TEN',
-          tm == 'BLC' ~ 'IND',
-          TRUE ~ tm
-        )
-      }
-    ) %>% 
-    return
-}
-
-# convert franchise cols to team
-fran2team <- function (df) {
-  df %>% 
-    mutate_at(
-      .vars = vars(ends_with('team')),
-      season = df %>% pull(season),
-      .funs = function(tm, season) {
-        case_when(
-          tm == 'NE' & season < 1971 ~ 'BOS',
-          tm == 'Lv' & season < 1982 ~ 'OAK',
-          tm == 'IND' & season < 1984 ~ 'BLC',
-          tm == 'ARI' & season < 1988 ~ 'SLC',
-          tm == 'ARI' & season < 1994 ~ 'PHX',
-          tm == 'LV' & season < 1995 ~ 'LRD',
-          tm == 'LA' & season < 1995 ~ 'LRM',
-          tm == 'TEN' & season < 1997 ~ 'HSO',
-          tm == 'TEN' & season < 1999 ~ 'TNO',
-          tm == 'LA' & season < 2016 ~ 'STL',
-          tm == 'LAC' & season < 2017 ~ 'SD',
-          tm == 'LV' & season < 2020 ~ 'OAK',
-          TRUE ~ tm
-        )
-      }
-    ) %>% 
-    return
-}
-
-#used for creating game_id below
-leading_zero <- function(x, max_len) sapply(x, function(y) ifelse(nchar(y) >= max_len, y, paste0(rep('0', max_len - nchar(y)), y)))
-
-#get 538 elo data frame
-get_538elo <- function() {
-  read.csv('https://projects.fivethirtyeight.com/nfl-api/nfl_elo.csv', stringsAsFactors = F) %>% 
-    rename(gameday = date, game_type = playoff, location = neutral) %>% 
-    rename_with(function(x) paste0('home_', gsub('1','', x)), contains('1')) %>% 
-    rename_with(function(x) paste0('away_', gsub('2','', x)), contains('2')) %>% 
-    team2fran %>% 
-    fran2team %>% 
-    group_by(season) %>% 
-    mutate(
-      gameday = as.Date(gameday),
-      weekday = format(gameday, '%A'), 
-      week1_wed = min(gameday) - as.numeric(format(min(gameday), '%u')) + 3,
-      week = as.numeric(ceiling((gameday - week1_wed)/7)),
-      week = ifelse(gameday == '2012-09-05', 1, week),
-      week = ifelse(season == 2001 & week > 1, week - 1, week),
-      week1_wed = NULL,
-      home_team = case_when(
-        home_team == 'WSH' ~ 'WAS',
-        TRUE ~ home_team
-      ),
-      away_team = case_when(
-        away_team == 'WSH' ~ 'WAS',
-        TRUE ~ away_team
-      ),
-      game_id = paste(season, leading_zero(week, 2), away_team, home_team, sep = '_'),
-      game_type = case_when(
-        game_type == 's' ~ 'SB',
-        game_type == 'c' ~ 'CON',
-        game_type == 'd' ~ 'DIV',
-        game_type == 'w' ~ 'WC',
-        game_type == '' ~ 'REG'
-      ),
-      location = ifelse(location == 0, 'Home', 'Neutral'),
-      result = home_score - away_score,
-      total = home_score + away_score
-    ) %>%
-    ungroup %>% 
-    relocate(game_id) %>% 
-    relocate(c(game_type, week, gameday, weekday), .after = season) %>% 
-    relocate(c(home_score, away_score, location, result, total), .after = away_team) %>% 
-    return
-}
-
-
-color_SB <- c("#ff7f00", "#9932cc", "#8cff72", "#00008b", "#51dbd8", "#674b00", "#ff66cf", "#8f8f8f", "#ff0000", "#e1ed00", "#0b5209", "#636363")
-
-NFL_pri <- c('ARI'='#97233f',
-             'ATL'='#a71930',
-             'BAL'='#241773',
-             'BUF'='#00338d',
-             'CAR'='#0085ca',
-             'CHI'='#0b162a',
-             'CIN'='#000000',
-             'CLE'='#fb4f14',
-             'DAL'='#002244',
-             'DEN'='#002244',
-             'DET'='#005a8b',
-             'GB'='#203731',
-             'HOU'='#03202f',
-             'IND'='#002c5f',
-             'JAX'='#000000',
-             'KC'='#e31837',
-             'LAC'='#0080C6',
-             'LA'='#003594',
-             'MIA'='#008e97',
-             'MIN'='#4f2683',
-             'NE'='#002244',
-             'NO'='#9f8958',
-             'NYG'='#0b2265',
-             'NYJ'='#125740',
-             'OAK'='#000000',
-             'LV'='#000000',
-             'PHI'='#004953',
-             'PIT'='#000000',
-             'SD'='#002244',	     	     
-             'SF'='#aa0000',
-             'SEA'='#002244',
-             'STL'='#002244',
-             'TB'='#d50a0a',
-             'TEN'='#002244',
-             'WAS'='#773141')
-
-
-NFL_sec <- c('ARI'='#000000',
-             'ATL'='#000000',
-             'BAL'='#9e7c0c',
-             'BUF'='#c60c30',
-             'CAR'='#000000',
-             'CHI'='#c83803',
-             'CIN'='#fb4f14',
-             'CLE'='#22150c',
-             'DAL'='#b0b7bc',
-             'DEN'='#fb4f14',
-             'DET'='#b0b7bc',
-             'GB'='#ffb612',
-             'HOU'='#a71930',
-             'IND'='#a5acaf',
-             'JAX'='#006778',
-             'KC'='#ffb612',
-             'LAC'='#FFC20E',
-             'LA'='#ffd100',
-             'MIA'='#fc4c02',
-             'MIN'='#ffc62f',
-             'NE'='#c60c30',
-             'NO'='#000000',
-             'NYG'='#a71930',
-             'NYJ'='#000000',
-             'OAK'='#a5acaf',
-             'LV'='#a5acaf',
-             'PHI'='#a5acaf',
-             'PIT'='#ffb612',
-             'SD'='#0073cf',
-             'SF'='#b3995d',
-             'SEA'='#69be28',
-             'STL'='#b3995d',
-             'TB'='#34302b',
-             'TEN'='#4b92db',
-             'WAS'='#ffb612')
