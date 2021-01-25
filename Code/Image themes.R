@@ -41,7 +41,7 @@ font_add_google("Inconsolata", "incon")
 showtext_auto()
 
 # main function to save my branded plots
-brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_wordmarks = F) {
+brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_wordmarks = F, logo = F, square_logo = F, logo_loc) {
   
   ## start by adding team wordmarks
   if (tm_wordmarks) {
@@ -69,13 +69,23 @@ brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
   } else {
     base_size_rat_wid <- (5/base_size) / asp
   }
+  if (logo){
+    logo_file <- magick::image_read(logo_loc)
+  }
   
-  #plt <- ggdraw(plt.final) + draw_image(logo_file, x = 0.002 * (base_size_rat_wid), y = 0, hjust = 0, vjust = 0, height = logo_size, width = 0.08 * (base_size_rat_wid))
+  if (square_logo){
+    logo_width <- 0.09
+  } else {
+    logo_width <- 0.16
+  }
+  logo_height <- 0.09
+  
+  orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = 0.87, y = 0.9, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
   ggsave(save_name, orig_plot, dpi = 480)#, height = base_size, width = base_size * (asp))
   
 }
 
-brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_wordmarks = F) {
+brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_wordmarks = F, logo = F, square_logo = F, logo_loc) {
   
   ## start by adding team wordmarks
   if (tm_wordmarks) {
@@ -103,9 +113,19 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
   } else {
     base_size_rat_wid <- (5/base_size) / asp
   }
+  if (logo){
+    logo_file <- magick::image_read(logo_loc)
+  }
   
-  #plt <- ggdraw(plt.final) + draw_image(logo_file, x = 0.002 * (base_size_rat_wid), y = 0, hjust = 0, vjust = 0, height = logo_size, width = 0.08 * (base_size_rat_wid))
-  ggsave(save_name, orig_plot, dpi = 480)#, height = base_size, width = base_size * (asp))
+  if (square_logo){
+    logo_width <- 0.09
+  } else {
+    logo_width <- 0.16
+  }
+  logo_height <- 0.09
+  
+  orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = 0.87, y = 0.9, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
+  ggsave(save_name, orig_plot, dpi = 480, height = base_size, width = base_size * (asp))
   
 }
 
