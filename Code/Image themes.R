@@ -119,12 +119,14 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
   
   if (square_logo){
     logo_width <- 0.09
+    logo_x <- 0.92
   } else {
     logo_width <- 0.16
+    logo_x <- 0.87
   }
   logo_height <- 0.09
   
-  orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = 0.87, y = 0.9, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
+  orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = logo_x, y = 0.9, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
   ggsave(save_name, orig_plot, dpi = 480, height = base_size, width = base_size * (asp))
   
 }
