@@ -75,12 +75,19 @@ brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
   
   if (square_logo){
     logo_width <- 0.09
+    logo_x <- 0.92
   } else {
     logo_width <- 0.16
+    logo_x <- 0.87
+  }
+  logo_y <- 0.9
+  if (tm_wordmarks){
+    logo_x <- logo_x - 0.05
+    logo_y <- 0.925
   }
   logo_height <- 0.09
   
-  orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = 0.87, y = 0.9, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
+  orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = logo_x, y = logo_y, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
   ggsave(save_name, orig_plot, dpi = 480)#, height = base_size, width = base_size * (asp))
   
 }
@@ -124,9 +131,14 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
     logo_width <- 0.16
     logo_x <- 0.87
   }
+  logo_y <- 0.9
+  if (tm_wordmarks){
+    logo_x <- logo_x - 0.05
+    logo_y <- 0.925
+  }
   logo_height <- 0.09
   
-  orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = logo_x, y = 0.9, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
+  orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = logo_x, y = logo_y, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
   ggsave(save_name, orig_plot, dpi = 480, height = base_size, width = base_size * (asp))
   
 }
@@ -143,7 +155,7 @@ theme_FE <-  theme(
   plot.title = element_text(size = 14, family = "encode"),     #changes the size of the title
   plot.subtitle = element_text(size = 8, family = "encode"),     #changes the size of the subtitle
   plot.caption = element_text(size = 5, family = "encode"),     #changes the size of the caption
-  legend.background = element_rect(fill = 'grey90', color = 'black'),     #makes background of the legend to be grey
+  legend.background = element_blank(),     #makes background of the legend to be grey
   legend.key = element_blank(),     #removes the legend key
   panel.grid.minor = element_blank(),     #removes the lines on the plot between the ticks
   panel.grid.major = element_line(color='grey85', size = 0.3),     #changes the size of the major gridlines and makes them grey
