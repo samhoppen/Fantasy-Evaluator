@@ -41,7 +41,8 @@ font_add_google("Inconsolata", "incon")
 showtext_auto()
 
 # main function to save my branded plots
-brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_wordmarks = F, logo = F,square_logo = F, logo_loc) {
+brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_wordmarks = F, logo = F,
+                           logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_loc) {
   
   ## start by adding team wordmarks
   if (tm_wordmarks) {
@@ -69,23 +70,32 @@ brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
   } else {
     base_size_rat_wid <- (5/base_size) / asp
   }
-  if (logo){
-    logo_file <- magick::image_read(logo_loc)
-  }
-  
-  if (square_logo){
-    logo_width <- 0.09
-    logo_x <- 0.92
-  } else {
+  if (logo_FE){
+    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/Fantasy Evaluator/Logo.png")
     logo_width <- 0.16
+    logo_height <- 0.09
     logo_x <- 0.87
+    logo_y <- 0.9
   }
-  logo_y <- 0.9
+  if (logo_4for4){
+    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
+    logo_width <- 0.09
+    logo_height <- 0.09
+    logo_x <- 0.92
+    logo_y <- 0.9
+  }
+  if (logo_ETR){
+    logo_file <- magick::image_read_svg("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/etr.svg")
+    logo_width <- 0.12
+    logo_height <- 0.0675
+    logo_x <- 0.87
+    logo_y <- 0.9
+  }
+
   if (tm_wordmarks){
     logo_x <- logo_x - 0.05
     logo_y <- 0.925
   }
-  logo_height <- 0.09
   
   orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = logo_x, y = logo_y, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
   ggsave(save_name, orig_plot, dpi = 480)#, height = base_size, width = base_size * (asp))
@@ -93,7 +103,7 @@ brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
 }
 
 brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_wordmarks = F, logo = F,
-                           logo_ETR = F, logo_FE = F, logo_4for4 = F, square_logo = F, logo_loc) {
+                           logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_loc) {
   
   ## start by adding team wordmarks
   if (tm_wordmarks) {
@@ -121,9 +131,8 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
   } else {
     base_size_rat_wid <- (5/base_size) / asp
   }
-  #if (logo){
-  #  logo_file <- magick::image_read(logo_loc)
-  #}
+
+  # aesthetics for various logos used
   if (logo_FE){
     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/Fantasy Evaluator/Logo.png")
     logo_width <- 0.16
@@ -140,26 +149,16 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
   }
   if (logo_ETR){
     logo_file <- magick::image_read_svg("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/etr.svg")
-    logo_width <- 0.16
-    logo_height <- 0.09
+    logo_width <- 0.12
+    logo_height <- 0.0675
     logo_x <- 0.87
     logo_y <- 0.9
   }
-  #if (square_logo){
-  #  logo_width <- 0.09
-  #  logo_x <- 0.92
-  #} else {
-  #  logo_width <- 0.16
-  #  logo_x <- 0.87
-  #}
-  
-  #logo_y <- 0.9
   
   if (tm_wordmarks){
     logo_x <- logo_x - 0.05
     logo_y <- 0.925
   }
-  #logo_height <- 0.09
   
   orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = logo_x, y = logo_y, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
   ggsave(save_name, orig_plot, dpi = 480, height = base_size, width = base_size * (asp))
