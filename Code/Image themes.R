@@ -81,7 +81,7 @@ brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
     logo_width <- 0.09
     logo_height <- 0.09
-    logo_x <- 0.92
+    logo_x <- 0.95
     logo_y <- 0.9
   }
   if (logo_ETR){
@@ -144,7 +144,7 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
     logo_width <- 0.09
     logo_height <- 0.09
-    logo_x <- 0.92
+    logo_x <- 0.95
     logo_y <- 0.9
   }
   if (logo_ETR){
