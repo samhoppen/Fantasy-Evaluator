@@ -75,21 +75,21 @@ brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
     logo_width <- 0.16
     logo_height <- 0.09
     logo_x <- 0.87
-    logo_y <- 0.9
+    logo_y <- 0.92
   }
   if (logo_4for4){
     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
     logo_width <- 0.09
     logo_height <- 0.09
     logo_x <- 0.95
-    logo_y <- 0.9
+    logo_y <- 0.92
   }
   if (logo_ETR){
     logo_file <- magick::image_read_svg("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/etr.svg")
     logo_width <- 0.12
     logo_height <- 0.0675
     logo_x <- 0.87
-    logo_y <- 0.9
+    logo_y <- 0.92
   }
 
   if (tm_wordmarks){
@@ -138,21 +138,21 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
     logo_width <- 0.16
     logo_height <- 0.09
     logo_x <- 0.87
-    logo_y <- 0.9
+    logo_y <- 0.92
   }
   if (logo_4for4){
     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
     logo_width <- 0.09
     logo_height <- 0.09
     logo_x <- 0.95
-    logo_y <- 0.9
+    logo_y <- 0.92
   }
   if (logo_ETR){
     logo_file <- magick::image_read_svg("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/etr.svg")
     logo_width <- 0.12
     logo_height <- 0.0675
     logo_x <- 0.87
-    logo_y <- 0.9
+    logo_y <- 0.92
   }
   
   if (tm_wordmarks){
