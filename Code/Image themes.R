@@ -98,12 +98,12 @@ brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
   }
   
   orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = logo_x, y = logo_y, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
-  ggsave(save_name, orig_plot, dpi = 480)#, height = base_size, width = base_size * (asp))
+  ggsave(save_name, orig_plot, dpi = 480, height = base_size, width = base_size * (asp))
   
 }
 
 brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_wordmarks = F, logo = F,
-                           logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_loc) {
+                           logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F, logo_4for4_white = F, logo_loc) {
   
   ## start by adding team wordmarks
   if (tm_wordmarks) {
@@ -145,6 +145,20 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
     logo_width <- 0.09
     logo_height <- 0.09
     logo_x <- 0.925
+    logo_y <- 0.92
+  }
+  if (logo_4for4_red){
+    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4_red.jpg")
+    logo_width <- 0.09
+    logo_height <- 0.09
+    logo_x <- 0.95
+    logo_y <- 0.92
+  }
+  if (logo_4for4_white){
+    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4_white.jpg")
+    logo_width <- 0.09
+    logo_height <- 0.09
+    logo_x <- 0.95
     logo_y <- 0.92
   }
   if (logo_ETR){
