@@ -98,7 +98,12 @@ brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
   }
   
   orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = logo_x, y = logo_y, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
-  ggsave(save_name, orig_plot, dpi = 480, height = base_size, width = base_size * (asp))
+  if (tm_wordmarks){
+    ggsave(save_name, orig_plot, dpi = 480)
+  } else{
+    ggsave(save_name, orig_plot, dpi = 480, height = base_size, width = base_size * (asp))
+  }
+  
   
 }
 
@@ -175,6 +180,7 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_word
   }
   
   orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = logo_x, y = logo_y, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
+  
   ggsave(save_name, orig_plot, dpi = 480, height = base_size, width = base_size * (asp))
   
 }
