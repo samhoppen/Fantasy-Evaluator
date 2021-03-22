@@ -40,6 +40,8 @@ font_add_google("Encode Sans Condensed", "encode", regular.wt = 400, bold.wt = 6
 font_add_google("Inconsolata", "incon")
 showtext_auto()
 
+logo_asp <- 1.618
+
 # main function to save my branded plots
 brand_nba_plot <- function(orig_plot, save_name, asp = 1, base_size = 5, tm_wordmarks = F, logo = F,
                            logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_loc) {
