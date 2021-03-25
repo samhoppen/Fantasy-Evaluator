@@ -126,7 +126,7 @@ brand_nba_plot <- function(orig_plot, save_name, asp = 16/9,tm_wordmarks = F, lo
 }
 
 brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, tm_wordmarks = F, logo = F,
-                           logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F) {
+                           logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F, logo_SC = F) {
   
   ## start by adding team wordmarks
   if (tm_wordmarks) {
@@ -139,7 +139,7 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, tm_wordmarks = F, l
     orig_plot_bld$layout$z[grob_strip_index] <- 0
     
     for (i in 1:length(facet_id)) {
-      team_wd <- rasterGrob(image = image_read(nfl_wordmark_url(facet_id[i])), vp = viewport(height = 0.8, width = 0.6))
+      team_wd <- rasterGrob(image = image_read(nfl_wordmark_url(facet_id[i])), vp = viewport(height = 1, width = 0.75))
       tot_tree <- grobTree(team_wd)
       
       orig_plot_bld$grobs[[grob_strip_index[i]]] <- tot_tree
@@ -153,7 +153,7 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, tm_wordmarks = F, l
     logo_width <- 0.16
     logo_height <- 0.09
     logo_x <- 0.875
-    logo_y <- 0.875
+    logo_y <- 0.85
   }
   if (logo_4for4){
     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
@@ -174,6 +174,13 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, tm_wordmarks = F, l
     logo_width <- 0.12
     logo_height <- 0.0675
     logo_x <- 0.875
+    logo_y <- 0.85
+  }
+  if (logo_SC){
+    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/Ship Chasing.jpg")
+    logo_width <- 0.09
+    logo_height <- 0.09
+    logo_x <- 0.92
     logo_y <- 0.875
   }
   
@@ -201,7 +208,7 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, tm_wordmarks = F, l
     filename = save_name,
     plot = final_plot,
     base_height = 900 / 72,
-    base_asp = 16 / 9,
+    base_asp = asp,
     dpi = 72
   )
   
