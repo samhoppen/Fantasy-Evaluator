@@ -152,8 +152,8 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, tm_wordmarks = F, l
     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/Fantasy Evaluator/Logo.png")
     logo_width <- 0.16
     logo_height <- 0.09
-    logo_x <- 0.875
-    logo_y <- 0.85
+    logo_x <- 0.85
+    logo_y <- 0.875
   }
   if (logo_4for4){
     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
@@ -173,8 +173,8 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, tm_wordmarks = F, l
     logo_file <- magick::image_read_svg("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/etr.svg")
     logo_width <- 0.12
     logo_height <- 0.0675
-    logo_x <- 0.875
-    logo_y <- 0.85
+    logo_x <- 0.85
+    logo_y <- 0.875
   }
   if (logo_SC){
     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/Ship Chasing.jpg")
