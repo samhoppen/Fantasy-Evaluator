@@ -225,9 +225,9 @@ theme_FE <-  theme(
   axis.ticks.length = unit(0.15, 'lines'),     #changes the length of the axis ticks
   axis.title = element_text(size = 12),     #changes the size of the axis titles, if any
   axis.text = element_text(size = 12, color = 'black'),     #changes the size of the axis labels
-  plot.title = element_text(size = 24, face = "bold", margin = margin(0,0,10,0), family = "LucidaConsole"),     #changes the size of the title
-  plot.subtitle = element_text(size = 12, margin = margin(0,0,10,0), family = "LucidaConsole"),     #changes the size of the subtitle
-  plot.caption = element_text(size = 12, family = "CourierNewPSMT"),     #changes the size of the caption , family = "encode"
+  plot.title = element_text(size = 24, face = "bold", margin = margin(0,0,10,0), family = "encode"),     #changes the size of the title
+  plot.subtitle = element_text(size = 12, margin = margin(0,0,10,0), family = "encode"),     #changes the size of the subtitle
+  plot.caption = element_text(size = 12, family = "encode"),     #changes the size of the caption , family = "encode"
   legend.background = element_blank(),     #makes background of the legend to be grey
   legend.key = element_blank(),     #removes the legend key
   panel.grid.minor = element_blank(),     #removes the lines on the plot between the ticks
