@@ -189,7 +189,7 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, tm_wordmarks = F, l
     logo_y <- 0.875
   }
   
-  final_plot <- ggdraw(
+  if (logo) {final_plot <- ggdraw(
       xlim = c(0, 900*asp),
       ylim = c(0, 900)
     ) + 
@@ -202,8 +202,20 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, tm_wordmarks = F, l
       height = (900-60),
       vjust = 0.5
     ) + 
-    draw_image(logo_file, x = logo_x*900*asp, y = logo_y*900, hjust = 0, vjust = 0, height = logo_height*900, width = logo_width*1600)
-  
+    draw_image(logo_file, x = logo_x*900*asp, y = logo_y*900, hjust = 0, vjust = 0, height = logo_height*900, width = logo_width*1600)}
+  else {final_plot <- ggdraw(
+    xlim = c(0, 900*asp),
+    ylim = c(0, 900)
+  ) + 
+    draw_plot(
+      orig_plot,
+      x = ((900*asp)/2),
+      hjust = 0.5,
+      width = ((900*asp)-36),
+      y = (900-60)/2,
+      height = (900-60),
+      vjust = 0.5
+    )}  
   save_plot(
     filename = save_name,
     plot = final_plot,
