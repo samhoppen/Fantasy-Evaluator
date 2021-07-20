@@ -12,7 +12,7 @@ season,week,team,home_away,opponent
 2020,1,CIN,vs.,LAC
 2020,1,NO,vs.,TB
 2020,1,SF,vs.,ARI
-2020,1,LA,vs.,DAL
+2020,1,LAR,vs.,DAL
 2020,1,NYG,vs.,PIT
 2020,1,DEN,vs.,TEN
 2020,2,CLE,vs.,CIN
@@ -22,7 +22,7 @@ season,week,team,home_away,opponent
 2020,2,IND,vs.,MIN
 2020,2,MIA,vs.,BUF
 2020,2,NYJ,vs.,SF
-2020,2,PHI,vs.,LA
+2020,2,PHI,vs.,LAR
 2020,2,PIT,vs.,DEN
 2020,2,TB,vs.,CAR
 2020,2,TEN,vs.,JAX
@@ -33,7 +33,7 @@ season,week,team,home_away,opponent
 2020,2,LV,vs.,NO
 2020,3,JAX,vs.,MIA
 2020,3,ATL,vs.,CHI
-2020,3,BUF,vs.,LA
+2020,3,BUF,vs.,LAR
 2020,3,CLE,vs.,WAS
 2020,3,MIN,vs.,TEN
 2020,3,NE,vs.,LV
@@ -56,7 +56,7 @@ season,week,team,home_away,opponent
 2020,4,MIA,vs.,SEA
 2020,4,TB,vs.,LAC
 2020,4,WAS,vs.,BAL
-2020,4,LA,vs.,NYG
+2020,4,LAR,vs.,NYG
 2020,4,CHI,vs.,IND
 2020,4,LV,vs.,BUF
 2020,4,SF,vs.,PHI
@@ -69,7 +69,7 @@ season,week,team,home_away,opponent
 2020,5,KC,vs.,LV
 2020,5,NYJ,vs.,ARI
 2020,5,PIT,vs.,PHI
-2020,5,WAS,vs.,LA
+2020,5,WAS,vs.,LAR
 2020,5,SF,vs.,MIA
 2020,5,CLE,vs.,IND
 2020,5,DAL,vs.,NYG
@@ -87,7 +87,7 @@ season,week,team,home_away,opponent
 2020,6,TEN,vs.,HOU
 2020,6,MIA,vs.,NYJ
 2020,6,TB,vs.,GB
-2020,6,SF,vs.,LA
+2020,6,SF,vs.,LAR
 2020,6,BUF,vs.,KC
 2020,6,DAL,vs.,ARI
 2020,7,PHI,vs.,NYG
@@ -103,7 +103,7 @@ season,week,team,home_away,opponent
 2020,7,LAC,vs.,JAX
 2020,7,NE,vs.,SF
 2020,7,ARI,vs.,SEA
-2020,7,LA,vs.,CHI
+2020,7,LAR,vs.,CHI
 2020,8,CAR,vs.,ATL
 2020,8,BAL,vs.,PIT
 2020,8,BUF,vs.,NE
@@ -112,7 +112,7 @@ season,week,team,home_away,opponent
 2020,8,DET,vs.,IND
 2020,8,GB,vs.,MIN
 2020,8,KC,vs.,NYJ
-2020,8,MIA,vs.,LA
+2020,8,MIA,vs.,LAR
 2020,8,DEN,vs.,LAC
 2020,8,CHI,vs.,NO
 2020,8,SEA,vs.,SF
@@ -141,7 +141,7 @@ season,week,team,home_away,opponent
 2020,10,ARI,vs.,BUF
 2020,10,LV,vs.,DEN
 2020,10,MIA,vs.,LAC
-2020,10,LA,vs.,SEA
+2020,10,LAR,vs.,SEA
 2020,10,NO,vs.,SF
 2020,10,PIT,vs.,CIN
 2020,10,NE,vs.,BAL
@@ -159,7 +159,7 @@ season,week,team,home_away,opponent
 2020,11,IND,vs.,GB
 2020,11,MIN,vs.,DAL
 2020,11,LV,vs.,KC
-2020,11,TB,vs.,LA
+2020,11,TB,vs.,LAR
 2020,12,DET,vs.,HOU
 2020,12,DAL,vs.,WAS
 2020,12,ATL,vs.,LV
@@ -171,7 +171,7 @@ season,week,team,home_away,opponent
 2020,12,NE,vs.,ARI
 2020,12,NYJ,vs.,MIA
 2020,12,DEN,vs.,NO
-2020,12,LA,vs.,SF
+2020,12,LAR,vs.,SF
 2020,12,TB,vs.,KC
 2020,12,GB,vs.,CHI
 2020,12,PHI,vs.,SEA
@@ -183,7 +183,7 @@ season,week,team,home_away,opponent
 2020,13,MIN,vs.,JAX
 2020,13,NYJ,vs.,LV
 2020,13,TEN,vs.,CLE
-2020,13,ARI,vs.,LA
+2020,13,ARI,vs.,LAR
 2020,13,SEA,vs.,NYG
 2020,13,GB,vs.,PHI
 2020,13,LAC,vs.,NE
@@ -191,7 +191,7 @@ season,week,team,home_away,opponent
 2020,13,PIT,vs.,WAS
 2020,13,SF,vs.,BUF
 2020,13,BAL,vs.,DAL
-2020,14,LA,vs.,NE
+2020,14,LAR,vs.,NE
 2020,14,CAR,vs.,DEN
 2020,14,CHI,vs.,HOU
 2020,14,CIN,vs.,DAL
@@ -219,7 +219,7 @@ season,week,team,home_away,opponent
 2020,15,TEN,vs.,DET
 2020,15,WAS,vs.,SEA
 2020,15,ARI,vs.,PHI
-2020,15,LA,vs.,NYJ
+2020,15,LAR,vs.,NYJ
 2020,15,NO,vs.,KC
 2020,15,NYG,vs.,CLE
 2020,15,CIN,vs.,PIT
@@ -236,7 +236,7 @@ season,week,team,home_away,opponent
 2020,16,LAC,vs.,DEN
 2020,16,WAS,vs.,CAR
 2020,16,DAL,vs.,PHI
-2020,16,SEA,vs.,LA
+2020,16,SEA,vs.,LAR
 2020,16,GB,vs.,TEN
 2020,16,NE,vs.,BUF
 2020,17,BUF,vs.,MIA
@@ -252,11 +252,11 @@ season,week,team,home_away,opponent
 2020,17,HOU,vs.,TEN
 2020,17,IND,vs.,JAX
 2020,17,KC,vs.,LAC
-2020,17,LA,vs.,ARI
+2020,17,LAR,vs.,ARI
 2020,17,SF,vs.,SEA
 2020,17,PHI,vs.,WAS
 2020,18,BUF,vs.,IND
-2020,18,SEA,vs.,LA
+2020,18,SEA,vs.,LAR
 2020,18,WAS,vs.,TB
 2020,18,TEN,vs.,BAL
 2020,18,NO,vs.,CHI
@@ -275,13 +275,13 @@ season,week,team,home_away,opponent
 2021,1,NE,vs.,MIA
 2021,1,NO,vs.,GB
 2021,1,NYG,vs.,DEN
-2021,1,LA,vs.,CHI
+2021,1,LAR,vs.,CHI
 2021,1,LV,vs.,BAL
 2021,2,WAS,vs.,NYG
 2021,2,CAR,vs.,NO
 2021,2,CHI,vs.,CIN
 2021,2,CLE,vs.,HOU
-2021,2,IND,vs.,LA
+2021,2,IND,vs.,LAR
 2021,2,JAX,vs.,DEN
 2021,2,MIA,vs.,BUF
 2021,2,NYJ,vs.,NE
@@ -305,7 +305,7 @@ season,week,team,home_away,opponent
 2021,3,TEN,vs.,IND
 2021,3,DEN,vs.,NYJ
 2021,3,LV,vs.,MIA
-2021,3,LA,vs.,TB
+2021,3,LAR,vs.,TB
 2021,3,MIN,vs.,SEA
 2021,3,SF,vs.,GB
 2021,3,DAL,vs.,PHI
@@ -319,13 +319,13 @@ season,week,team,home_away,opponent
 2021,4,NO,vs.,NYG
 2021,4,NYJ,vs.,TEN
 2021,4,PHI,vs.,KC
-2021,4,LA,vs.,ARI
+2021,4,LAR,vs.,ARI
 2021,4,SF,vs.,SEA
 2021,4,DEN,vs.,BAL
 2021,4,GB,vs.,PIT
 2021,4,NE,vs.,TB
 2021,4,LAC,vs.,LV
-2021,5,SEA,vs.,LA
+2021,5,SEA,vs.,LAR
 2021,5,ATL,vs.,NYJ
 2021,5,CAR,vs.,PHI
 2021,5,CIN,vs.,GB
@@ -348,7 +348,7 @@ season,week,team,home_away,opponent
 2021,6,CHI,vs.,GB
 2021,6,DET,vs.,CIN
 2021,6,IND,vs.,HOU
-2021,6,NYG,vs.,LA
+2021,6,NYG,vs.,LAR
 2021,6,WAS,vs.,KC
 2021,6,CLE,vs.,ARI
 2021,6,DEN,vs.,LV
@@ -362,7 +362,7 @@ season,week,team,home_away,opponent
 2021,7,NE,vs.,NYJ
 2021,7,NYG,vs.,CAR
 2021,7,TEN,vs.,KC
-2021,7,LA,vs.,DET
+2021,7,LAR,vs.,DET
 2021,7,LV,vs.,PHI
 2021,7,ARI,vs.,HOU
 2021,7,TB,vs.,CHI
@@ -374,7 +374,7 @@ season,week,team,home_away,opponent
 2021,8,CHI,vs.,SF
 2021,8,CLE,vs.,PIT
 2021,8,DET,vs.,PHI
-2021,8,HOU,vs.,LA
+2021,8,HOU,vs.,LAR
 2021,8,IND,vs.,TEN
 2021,8,NYJ,vs.,CIN
 2021,8,LAC,vs.,NE
@@ -395,7 +395,7 @@ season,week,team,home_away,opponent
 2021,9,PHI,vs.,LAC
 2021,9,KC,vs.,GB
 2021,9,SF,vs.,ARI
-2021,9,LA,vs.,TEN
+2021,9,LAR,vs.,TEN
 2021,9,PIT,vs.,CHI
 2021,10,MIA,vs.,BAL
 2021,10,DAL,vs.,ATL
@@ -410,7 +410,7 @@ season,week,team,home_away,opponent
 2021,10,DEN,vs.,PHI
 2021,10,GB,vs.,SEA
 2021,10,LV,vs.,KC
-2021,10,SF,vs.,LA
+2021,10,SF,vs.,LAR
 2021,11,ATL,vs.,NE
 2021,11,BUF,vs.,IND
 2021,11,CAR,vs.,WAS
@@ -437,7 +437,7 @@ season,week,team,home_away,opponent
 2021,12,NE,vs.,TEN
 2021,12,NYG,vs.,PHI
 2021,12,DEN,vs.,LAC
-2021,12,GB,vs.,LA
+2021,12,GB,vs.,LAR
 2021,12,SF,vs.,MIN
 2021,12,BAL,vs.,CLE
 2021,12,WAS,vs.,SEA
@@ -451,7 +451,7 @@ season,week,team,home_away,opponent
 2021,13,MIA,vs.,NYG
 2021,13,NYJ,vs.,PHI
 2021,13,LV,vs.,WAS
-2021,13,LA,vs.,JAX
+2021,13,LAR,vs.,JAX
 2021,13,PIT,vs.,BAL
 2021,13,SEA,vs.,SF
 2021,13,BUF,vs.,NE
@@ -468,7 +468,7 @@ season,week,team,home_away,opponent
 2021,14,LAC,vs.,NYG
 2021,14,TB,vs.,BUF
 2021,14,GB,vs.,CHI
-2021,14,ARI,vs.,LA
+2021,14,ARI,vs.,LAR
 2021,15,LAC,vs.,KC
 2021,15,BAL,vs.,GB
 2021,15,BUF,vs.,CAR
@@ -482,7 +482,7 @@ season,week,team,home_away,opponent
 2021,15,PIT,vs.,TEN
 2021,15,DEN,vs.,CIN
 2021,15,SF,vs.,ATL
-2021,15,LA,vs.,SEA
+2021,15,LAR,vs.,SEA
 2021,15,TB,vs.,NO
 2021,15,CHI,vs.,MIN
 2021,16,TEN,vs.,SF
@@ -492,7 +492,7 @@ season,week,team,home_away,opponent
 2021,16,CAR,vs.,TB
 2021,16,CIN,vs.,BAL
 2021,16,HOU,vs.,LAC
-2021,16,MIN,vs.,LA
+2021,16,MIN,vs.,LAR
 2021,16,NE,vs.,BUF
 2021,16,NYJ,vs.,JAX
 2021,16,PHI,vs.,NYG
@@ -513,7 +513,7 @@ season,week,team,home_away,opponent
 2021,17,WAS,vs.,PHI
 2021,17,LAC,vs.,DEN
 2021,17,SF,vs.,HOU
-2021,17,BAL,vs.,LA
+2021,17,BAL,vs.,LAR
 2021,17,SEA,vs.,DET
 2021,17,GB,vs.,MIN
 2021,17,PIT,vs.,CLE
@@ -531,7 +531,7 @@ season,week,team,home_away,opponent
 2021,18,TB,vs.,CAR
 2021,18,ARI,vs.,SEA
 2021,18,DEN,vs.,KC
-2021,18,LA,vs.,SF
+2021,18,LAR,vs.,SF
 2021,18,LV,vs.,LAC
 2020,1,HOU,@,KC
 2020,1,SEA,@,ATL
@@ -546,7 +546,7 @@ season,week,team,home_away,opponent
 2020,1,LAC,@,CIN
 2020,1,TB,@,NO
 2020,1,ARI,@,SF
-2020,1,DAL,@,LA
+2020,1,DAL,@,LAR
 2020,1,PIT,@,NYG
 2020,1,TEN,@,DEN
 2020,2,CIN,@,CLE
@@ -556,7 +556,7 @@ season,week,team,home_away,opponent
 2020,2,MIN,@,IND
 2020,2,BUF,@,MIA
 2020,2,SF,@,NYJ
-2020,2,LA,@,PHI
+2020,2,LAR,@,PHI
 2020,2,DEN,@,PIT
 2020,2,CAR,@,TB
 2020,2,JAX,@,TEN
@@ -567,7 +567,7 @@ season,week,team,home_away,opponent
 2020,2,NO,@,LV
 2020,3,MIA,@,JAX
 2020,3,CHI,@,ATL
-2020,3,LA,@,BUF
+2020,3,LAR,@,BUF
 2020,3,WAS,@,CLE
 2020,3,TEN,@,MIN
 2020,3,LV,@,NE
@@ -590,7 +590,7 @@ season,week,team,home_away,opponent
 2020,4,SEA,@,MIA
 2020,4,LAC,@,TB
 2020,4,BAL,@,WAS
-2020,4,NYG,@,LA
+2020,4,NYG,@,LAR
 2020,4,IND,@,CHI
 2020,4,BUF,@,LV
 2020,4,PHI,@,SF
@@ -603,7 +603,7 @@ season,week,team,home_away,opponent
 2020,5,LV,@,KC
 2020,5,ARI,@,NYJ
 2020,5,PHI,@,PIT
-2020,5,LA,@,WAS
+2020,5,LAR,@,WAS
 2020,5,MIA,@,SF
 2020,5,IND,@,CLE
 2020,5,NYG,@,DAL
@@ -621,7 +621,7 @@ season,week,team,home_away,opponent
 2020,6,HOU,@,TEN
 2020,6,NYJ,@,MIA
 2020,6,GB,@,TB
-2020,6,LA,@,SF
+2020,6,LAR,@,SF
 2020,6,KC,@,BUF
 2020,6,ARI,@,DAL
 2020,7,NYG,@,PHI
@@ -637,7 +637,7 @@ season,week,team,home_away,opponent
 2020,7,JAX,@,LAC
 2020,7,SF,@,NE
 2020,7,SEA,@,ARI
-2020,7,CHI,@,LA
+2020,7,CHI,@,LAR
 2020,8,ATL,@,CAR
 2020,8,PIT,@,BAL
 2020,8,NE,@,BUF
@@ -646,7 +646,7 @@ season,week,team,home_away,opponent
 2020,8,IND,@,DET
 2020,8,MIN,@,GB
 2020,8,NYJ,@,KC
-2020,8,LA,@,MIA
+2020,8,LAR,@,MIA
 2020,8,LAC,@,DEN
 2020,8,NO,@,CHI
 2020,8,SF,@,SEA
@@ -675,7 +675,7 @@ season,week,team,home_away,opponent
 2020,10,BUF,@,ARI
 2020,10,DEN,@,LV
 2020,10,LAC,@,MIA
-2020,10,SEA,@,LA
+2020,10,SEA,@,LAR
 2020,10,SF,@,NO
 2020,10,CIN,@,PIT
 2020,10,BAL,@,NE
@@ -693,7 +693,7 @@ season,week,team,home_away,opponent
 2020,11,GB,@,IND
 2020,11,DAL,@,MIN
 2020,11,KC,@,LV
-2020,11,LA,@,TB
+2020,11,LAR,@,TB
 2020,12,HOU,@,DET
 2020,12,WAS,@,DAL
 2020,12,LV,@,ATL
@@ -705,7 +705,7 @@ season,week,team,home_away,opponent
 2020,12,ARI,@,NE
 2020,12,MIA,@,NYJ
 2020,12,NO,@,DEN
-2020,12,SF,@,LA
+2020,12,SF,@,LAR
 2020,12,KC,@,TB
 2020,12,CHI,@,GB
 2020,12,SEA,@,PHI
@@ -717,7 +717,7 @@ season,week,team,home_away,opponent
 2020,13,JAX,@,MIN
 2020,13,LV,@,NYJ
 2020,13,CLE,@,TEN
-2020,13,LA,@,ARI
+2020,13,LAR,@,ARI
 2020,13,NYG,@,SEA
 2020,13,PHI,@,GB
 2020,13,NE,@,LAC
@@ -725,7 +725,7 @@ season,week,team,home_away,opponent
 2020,13,WAS,@,PIT
 2020,13,BUF,@,SF
 2020,13,DAL,@,BAL
-2020,14,NE,@,LA
+2020,14,NE,@,LAR
 2020,14,DEN,@,CAR
 2020,14,HOU,@,CHI
 2020,14,DAL,@,CIN
@@ -753,7 +753,7 @@ season,week,team,home_away,opponent
 2020,15,DET,@,TEN
 2020,15,SEA,@,WAS
 2020,15,PHI,@,ARI
-2020,15,NYJ,@,LA
+2020,15,NYJ,@,LAR
 2020,15,KC,@,NO
 2020,15,CLE,@,NYG
 2020,15,PIT,@,CIN
@@ -770,7 +770,7 @@ season,week,team,home_away,opponent
 2020,16,DEN,@,LAC
 2020,16,CAR,@,WAS
 2020,16,PHI,@,DAL
-2020,16,LA,@,SEA
+2020,16,LAR,@,SEA
 2020,16,TEN,@,GB
 2020,16,BUF,@,NE
 2020,17,MIA,@,BUF
@@ -786,11 +786,11 @@ season,week,team,home_away,opponent
 2020,17,TEN,@,HOU
 2020,17,JAX,@,IND
 2020,17,LAC,@,KC
-2020,17,ARI,@,LA
+2020,17,ARI,@,LAR
 2020,17,SEA,@,SF
 2020,17,WAS,@,PHI
 2020,18,IND,@,BUF
-2020,18,LA,@,SEA
+2020,18,LAR,@,SEA
 2020,18,TB,@,WAS
 2020,18,BAL,@,TEN
 2020,18,CHI,@,NO
@@ -809,13 +809,13 @@ season,week,team,home_away,opponent
 2021,1,MIA,@,NE
 2021,1,GB,@,NO
 2021,1,DEN,@,NYG
-2021,1,CHI,@,LA
+2021,1,CHI,@,LAR
 2021,1,BAL,@,LV
 2021,2,NYG,@,WAS
 2021,2,NO,@,CAR
 2021,2,CIN,@,CHI
 2021,2,HOU,@,CLE
-2021,2,LA,@,IND
+2021,2,LAR,@,IND
 2021,2,DEN,@,JAX
 2021,2,BUF,@,MIA
 2021,2,NE,@,NYJ
@@ -839,7 +839,7 @@ season,week,team,home_away,opponent
 2021,3,IND,@,TEN
 2021,3,NYJ,@,DEN
 2021,3,MIA,@,LV
-2021,3,TB,@,LA
+2021,3,TB,@,LAR
 2021,3,SEA,@,MIN
 2021,3,GB,@,SF
 2021,3,PHI,@,DAL
@@ -853,13 +853,13 @@ season,week,team,home_away,opponent
 2021,4,NYG,@,NO
 2021,4,TEN,@,NYJ
 2021,4,KC,@,PHI
-2021,4,ARI,@,LA
+2021,4,ARI,@,LAR
 2021,4,SEA,@,SF
 2021,4,BAL,@,DEN
 2021,4,PIT,@,GB
 2021,4,TB,@,NE
 2021,4,LV,@,LAC
-2021,5,LA,@,SEA
+2021,5,LAR,@,SEA
 2021,5,NYJ,@,ATL
 2021,5,PHI,@,CAR
 2021,5,GB,@,CIN
@@ -882,7 +882,7 @@ season,week,team,home_away,opponent
 2021,6,GB,@,CHI
 2021,6,CIN,@,DET
 2021,6,HOU,@,IND
-2021,6,LA,@,NYG
+2021,6,LAR,@,NYG
 2021,6,KC,@,WAS
 2021,6,ARI,@,CLE
 2021,6,LV,@,DEN
@@ -896,7 +896,7 @@ season,week,team,home_away,opponent
 2021,7,NYJ,@,NE
 2021,7,CAR,@,NYG
 2021,7,KC,@,TEN
-2021,7,DET,@,LA
+2021,7,DET,@,LAR
 2021,7,PHI,@,LV
 2021,7,HOU,@,ARI
 2021,7,CHI,@,TB
@@ -908,7 +908,7 @@ season,week,team,home_away,opponent
 2021,8,SF,@,CHI
 2021,8,PIT,@,CLE
 2021,8,PHI,@,DET
-2021,8,LA,@,HOU
+2021,8,LAR,@,HOU
 2021,8,TEN,@,IND
 2021,8,CIN,@,NYJ
 2021,8,NE,@,LAC
@@ -929,7 +929,7 @@ season,week,team,home_away,opponent
 2021,9,LAC,@,PHI
 2021,9,GB,@,KC
 2021,9,ARI,@,SF
-2021,9,TEN,@,LA
+2021,9,TEN,@,LAR
 2021,9,CHI,@,PIT
 2021,10,BAL,@,MIA
 2021,10,ATL,@,DAL
@@ -944,7 +944,7 @@ season,week,team,home_away,opponent
 2021,10,PHI,@,DEN
 2021,10,SEA,@,GB
 2021,10,KC,@,LV
-2021,10,LA,@,SF
+2021,10,LAR,@,SF
 2021,11,NE,@,ATL
 2021,11,IND,@,BUF
 2021,11,WAS,@,CAR
@@ -971,7 +971,7 @@ season,week,team,home_away,opponent
 2021,12,TEN,@,NE
 2021,12,PHI,@,NYG
 2021,12,LAC,@,DEN
-2021,12,LA,@,GB
+2021,12,LAR,@,GB
 2021,12,MIN,@,SF
 2021,12,CLE,@,BAL
 2021,12,SEA,@,WAS
@@ -985,7 +985,7 @@ season,week,team,home_away,opponent
 2021,13,NYG,@,MIA
 2021,13,PHI,@,NYJ
 2021,13,WAS,@,LV
-2021,13,JAX,@,LA
+2021,13,JAX,@,LAR
 2021,13,BAL,@,PIT
 2021,13,SF,@,SEA
 2021,13,NE,@,BUF
@@ -1002,7 +1002,7 @@ season,week,team,home_away,opponent
 2021,14,NYG,@,LAC
 2021,14,BUF,@,TB
 2021,14,CHI,@,GB
-2021,14,LA,@,ARI
+2021,14,LAR,@,ARI
 2021,15,KC,@,LAC
 2021,15,GB,@,BAL
 2021,15,CAR,@,BUF
@@ -1016,7 +1016,7 @@ season,week,team,home_away,opponent
 2021,15,TEN,@,PIT
 2021,15,CIN,@,DEN
 2021,15,ATL,@,SF
-2021,15,SEA,@,LA
+2021,15,SEA,@,LAR
 2021,15,NO,@,TB
 2021,15,MIN,@,CHI
 2021,16,SF,@,TEN
@@ -1026,7 +1026,7 @@ season,week,team,home_away,opponent
 2021,16,TB,@,CAR
 2021,16,BAL,@,CIN
 2021,16,LAC,@,HOU
-2021,16,LA,@,MIN
+2021,16,LAR,@,MIN
 2021,16,BUF,@,NE
 2021,16,JAX,@,NYJ
 2021,16,NYG,@,PHI
@@ -1047,7 +1047,7 @@ season,week,team,home_away,opponent
 2021,17,PHI,@,WAS
 2021,17,DEN,@,LAC
 2021,17,HOU,@,SF
-2021,17,LA,@,BAL
+2021,17,LAR,@,BAL
 2021,17,DET,@,SEA
 2021,17,MIN,@,GB
 2021,17,CLE,@,PIT
@@ -1065,5 +1065,5 @@ season,week,team,home_away,opponent
 2021,18,CAR,@,TB
 2021,18,SEA,@,ARI
 2021,18,KC,@,DEN
-2021,18,SF,@,LA
+2021,18,SF,@,LAR
 2021,18,LAC,@,LV
