@@ -46,7 +46,7 @@ logo_asp <- 1.618
 showtext_opts(dpi = 480)
 
 brand_nfl <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_wordmarks = F, logo = F,
-                               logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F, logo_4for4_white = F, logo_loc) {
+                               logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F, logo_loc) {
   
   ## start by adding team wordmarks
   if (tm_wordmarks) {
@@ -59,7 +59,7 @@ brand_nfl <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_wordma
     orig_plot_bld$layout$z[grob_strip_index] <- 0
     
     for (i in 1:length(facet_id)) {
-      team_wd <- rasterGrob(image = image_read(nfl_wordmark_url(facet_id[i])), vp = viewport(height = 0.8, width = 0.6))
+      team_wd <- rasterGrob(image = image_read(nfl_wordmark_url(facet_id[i])), vp = viewport(height = 0.6))
       tot_tree <- grobTree(team_wd)
       
       orig_plot_bld$grobs[[grob_strip_index[i]]] <- tot_tree
@@ -68,53 +68,46 @@ brand_nfl <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_wordma
   }
   
   # is image taller than wider? if so, make sure the width is at least the base_size
-  if (asp < 1) {
-    base_size_rat_wid <- (5/base_size)
-    base_size <- base_size / asp
-  } else {
-    base_size_rat_wid <- (5/base_size) / asp
-  }
+  #if (asp < 1) {
+  #  base_size_rat_wid <- (5/base_size)
+  #  base_size <- base_size / asp
+  #} else {
+  #  base_size_rat_wid <- (5/base_size) / asp
+  #}
   
   # aesthetics for various logos used
   if (logo_FE){
     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/Fantasy Evaluator/Logo.png")
     logo_width <- 0.16
     logo_height <- 0.09
-    logo_x <- 0.87
-    logo_y <- 0.92
+    logo_x <- 0.85
+    logo_y <- 0.91
   }
   if (logo_4for4){
     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
     logo_width <- 0.09
     logo_height <- 0.09
     logo_x <- 0.925
-    logo_y <- 0.92
+    logo_y <- 0.91
   }
   if (logo_4for4_red){
     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4_red.jpg")
     logo_width <- 0.09
     logo_height <- 0.09
-    logo_x <- 0.95
-    logo_y <- 0.92
-  }
-  if (logo_4for4_white){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4_white.jpg")
-    logo_width <- 0.09
-    logo_height <- 0.09
-    logo_x <- 0.95
-    logo_y <- 0.92
+    logo_x <- 0.925
+    logo_y <- 0.91
   }
   if (logo_ETR){
     logo_file <- magick::image_read_svg("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/etr.svg")
     logo_width <- 0.12
     logo_height <- 0.0675
     logo_x <- 0.87
-    logo_y <- 0.92
+    logo_y <- 0.91
   }
   
   if (tm_wordmarks){
-    logo_x <- logo_x - 0.05
-    logo_y <- 0.925
+    logo_x <- logo_x
+    logo_y <- 0.92
   }
   
   orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = logo_x, y = logo_y, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
@@ -141,7 +134,7 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, tm_wordmarks = F, l
     orig_plot_bld$layout$z[grob_strip_index] <- 0
     
     for (i in 1:length(facet_id)) {
-      team_wd <- rasterGrob(image = image_read(nfl_wordmark_url(facet_id[i])), vp = viewport(height = 1.25)) #height = 1, width = 0.75
+      team_wd <- rasterGrob(image = image_read(nfl_wordmark_url(facet_id[i])), vp = viewport(height = 1, width = 0.75)) #height = 1, width = 0.75
       tot_tree <- grobTree(team_wd)
       
       orig_plot_bld$grobs[[grob_strip_index[i]]] <- tot_tree
@@ -322,8 +315,8 @@ theme_FE_new <-  theme(
   axis.ticks.length = unit(0.15, 'lines'),     #changes the length of the axis ticks
   axis.title = element_text(size = 8),     #changes the size of the axis titles, if any
   axis.text = element_text(size = 8, color = 'black'),     #changes the size of the axis labels
-  plot.title = element_text(size = 16, face = "bold", margin = margin(0,0,10,0), family = "encode"),     #changes the size of the title
-  plot.subtitle = element_text(size = 8, margin = margin(0,0,10,0), family = "encode"),     #changes the size of the subtitle
+  plot.title = element_text(size = 16, face = "bold", margin = margin(0,0,5,0), family = "encode"),     #changes the size of the title
+  plot.subtitle = element_text(size = 8, margin = margin(0,0,5,0), family = "encode"),     #changes the size of the subtitle
   plot.caption = element_text(size = 8, family = "encode"),     #changes the size of the caption , family = "encode"
   legend.background = element_blank(),     #makes background of the legend to be grey
   legend.key = element_blank(),     #removes the legend key
