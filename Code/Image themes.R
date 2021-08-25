@@ -45,8 +45,8 @@ logo_asp <- 1.618
 
 showtext_opts(dpi = 480)
 
-brand_nfl <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_wordmarks = F, logo = F,
-                               logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F, logo_loc) {
+brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_wordmarks = F, logo = F,
+                               logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F, logo_SC = F, logo_loc) {
   
   ## start by adding team wordmarks
   if (tm_wordmarks) {
@@ -81,6 +81,13 @@ brand_nfl <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_wordma
     logo_width <- 0.16
     logo_height <- 0.09
     logo_x <- 0.85
+    logo_y <- 0.91
+  }
+  if (logo_SC){
+    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/Ship Chasing.jpg")
+    logo_width <- 0.09
+    logo_height <- 0.09
+    logo_x <- 0.925
     logo_y <- 0.91
   }
   if (logo_4for4){
@@ -120,108 +127,108 @@ brand_nfl <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_wordma
 
 
 
-brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, tm_wordmarks = F, logo = F,
-                           logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F, logo_SC = F) {
-  
-  ## start by adding team wordmarks
-  if (tm_wordmarks) {
-    orig_plot_bld <- ggplot_gtable(ggplot_build(orig_plot))
-    grob_strip_index <- which(sapply(orig_plot_bld$grob, function(x) x$name)=='strip')
-    facet_id <- sapply(grob_strip_index, function(grb) {
-      orig_plot_bld$grobs[[grb]]$grobs[[1]]$children[[2]]$children[[1]]$label
-    })
-    
-    orig_plot_bld$layout$z[grob_strip_index] <- 0
-    
-    for (i in 1:length(facet_id)) {
-      team_wd <- rasterGrob(image = image_read(nfl_wordmark_url(facet_id[i])), vp = viewport(height = 1, width = 0.75)) #height = 1, width = 0.75
-      tot_tree <- grobTree(team_wd)
-      
-      orig_plot_bld$grobs[[grob_strip_index[i]]] <- tot_tree
-    }
-    orig_plot <- ggdraw(orig_plot_bld)
-  }
-  
-  # aesthetics for various logos used
-  if (logo_FE){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/Fantasy Evaluator/Logo.png")
-    logo_width <- 0.16
-    logo_height <- 0.09
-    logo_x <- 0.85
-    logo_y <- 0.875
-  }
-  if (logo_4for4){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
-    logo_width <- 0.09
-    logo_height <- 0.09
-    logo_x <- 0.92
-    logo_y <- 0.875
-  }
-  if (logo_4for4_red){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4_red.jpg")
-    logo_width <- 0.09
-    logo_height <- 0.09
-    logo_x <- 0.92
-    logo_y <- 0.875
-  }
-  if (logo_ETR){
-    logo_file <- magick::image_read_svg("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/etr.svg")
-    logo_width <- 0.12
-    logo_height <- 0.0675
-    logo_x <- 0.85
-    logo_y <- 0.875
-  }
-  if (logo_SC){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/Ship Chasing.jpg")
-    logo_width <- 0.09
-    logo_height <- 0.09
-    logo_x <- 0.92
-    logo_y <- 0.875
-  }
-  
-  if (tm_wordmarks){
-    logo_x <- logo_x - 0.05
-    logo_y <- 0.875
-  }
-  
-  if (logo) {final_plot <- ggdraw(
-      xlim = c(0, 900*asp),
-      ylim = c(0, 900)
-    ) + 
-    draw_plot(
-      orig_plot,
-      x = ((900*asp)/2),
-      hjust = 0.5,
-      width = ((900*asp)-36),
-      y = (900-60)/2,
-      height = (900-60),
-      vjust = 0.5
-    ) + 
-    draw_image(logo_file, x = logo_x*900*asp, y = logo_y*900, hjust = 0, vjust = 0, height = logo_height*900, width = logo_width*1600)}
-  
-  else {final_plot <- ggdraw(
-    xlim = c(0, 900*asp),
-    ylim = c(0, 900)
-  ) + 
-    draw_plot(
-      orig_plot,
-      x = ((900*asp)/2),
-      hjust = 0.5,
-      width = ((900*asp)-36),
-      y = (900-60)/2,
-      height = (900-60),
-      vjust = 0.5
-    )}  
-  save_plot(
-    filename = save_name,
-    plot = final_plot,
-    base_height = 900 / 72,
-    base_asp = asp,
-    dpi = 72
-  )
-  
-}
-
+# brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, tm_wordmarks = F, logo = F,
+#                            logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F, logo_SC = F) {
+# 
+#   ## start by adding team wordmarks
+#   if (tm_wordmarks) {
+#     orig_plot_bld <- ggplot_gtable(ggplot_build(orig_plot))
+#     grob_strip_index <- which(sapply(orig_plot_bld$grob, function(x) x$name)=='strip')
+#     facet_id <- sapply(grob_strip_index, function(grb) {
+#       orig_plot_bld$grobs[[grb]]$grobs[[1]]$children[[2]]$children[[1]]$label
+#     })
+#     
+#     orig_plot_bld$layout$z[grob_strip_index] <- 0
+#     
+#     for (i in 1:length(facet_id)) {
+#       team_wd <- rasterGrob(image = image_read(nfl_wordmark_url(facet_id[i])), vp = viewport(height = 1, width = 0.75)) #height = 1, width = 0.75
+#       tot_tree <- grobTree(team_wd)
+#       
+#       orig_plot_bld$grobs[[grob_strip_index[i]]] <- tot_tree
+#     }
+#     orig_plot <- ggdraw(orig_plot_bld)
+#   }
+#   
+#   # aesthetics for various logos used
+#   if (logo_FE){
+#     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/Fantasy Evaluator/Logo.png")
+#     logo_width <- 0.16
+#     logo_height <- 0.09
+#     logo_x <- 0.85
+#     logo_y <- 0.875
+#   }
+#   if (logo_4for4){
+#     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
+#     logo_width <- 0.09
+#     logo_height <- 0.09
+#     logo_x <- 0.92
+#     logo_y <- 0.875
+#   }
+#   if (logo_4for4_red){
+#     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4_red.jpg")
+#     logo_width <- 0.09
+#     logo_height <- 0.09
+#     logo_x <- 0.92
+#     logo_y <- 0.875
+#   }
+#   if (logo_ETR){
+#     logo_file <- magick::image_read_svg("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/etr.svg")
+#     logo_width <- 0.12
+#     logo_height <- 0.0675
+#     logo_x <- 0.85
+#     logo_y <- 0.875
+#   }
+#   if (logo_SC){
+#     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/Ship Chasing.jpg")
+#     logo_width <- 0.09
+#     logo_height <- 0.09
+#     logo_x <- 0.92
+#     logo_y <- 0.875
+#   }
+#   
+#   if (tm_wordmarks){
+#     logo_x <- logo_x - 0.05
+#     logo_y <- 0.875
+#   }
+#   
+#   if (logo) {final_plot <- ggdraw(
+#       xlim = c(0, 900*asp),
+#       ylim = c(0, 900)
+#     ) + 
+#     draw_plot(
+#       orig_plot,
+#       x = ((900*asp)/2),
+#       hjust = 0.5,
+#       width = ((900*asp)-36),
+#       y = (900-60)/2,
+#       height = (900-60),
+#       vjust = 0.5
+#     ) + 
+#     draw_image(logo_file, x = logo_x*900*asp, y = logo_y*900, hjust = 0, vjust = 0, height = logo_height*900, width = logo_width*1600)}
+#   
+#   else {final_plot <- ggdraw(
+#     xlim = c(0, 900*asp),
+#     ylim = c(0, 900)
+#   ) + 
+#     draw_plot(
+#       orig_plot,
+#       x = ((900*asp)/2),
+#       hjust = 0.5,
+#       width = ((900*asp)-36),
+#       y = (900-60)/2,
+#       height = (900-60),
+#       vjust = 0.5
+#     )}  
+#   save_plot(
+#     filename = save_name,
+#     plot = final_plot,
+#     base_height = 900 / 72,
+#     base_asp = asp,
+#     dpi = 72
+#   )
+#   
+# }
+# 
 # main function to save my branded plots
 brand_nba_plot <- function(orig_plot, save_name, asp = 16/9,tm_wordmarks = F, logo = F,
                            logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F) {
