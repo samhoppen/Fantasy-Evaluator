@@ -339,10 +339,6 @@ theme_FE <-  theme(
   legend.title = element_text(size = 6)
 )
 
-+
-  theme(legend.text = element_text(size = 6),
-        legend.title = element_text(size = 6))
-
 # theme_FE <-  theme(
 #   line = element_line(lineend = 'round', color='black'),     #rounds the edges of all lines; makes the color black
 #   text = element_text(color='black'),     #uses the Incon text format for all text; makes the color black
