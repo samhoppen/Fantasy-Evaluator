@@ -312,7 +312,7 @@ brand_nba_plot <- function(orig_plot, save_name, asp = 16/9,tm_wordmarks = F, lo
   
 }
 
-theme_FE_new <-  theme(
+theme_FE <-  theme(
   line = element_line(lineend = 'round', color='black'),     #rounds the edges of all lines; makes the color black
   text = element_text(color='black'),     #uses the Incon text format for all text; makes the color black
   panel.border = element_blank(),     #makes the panel around the plotting area the color black
@@ -339,30 +339,30 @@ theme_FE_new <-  theme(
 
 
 
-theme_FE <-  theme(
-  line = element_line(lineend = 'round', color='black'),     #rounds the edges of all lines; makes the color black
-  text = element_text(color='black'),     #uses the Incon text format for all text; makes the color black
-  panel.border = element_blank(),     #makes the panel around the plotting area the color black
-  panel.background = element_rect(fill = 'white', color = 'transparent'),     #background of the non-plotting area is white
-  axis.line = element_line(color = 'black', size = 0.5),
-  axis.ticks = element_line(color = 'black', size = 0.5),     #changes the size (width) of the x-axis ticks
-  axis.ticks.length = unit(0.15, 'lines'),     #changes the length of the axis ticks
-  axis.title = element_text(size = 12),     #changes the size of the axis titles, if any
-  axis.text = element_text(size = 12, color = 'black'),     #changes the size of the axis labels
-  plot.title = element_text(size = 24, face = "bold", margin = margin(0,0,10,0), family = "encode"),     #changes the size of the title
-  plot.subtitle = element_text(size = 12, margin = margin(0,0,10,0), family = "encode"),     #changes the size of the subtitle
-  plot.caption = element_text(size = 12, family = "encode"),     #changes the size of the caption , family = "encode"
-  legend.background = element_blank(),     #makes background of the legend to be grey
-  legend.key = element_blank(),     #removes the legend key
-  panel.grid.minor = element_blank(),     #removes the lines on the plot between the ticks
-  panel.grid.major = element_line(color='grey85', size = 0.3),     #changes the size of the major gridlines and makes them grey
-  panel.grid.major.x = element_blank(),
-  axis.title.y = element_text(angle = 90, vjust = 0.5),     #changes the size of the axis labels
-  strip.background = element_blank(),
-  strip.text = element_text(size = 12, color = 'black'),
-  panel.spacing.y = unit(0, 'lines'),
-  panel.spacing.x = unit(0.5, 'lines')
-)
+# theme_FE <-  theme(
+#   line = element_line(lineend = 'round', color='black'),     #rounds the edges of all lines; makes the color black
+#   text = element_text(color='black'),     #uses the Incon text format for all text; makes the color black
+#   panel.border = element_blank(),     #makes the panel around the plotting area the color black
+#   panel.background = element_rect(fill = 'white', color = 'transparent'),     #background of the non-plotting area is white
+#   axis.line = element_line(color = 'black', size = 0.5),
+#   axis.ticks = element_line(color = 'black', size = 0.5),     #changes the size (width) of the x-axis ticks
+#   axis.ticks.length = unit(0.15, 'lines'),     #changes the length of the axis ticks
+#   axis.title = element_text(size = 12),     #changes the size of the axis titles, if any
+#   axis.text = element_text(size = 12, color = 'black'),     #changes the size of the axis labels
+#   plot.title = element_text(size = 24, face = "bold", margin = margin(0,0,10,0), family = "encode"),     #changes the size of the title
+#   plot.subtitle = element_text(size = 12, margin = margin(0,0,10,0), family = "encode"),     #changes the size of the subtitle
+#   plot.caption = element_text(size = 12, family = "encode"),     #changes the size of the caption , family = "encode"
+#   legend.background = element_blank(),     #makes background of the legend to be grey
+#   legend.key = element_blank(),     #removes the legend key
+#   panel.grid.minor = element_blank(),     #removes the lines on the plot between the ticks
+#   panel.grid.major = element_line(color='grey85', size = 0.3),     #changes the size of the major gridlines and makes them grey
+#   panel.grid.major.x = element_blank(),
+#   axis.title.y = element_text(angle = 90, vjust = 0.5),     #changes the size of the axis labels
+#   strip.background = element_blank(),
+#   strip.text = element_text(size = 12, color = 'black'),
+#   panel.spacing.y = unit(0, 'lines'),
+#   panel.spacing.x = unit(0.5, 'lines')
+# )
 
 ##### CUSTOM FACET WRAP HELPER FUNCTIONS ####
 scale_override <- function(which, scale) {
