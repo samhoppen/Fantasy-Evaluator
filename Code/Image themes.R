@@ -334,10 +334,14 @@ theme_FE <-  theme(
   strip.background = element_blank(),
   strip.text = element_text(size = 8, color = 'black'),
   panel.spacing.y = unit(0, 'lines'),
-  panel.spacing.x = unit(0.5, 'lines')
+  panel.spacing.x = unit(0.5, 'lines'),
+  legend.text = element_text(size = 6),
+  legend.title = element_text(size = 6)
 )
 
-
++
+  theme(legend.text = element_text(size = 6),
+        legend.title = element_text(size = 6))
 
 # theme_FE <-  theme(
 #   line = element_line(lineend = 'round', color='black'),     #rounds the edges of all lines; makes the color black
