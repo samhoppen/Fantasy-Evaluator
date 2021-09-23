@@ -119,12 +119,13 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_w
     logo_y <- 0.91
   }
   
-  if (tm_wordmarks){
-    logo_x <- logo_x
-    logo_y <- 0.92
-  }
   
   if (logo) {
+    if (tm_wordmarks){
+      logo_x <- logo_x
+      logo_y <- 0.92
+    }
+    
     orig_plot <- ggdraw(orig_plot) + draw_image(logo_file, x = logo_x, y = logo_y, hjust = 0, vjust = 0, height = logo_height, width = logo_width)
   }
   else{
