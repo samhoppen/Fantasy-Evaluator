@@ -1052,7 +1052,6 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031610,Darren Waller,LV,2021,18,0,0,0,0,0,0,0,2,22,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zr239ya4yqyvi16jmoyh",22
 00-0031687,Raheem Mostert,SF,2021,1,0,0,0,0,0,2,20,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ukk92rkuyqdyx3sigj5z",20
 00-0031690,Eric Tomlinson,BAL,2021,9,0,0,0,0,0,0,0,1,7,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/swiwooxium4wmas8wq4c",7
-00-0031690,Eric Tomlinson,BAL,2021,18,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/swiwooxium4wmas8wq4c",0
 00-0031763,DeAndre Carter,WAS,2021,2,0,0,0,0,0,1,2,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ntvfcvfd32hho1rkokwi",2
 00-0031763,DeAndre Carter,WAS,2021,4,0,0,0,0,0,0,0,1,24,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ntvfcvfd32hho1rkokwi",24
 00-0031763,DeAndre Carter,WAS,2021,5,0,0,0,0,0,1,11,4,62,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ntvfcvfd32hho1rkokwi",73
@@ -4042,7 +4041,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035924,Jonathan Ward,ARI,2021,18,0,0,0,0,0,0,0,1,2,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ez73cnyh2ru4cib6ondx",2
 00-0035956,Giovanni Ricci,CAR,2021,15,0,0,0,0,0,0,0,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/elxmbm6zscnjixuoxs5a",0
 00-0035956,Giovanni Ricci,CAR,2021,16,0,0,0,0,0,0,0,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/elxmbm6zscnjixuoxs5a",0
-00-0035957,Rodney Smith,CAR,2021,4,0,0,0,0,0,0,0,5,48,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xd2tfhcsbxeokt2bisun",48
+00-0035957,NA,CAR,2021,4,0,0,0,0,0,0,0,5,48,NA,NA,48
 00-0035973,Patrick Taylor,GB,2021,10,0,0,0,0,0,2,7,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/u6p90ptskdrcfpzfzafw",7
 00-0035973,Patrick Taylor,GB,2021,11,0,0,0,0,0,4,11,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/u6p90ptskdrcfpzfzafw",11
 00-0035973,Patrick Taylor,GB,2021,17,0,0,0,0,0,6,18,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/u6p90ptskdrcfpzfzafw",18
