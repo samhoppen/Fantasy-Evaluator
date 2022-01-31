@@ -16,6 +16,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0019596,Tom Brady,TB,2021,16,18,30,232,1,0,1,11,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/n7fj5fjblf6pdgjdtphr",11
 00-0019596,Tom Brady,TB,2021,17,34,49,410,3,1,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/n7fj5fjblf6pdgjdtphr",0
 00-0019596,Tom Brady,TB,2021,18,29,37,326,3,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/n7fj5fjblf6pdgjdtphr",0
+00-0019596,Tom Brady,TB,2021,19,29,37,271,2,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/n7fj5fjblf6pdgjdtphr",0
+00-0019596,Tom Brady,TB,2021,20,30,54,329,1,1,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/n7fj5fjblf6pdgjdtphr",0
 00-0022824,Andy Lee,ARI,2021,18,0,0,0,0,0,1,0,0,0,P,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tlzghdps4wmxukbapq6o",0
 00-0022924,Ben Roethlisberger,PIT,2021,1,18,32,188,1,0,1,8,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vziogpnyp9d0xtpiuqhr",8
 00-0022924,Ben Roethlisberger,PIT,2021,2,27,40,295,1,1,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vziogpnyp9d0xtpiuqhr",0
@@ -33,6 +35,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0022924,Ben Roethlisberger,PIT,2021,16,23,35,159,1,1,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vziogpnyp9d0xtpiuqhr",0
 00-0022924,Ben Roethlisberger,PIT,2021,17,24,46,123,1,1,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vziogpnyp9d0xtpiuqhr",0
 00-0022924,Ben Roethlisberger,PIT,2021,18,30,44,244,1,1,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vziogpnyp9d0xtpiuqhr",0
+00-0022924,Ben Roethlisberger,PIT,2021,19,29,44,215,2,0,1,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vziogpnyp9d0xtpiuqhr",0
 00-0023459,Aaron Rodgers,GB,2021,1,15,28,133,0,2,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hh8azxeqpydxofvo0suc",0
 00-0023459,Aaron Rodgers,GB,2021,2,22,27,255,4,0,3,7,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hh8azxeqpydxofvo0suc",7
 00-0023459,Aaron Rodgers,GB,2021,3,23,31,261,2,0,0,0,1,-4,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hh8azxeqpydxofvo0suc",-4
@@ -49,6 +52,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0023459,Aaron Rodgers,GB,2021,16,24,34,202,3,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hh8azxeqpydxofvo0suc",0
 00-0023459,Aaron Rodgers,GB,2021,17,29,38,288,2,0,2,8,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hh8azxeqpydxofvo0suc",8
 00-0023459,Aaron Rodgers,GB,2021,18,14,18,138,2,0,1,7,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hh8azxeqpydxofvo0suc",7
+00-0023459,Aaron Rodgers,GB,2021,20,20,28,225,0,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hh8azxeqpydxofvo0suc",0
 00-0023682,Ryan Fitzpatrick,WAS,2021,1,3,6,13,0,0,1,2,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pkhhxwplsawnhln9rsun",2
 00-0024243,Marcedes Lewis,GB,2021,1,0,0,0,0,0,0,0,1,19,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/waiqrdmxxu0as9vmp93h",19
 00-0024243,Marcedes Lewis,GB,2021,4,0,0,0,0,0,0,0,1,7,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/waiqrdmxxu0as9vmp93h",7
@@ -63,6 +67,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0024243,Marcedes Lewis,GB,2021,15,0,0,0,0,0,0,0,3,40,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/waiqrdmxxu0as9vmp93h",40
 00-0024243,Marcedes Lewis,GB,2021,16,0,0,0,0,0,0,0,2,2,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/waiqrdmxxu0as9vmp93h",2
 00-0024243,Marcedes Lewis,GB,2021,18,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/waiqrdmxxu0as9vmp93h",0
+00-0024243,Marcedes Lewis,GB,2021,20,0,0,0,0,0,0,0,1,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/waiqrdmxxu0as9vmp93h",0
 00-0024417,Sam Koch,BAL,2021,18,0,1,0,0,0,0,0,0,0,P,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dw34lcf6qit1i1knjhpv",0
 00-0025394,Adrian Peterson,TEN,2021,9,0,0,0,0,0,10,21,1,5,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/scivltnerox4ykflbwdk",26
 00-0025394,Adrian Peterson,TEN,2021,10,0,0,0,0,0,8,21,1,-1,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/scivltnerox4ykflbwdk",20
@@ -109,6 +114,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0026189,DeSean Jackson,LV,2021,15,0,0,0,0,0,0,0,1,11,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pr5m864fqvnoozihylrh",11
 00-0026189,DeSean Jackson,LV,2021,16,0,0,0,0,0,0,0,4,44,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pr5m864fqvnoozihylrh",44
 00-0026189,DeSean Jackson,LV,2021,17,0,0,0,0,0,0,0,1,5,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pr5m864fqvnoozihylrh",5
+00-0026189,DeSean Jackson,LV,2021,19,0,0,0,0,0,0,0,1,26,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pr5m864fqvnoozihylrh",26
 00-0026197,Chad Henne,KC,2021,7,11,16,82,0,0,1,4,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tdf5tpwxekg03cujr5q5",4
 00-0026197,Chad Henne,KC,2021,16,0,0,0,0,0,2,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tdf5tpwxekg03cujr5q5",0
 00-0026300,Josh Johnson,NYJ,2021,8,2,4,17,0,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/joqk6e9qhsg7n6jej2ya",0
@@ -131,6 +137,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0026498,Matthew Stafford,LA,2021,16,21,37,197,1,3,2,9,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxll35kun2cq2aeluaav",9
 00-0026498,Matthew Stafford,LA,2021,17,26,35,309,2,2,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxll35kun2cq2aeluaav",0
 00-0026498,Matthew Stafford,LA,2021,18,21,32,238,3,2,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxll35kun2cq2aeluaav",0
+00-0026498,Matthew Stafford,LA,2021,19,13,17,202,2,0,6,22,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxll35kun2cq2aeluaav",22
+00-0026498,Matthew Stafford,LA,2021,20,28,37,366,2,0,4,6,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxll35kun2cq2aeluaav",6
+00-0026498,Matthew Stafford,LA,2021,21,31,45,337,2,1,2,14,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxll35kun2cq2aeluaav",14
 00-0026625,Brian Hoyer,NE,2021,7,3,4,79,0,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qfawmzukujsqmuwlpkjy",0
 00-0026625,Brian Hoyer,NE,2021,10,3,3,85,1,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qfawmzukujsqmuwlpkjy",0
 00-0026625,Brian Hoyer,NE,2021,17,3,4,63,0,0,1,2,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qfawmzukujsqmuwlpkjy",2
@@ -162,6 +171,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0027656,Rob Gronkowski,TB,2021,16,0,0,0,0,0,0,0,1,23,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/svpo7chliiymc0r7hegp",23
 00-0027656,Rob Gronkowski,TB,2021,17,0,0,0,0,0,0,0,7,115,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/svpo7chliiymc0r7hegp",115
 00-0027656,Rob Gronkowski,TB,2021,18,0,0,0,0,0,0,0,7,137,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/svpo7chliiymc0r7hegp",137
+00-0027656,Rob Gronkowski,TB,2021,19,0,0,0,0,0,0,0,5,31,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/svpo7chliiymc0r7hegp",31
+00-0027656,Rob Gronkowski,TB,2021,20,0,0,0,0,0,0,0,4,85,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/svpo7chliiymc0r7hegp",85
 00-0027685,Emmanuel Sanders,BUF,2021,1,0,0,0,0,0,0,0,4,52,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/potkibjtm855tsawozs0",52
 00-0027685,Emmanuel Sanders,BUF,2021,2,0,0,0,0,0,0,0,2,48,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/potkibjtm855tsawozs0",48
 00-0027685,Emmanuel Sanders,BUF,2021,3,0,0,0,0,0,0,0,5,94,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/potkibjtm855tsawozs0",94
@@ -176,6 +187,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0027685,Emmanuel Sanders,BUF,2021,13,0,0,0,0,0,0,0,3,22,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/potkibjtm855tsawozs0",22
 00-0027685,Emmanuel Sanders,BUF,2021,14,0,0,0,0,0,0,0,1,25,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/potkibjtm855tsawozs0",25
 00-0027685,Emmanuel Sanders,BUF,2021,16,0,0,0,0,0,0,0,2,20,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/potkibjtm855tsawozs0",20
+00-0027685,Emmanuel Sanders,BUF,2021,19,0,0,0,0,0,0,0,2,36,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/potkibjtm855tsawozs0",36
+00-0027685,Emmanuel Sanders,BUF,2021,20,0,0,0,0,0,0,0,1,16,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/potkibjtm855tsawozs0",16
 00-0027688,Colt McCoy,ARI,2021,9,22,26,249,1,0,6,24,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/anp7vkwvnmysxdq12kd6",24
 00-0027688,Colt McCoy,ARI,2021,10,11,20,107,0,1,1,-1,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/anp7vkwvnmysxdq12kd6",-1
 00-0027688,Colt McCoy,ARI,2021,11,35,44,328,2,0,4,20,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/anp7vkwvnmysxdq12kd6",20
@@ -226,6 +239,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0027942,AJ Green,ARI,2021,16,0,0,0,0,0,0,0,1,33,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ibugzfv4xaeq9y4xurmj",33
 00-0027942,AJ Green,ARI,2021,17,0,0,0,0,0,0,0,3,74,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ibugzfv4xaeq9y4xurmj",74
 00-0027942,AJ Green,ARI,2021,18,0,0,0,0,0,0,0,4,23,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ibugzfv4xaeq9y4xurmj",23
+00-0027942,AJ Green,ARI,2021,19,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ibugzfv4xaeq9y4xurmj",0
 00-0027944,Julio Jones,TEN,2021,1,0,0,0,0,0,0,0,3,29,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxrjunbln50toj2tmvbs",29
 00-0027944,Julio Jones,TEN,2021,2,0,0,0,0,0,0,0,6,128,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxrjunbln50toj2tmvbs",128
 00-0027944,Julio Jones,TEN,2021,3,0,0,0,0,0,0,0,3,47,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxrjunbln50toj2tmvbs",47
@@ -236,6 +250,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0027944,Julio Jones,TEN,2021,15,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxrjunbln50toj2tmvbs",0
 00-0027944,Julio Jones,TEN,2021,16,0,0,0,0,0,0,0,1,7,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxrjunbln50toj2tmvbs",7
 00-0027944,Julio Jones,TEN,2021,18,0,0,0,0,0,0,0,5,58,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxrjunbln50toj2tmvbs",58
+00-0027944,Julio Jones,TEN,2021,20,0,0,0,0,0,0,0,6,62,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pxrjunbln50toj2tmvbs",62
 00-0027948,Blaine Gabbert,TB,2021,5,3,3,41,0,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vrvxga0lrqbq9gn5p2gz",0
 00-0027948,Blaine Gabbert,TB,2021,7,2,3,15,0,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vrvxga0lrqbq9gn5p2gz",0
 00-0027948,Blaine Gabbert,TB,2021,11,2,2,11,0,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vrvxga0lrqbq9gn5p2gz",0
@@ -289,6 +304,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0028002,Randall Cobb,GB,2021,10,0,0,0,0,0,0,0,3,21,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ymvdhxjb4yvtpt8hvrfj",21
 00-0028002,Randall Cobb,GB,2021,11,0,0,0,0,0,0,0,1,15,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ymvdhxjb4yvtpt8hvrfj",15
 00-0028002,Randall Cobb,GB,2021,12,0,0,0,0,0,0,0,4,95,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ymvdhxjb4yvtpt8hvrfj",95
+00-0028002,Randall Cobb,GB,2021,20,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ymvdhxjb4yvtpt8hvrfj",0
 00-0028042,Luke Stocker,MIN,2021,8,0,0,0,0,0,0,0,1,7,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/keoilbfzupthtliuou1a",7
 00-0028042,Luke Stocker,MIN,2021,9,0,0,0,0,0,0,0,1,5,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/keoilbfzupthtliuou1a",5
 00-0028097,Lee Smith,ATL,2021,2,0,0,0,0,0,0,0,1,9,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gcaqwhzrinlqicrljwlr",9
@@ -332,6 +348,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0029000,Cole Beasley,BUF,2021,15,0,0,0,0,0,0,0,4,35,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y5r0fhwctl6ljwvmktvu",35
 00-0029000,Cole Beasley,BUF,2021,17,0,0,0,0,0,0,0,2,22,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y5r0fhwctl6ljwvmktvu",22
 00-0029000,Cole Beasley,BUF,2021,18,0,0,0,0,0,0,0,4,31,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y5r0fhwctl6ljwvmktvu",31
+00-0029000,Cole Beasley,BUF,2021,19,0,0,0,0,0,0,0,1,19,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y5r0fhwctl6ljwvmktvu",19
+00-0029000,Cole Beasley,BUF,2021,20,0,0,0,0,0,0,0,6,60,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y5r0fhwctl6ljwvmktvu",60
 00-0029119,Derek Carrier,LV,2021,2,0,0,0,0,0,0,0,2,13,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fohbnjxhixammxtonhnd",13
 00-0029164,Mike Remmers,KC,2021,1,0,0,0,0,0,0,0,1,-2,T,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qsp6ncqgwc9uyrgptyrc",-2
 00-0029239,Brandon Bolden,NE,2021,1,0,0,0,0,0,1,5,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mptlgcl3v8ttrhbm1dqh",5
@@ -350,6 +368,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0029239,Brandon Bolden,NE,2021,16,0,0,0,0,0,2,4,2,20,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mptlgcl3v8ttrhbm1dqh",24
 00-0029239,Brandon Bolden,NE,2021,17,0,0,0,0,0,1,4,2,21,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mptlgcl3v8ttrhbm1dqh",25
 00-0029239,Brandon Bolden,NE,2021,18,0,0,0,0,0,7,46,2,20,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mptlgcl3v8ttrhbm1dqh",66
+00-0029239,Brandon Bolden,NE,2021,19,0,0,0,0,0,0,0,4,27,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mptlgcl3v8ttrhbm1dqh",27
 00-0029263,Russell Wilson,SEA,2021,1,18,23,254,4,0,5,9,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lszslgbcc002sqjogape",9
 00-0029263,Russell Wilson,SEA,2021,2,22,31,343,2,0,3,16,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lszslgbcc002sqjogape",16
 00-0029263,Russell Wilson,SEA,2021,3,23,32,298,1,0,3,7,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lszslgbcc002sqjogape",7
@@ -367,6 +386,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0029269,Travis Benjamin,SF,2021,5,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/io9silocxbywvisvcvpx",0
 00-0029269,Travis Benjamin,SF,2021,14,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/io9silocxbywvisvcvpx",0
 00-0029269,Travis Benjamin,SF,2021,18,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/io9silocxbywvisvcvpx",0
+00-0029269,Travis Benjamin,SF,2021,19,0,0,0,0,0,0,0,1,17,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/io9silocxbywvisvcvpx",17
+00-0029269,Travis Benjamin,SF,2021,21,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/io9silocxbywvisvcvpx",0
 00-0029293,Marvin Jones,JAX,2021,1,0,0,0,0,0,0,0,5,77,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x09ruarqlcrdsjqq5mpg",77
 00-0029293,Marvin Jones,JAX,2021,2,0,0,0,0,0,0,0,6,55,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x09ruarqlcrdsjqq5mpg",55
 00-0029293,Marvin Jones,JAX,2021,3,0,0,0,0,0,0,0,6,62,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x09ruarqlcrdsjqq5mpg",62
@@ -428,6 +449,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0029664,Josh Gordon,KC,2021,16,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/atwcq5nczzb5k85fince",0
 00-0029664,Josh Gordon,KC,2021,17,0,0,0,0,0,0,0,1,5,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/atwcq5nczzb5k85fince",5
 00-0029664,Josh Gordon,KC,2021,18,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/atwcq5nczzb5k85fince",0
+00-0029692,Bryan Anger,DAL,2021,19,1,1,16,0,0,0,0,0,0,P,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ctqiowlertpzlq7rzbri",0
 00-0029701,Ryan Tannehill,TEN,2021,1,21,35,212,1,1,2,17,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hknfdi8rwhtpgpmwlhcy",17
 00-0029701,Ryan Tannehill,TEN,2021,2,27,40,347,0,0,3,28,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hknfdi8rwhtpgpmwlhcy",28
 00-0029701,Ryan Tannehill,TEN,2021,3,18,27,197,3,2,3,58,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hknfdi8rwhtpgpmwlhcy",58
@@ -445,6 +467,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0029701,Ryan Tannehill,TEN,2021,16,22,29,209,1,0,3,22,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hknfdi8rwhtpgpmwlhcy",22
 00-0029701,Ryan Tannehill,TEN,2021,17,13,18,120,2,0,4,7,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hknfdi8rwhtpgpmwlhcy",7
 00-0029701,Ryan Tannehill,TEN,2021,18,23,32,287,4,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hknfdi8rwhtpgpmwlhcy",0
+00-0029701,Ryan Tannehill,TEN,2021,20,15,24,220,1,3,3,12,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hknfdi8rwhtpgpmwlhcy",12
 00-0029738,Darren Fells,DET,2021,1,0,0,0,0,0,0,0,1,2,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/eh0rbweg4wbzgzpvprnv",2
 00-0029738,Darren Fells,DET,2021,3,0,0,0,0,0,0,0,2,35,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/eh0rbweg4wbzgzpvprnv",35
 00-0029738,Darren Fells,DET,2021,7,0,0,0,0,0,0,0,1,6,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/eh0rbweg4wbzgzpvprnv",6
@@ -464,6 +487,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0029892,Kyle Juszczyk,SF,2021,15,0,0,0,0,0,1,6,1,6,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yw3gzi3ijyn4yhnbvd5c",12
 00-0029892,Kyle Juszczyk,SF,2021,16,0,0,0,0,0,0,0,3,45,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yw3gzi3ijyn4yhnbvd5c",45
 00-0029892,Kyle Juszczyk,SF,2021,17,0,0,0,0,0,0,0,2,9,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yw3gzi3ijyn4yhnbvd5c",9
+00-0029892,Kyle Juszczyk,SF,2021,19,0,0,0,0,0,0,0,2,15,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yw3gzi3ijyn4yhnbvd5c",15
+00-0029892,Kyle Juszczyk,SF,2021,20,0,0,0,0,0,2,14,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yw3gzi3ijyn4yhnbvd5c",14
+00-0029892,Kyle Juszczyk,SF,2021,21,0,0,0,0,0,1,0,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yw3gzi3ijyn4yhnbvd5c",0
 00-0030035,Adam Thielen,MIN,2021,1,0,0,0,0,0,0,0,9,92,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yaqb24k1lrtbl4a0hxtl",92
 00-0030035,Adam Thielen,MIN,2021,2,0,0,0,0,0,0,0,6,39,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yaqb24k1lrtbl4a0hxtl",39
 00-0030035,Adam Thielen,MIN,2021,3,0,0,0,0,0,0,0,6,50,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yaqb24k1lrtbl4a0hxtl",50
@@ -494,6 +520,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0030061,Zach Ertz,ARI,2021,16,0,0,0,0,0,0,0,8,54,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y4cua1auc75ybocf2ijz",54
 00-0030061,Zach Ertz,ARI,2021,17,0,0,0,0,0,0,0,7,41,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y4cua1auc75ybocf2ijz",41
 00-0030061,Zach Ertz,ARI,2021,18,0,0,0,0,0,0,0,7,84,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y4cua1auc75ybocf2ijz",84
+00-0030061,Zach Ertz,ARI,2021,19,0,0,0,0,0,0,0,3,21,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y4cua1auc75ybocf2ijz",21
 00-0030068,Marquise Goodwin,CHI,2021,1,0,0,0,0,0,1,-2,4,45,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pmssb3pyiripkxwqmnqp",43
 00-0030068,Marquise Goodwin,CHI,2021,2,0,0,0,0,0,0,0,1,10,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pmssb3pyiripkxwqmnqp",10
 00-0030068,Marquise Goodwin,CHI,2021,3,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pmssb3pyiripkxwqmnqp",0
@@ -596,6 +623,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0030456,Giovani Bernard,TB,2021,10,0,0,0,0,0,1,4,1,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xkitozoc6vzwlxibvz0w",8
 00-0030456,Giovani Bernard,TB,2021,11,0,0,0,0,0,0,0,1,3,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xkitozoc6vzwlxibvz0w",3
 00-0030456,Giovani Bernard,TB,2021,13,0,0,0,0,0,1,3,1,7,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xkitozoc6vzwlxibvz0w",10
+00-0030456,Giovani Bernard,TB,2021,19,0,0,0,0,0,13,44,5,39,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xkitozoc6vzwlxibvz0w",83
+00-0030456,Giovani Bernard,TB,2021,20,0,0,0,0,0,0,0,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xkitozoc6vzwlxibvz0w",0
 00-0030465,Kenjon Barner,TB,2021,18,0,0,0,0,0,4,0,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nszl4kwbns3gyopxquzu",0
 00-0030496,Le'Veon Bell,BAL,2021,4,0,0,0,0,0,4,11,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sm3ij3pcby5ciqwaaqa1",11
 00-0030496,Le'Veon Bell,BAL,2021,6,0,0,0,0,0,8,18,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sm3ij3pcby5ciqwaaqa1",18
@@ -621,6 +650,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0030506,Travis Kelce,KC,2021,15,0,0,0,0,0,0,0,10,191,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bcm53707vuxzjyml1ujt",191
 00-0030506,Travis Kelce,KC,2021,17,0,0,0,0,0,1,-1,5,25,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bcm53707vuxzjyml1ujt",24
 00-0030506,Travis Kelce,KC,2021,18,0,0,0,0,0,0,0,4,34,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bcm53707vuxzjyml1ujt",34
+00-0030506,Travis Kelce,KC,2021,19,1,1,2,1,0,0,0,5,108,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bcm53707vuxzjyml1ujt",108
+00-0030506,Travis Kelce,KC,2021,20,0,0,0,0,0,0,0,8,96,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bcm53707vuxzjyml1ujt",96
+00-0030506,Travis Kelce,KC,2021,21,0,0,0,0,0,0,0,10,95,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bcm53707vuxzjyml1ujt",95
 00-0030513,Latavius Murray,BAL,2021,1,0,0,0,0,0,10,28,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/e0c55kmyf6le5v6jmmrm",28
 00-0030513,Latavius Murray,BAL,2021,2,0,0,0,0,0,9,36,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/e0c55kmyf6le5v6jmmrm",36
 00-0030513,Latavius Murray,BAL,2021,3,0,0,0,0,0,7,28,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/e0c55kmyf6le5v6jmmrm",28
@@ -751,6 +783,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031235,Odell Beckham,LA,2021,16,0,0,0,0,0,0,0,4,37,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dw6kneiq5flxfw0m6rf3",37
 00-0031235,Odell Beckham,LA,2021,17,0,0,0,0,0,0,0,5,39,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dw6kneiq5flxfw0m6rf3",39
 00-0031235,Odell Beckham,LA,2021,18,0,0,0,0,0,0,0,2,18,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dw6kneiq5flxfw0m6rf3",18
+00-0031235,Odell Beckham,LA,2021,19,1,1,40,0,0,0,0,4,54,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dw6kneiq5flxfw0m6rf3",54
+00-0031235,Odell Beckham,LA,2021,20,0,0,0,0,0,0,0,6,69,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dw6kneiq5flxfw0m6rf3",69
+00-0031235,Odell Beckham,LA,2021,21,0,0,0,0,0,0,0,9,113,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dw6kneiq5flxfw0m6rf3",113
 00-0031236,Brandin Cooks,HOU,2021,1,0,0,0,0,0,0,0,5,132,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/f3z5yinzicnr0phuhewt",132
 00-0031236,Brandin Cooks,HOU,2021,2,0,0,0,0,0,0,0,9,78,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/f3z5yinzicnr0phuhewt",78
 00-0031236,Brandin Cooks,HOU,2021,3,0,0,0,0,0,1,5,9,112,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/f3z5yinzicnr0phuhewt",117
@@ -802,6 +837,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031273,Cameron Brate,TB,2021,16,0,0,0,0,0,0,0,2,11,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lh1e0z6x8k9hqz1aba5b",11
 00-0031273,Cameron Brate,TB,2021,17,0,0,0,0,0,0,0,2,5,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lh1e0z6x8k9hqz1aba5b",5
 00-0031273,Cameron Brate,TB,2021,18,0,0,0,0,0,0,0,2,12,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lh1e0z6x8k9hqz1aba5b",12
+00-0031273,Cameron Brate,TB,2021,19,0,0,0,0,0,0,0,3,29,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lh1e0z6x8k9hqz1aba5b",29
+00-0031273,Cameron Brate,TB,2021,20,0,0,0,0,0,0,0,1,9,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lh1e0z6x8k9hqz1aba5b",9
 00-0031280,Derek Carr,LV,2021,1,34,54,435,2,1,4,6,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nlc7pociyyzco248rptq",6
 00-0031280,Derek Carr,LV,2021,2,28,37,382,2,0,4,9,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nlc7pociyyzco248rptq",9
 00-0031280,Derek Carr,LV,2021,3,26,43,386,2,1,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nlc7pociyyzco248rptq",0
@@ -819,6 +856,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031280,Derek Carr,LV,2021,16,20,25,201,1,1,3,9,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nlc7pociyyzco248rptq",9
 00-0031280,Derek Carr,LV,2021,17,24,31,255,1,2,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nlc7pociyyzco248rptq",0
 00-0031280,Derek Carr,LV,2021,18,20,36,186,2,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nlc7pociyyzco248rptq",0
+00-0031280,Derek Carr,LV,2021,19,29,53,310,1,1,1,20,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nlc7pociyyzco248rptq",20
 00-0031285,Devonta Freeman,BAL,2021,2,0,0,0,0,0,2,29,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vjhvfwypu1byxfo2uvki",29
 00-0031285,Devonta Freeman,BAL,2021,3,0,0,0,0,0,3,8,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vjhvfwypu1byxfo2uvki",8
 00-0031285,Devonta Freeman,BAL,2021,4,0,0,0,0,0,1,4,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vjhvfwypu1byxfo2uvki",4
@@ -865,6 +903,10 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031345,Jimmy Garoppolo,SF,2021,15,18,23,235,1,0,3,4,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fuepwtifp7wd9grpzvwb",4
 00-0031345,Jimmy Garoppolo,SF,2021,16,26,35,322,1,2,1,3,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fuepwtifp7wd9grpzvwb",3
 00-0031345,Jimmy Garoppolo,SF,2021,18,23,31,316,1,2,1,1,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fuepwtifp7wd9grpzvwb",1
+00-0031345,Jimmy Garoppolo,SF,2021,19,16,25,172,0,1,1,1,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fuepwtifp7wd9grpzvwb",1
+00-0031345,Jimmy Garoppolo,SF,2021,20,11,19,131,0,1,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fuepwtifp7wd9grpzvwb",0
+00-0031345,Jimmy Garoppolo,SF,2021,21,16,29,232,2,1,1,4,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fuepwtifp7wd9grpzvwb",4
+00-0031357,CJ Goodwin,DAL,2021,19,0,0,0,0,0,0,0,1,16,CB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ssorwzasqlx3sdajvegd",16
 00-0031363,Michael Palardy,MIA,2021,18,0,0,0,0,0,1,1,0,0,P,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hoxfeahxcb9sbz83nose",1
 00-0031376,Jerick McKinnon,KC,2021,2,0,0,0,0,0,0,0,1,14,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccukshhoancicaw7j0nh",14
 00-0031376,Jerick McKinnon,KC,2021,5,0,0,0,0,0,1,2,2,13,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccukshhoancicaw7j0nh",15
@@ -873,6 +915,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031376,Jerick McKinnon,KC,2021,9,0,0,0,0,0,0,0,3,26,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccukshhoancicaw7j0nh",26
 00-0031376,Jerick McKinnon,KC,2021,10,0,0,0,0,0,3,26,1,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccukshhoancicaw7j0nh",32
 00-0031376,Jerick McKinnon,KC,2021,18,0,0,0,0,0,5,24,3,26,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccukshhoancicaw7j0nh",50
+00-0031376,Jerick McKinnon,KC,2021,19,0,0,0,0,0,12,61,6,81,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccukshhoancicaw7j0nh",142
+00-0031376,Jerick McKinnon,KC,2021,20,0,0,0,0,0,10,24,5,54,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccukshhoancicaw7j0nh",78
+00-0031376,Jerick McKinnon,KC,2021,21,0,0,0,0,0,12,65,3,30,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccukshhoancicaw7j0nh",95
 00-0031381,Davante Adams,GB,2021,1,0,0,0,0,0,0,0,5,56,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hxerspgvszxel5frf2ez",56
 00-0031381,Davante Adams,GB,2021,2,0,0,0,0,0,0,0,8,121,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hxerspgvszxel5frf2ez",121
 00-0031381,Davante Adams,GB,2021,3,0,0,0,0,0,0,0,12,132,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hxerspgvszxel5frf2ez",132
@@ -889,6 +934,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031381,Davante Adams,GB,2021,16,0,0,0,0,0,0,0,10,114,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hxerspgvszxel5frf2ez",114
 00-0031381,Davante Adams,GB,2021,17,0,0,0,0,0,0,0,11,136,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hxerspgvszxel5frf2ez",136
 00-0031381,Davante Adams,GB,2021,18,0,0,0,0,0,0,0,6,55,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hxerspgvszxel5frf2ez",55
+00-0031381,Davante Adams,GB,2021,20,0,0,0,0,0,0,0,9,90,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hxerspgvszxel5frf2ez",90
 00-0031382,Jarvis Landry,CLE,2021,1,0,0,0,0,0,2,13,5,71,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/munogq6pr4gicsicbyhh",84
 00-0031382,Jarvis Landry,CLE,2021,2,0,0,0,0,0,0,0,1,9,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/munogq6pr4gicsicbyhh",9
 00-0031382,Jarvis Landry,CLE,2021,7,0,0,0,0,0,0,0,5,37,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/munogq6pr4gicsicbyhh",37
@@ -927,6 +973,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031408,Mike Evans,TB,2021,15,0,0,0,0,0,0,0,1,14,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hp7exmuqylysgife5p9m",14
 00-0031408,Mike Evans,TB,2021,17,0,0,0,0,0,0,0,4,47,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hp7exmuqylysgife5p9m",47
 00-0031408,Mike Evans,TB,2021,18,0,0,0,0,0,0,0,6,89,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hp7exmuqylysgife5p9m",89
+00-0031408,Mike Evans,TB,2021,19,0,0,0,0,0,0,0,9,117,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hp7exmuqylysgife5p9m",117
+00-0031408,Mike Evans,TB,2021,20,0,0,0,0,0,0,0,8,119,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hp7exmuqylysgife5p9m",119
 00-0031428,Allen Robinson,CHI,2021,1,0,0,0,0,0,0,0,6,35,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pph9jgnrnnlilxz8xhd9",35
 00-0031428,Allen Robinson,CHI,2021,2,0,0,0,0,0,0,0,2,24,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pph9jgnrnnlilxz8xhd9",24
 00-0031428,Allen Robinson,CHI,2021,3,0,0,0,0,0,0,0,2,27,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pph9jgnrnnlilxz8xhd9",27
@@ -970,6 +1018,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031544,Amari Cooper,DAL,2021,16,0,0,0,0,0,0,0,7,85,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gr04vdf3sfnunemciftn",85
 00-0031544,Amari Cooper,DAL,2021,17,0,0,0,0,0,0,0,3,18,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gr04vdf3sfnunemciftn",18
 00-0031544,Amari Cooper,DAL,2021,18,0,0,0,0,0,0,0,5,79,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gr04vdf3sfnunemciftn",79
+00-0031544,Amari Cooper,DAL,2021,19,0,0,0,0,0,0,0,6,64,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gr04vdf3sfnunemciftn",64
 00-0031545,Kevin White,NO,2021,7,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nlgy6utjxctzouuekfzk",0
 00-0031545,Kevin White,NO,2021,8,0,0,0,0,0,0,0,1,38,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nlgy6utjxctzouuekfzk",38
 00-0031545,Kevin White,NO,2021,10,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nlgy6utjxctzouuekfzk",0
@@ -996,6 +1045,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031549,Nelson Agholor,NE,2021,13,0,0,0,0,0,1,6,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cym6r5v9z8uizic8ak5i",6
 00-0031549,Nelson Agholor,NE,2021,15,0,0,0,0,0,0,0,4,34,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cym6r5v9z8uizic8ak5i",34
 00-0031549,Nelson Agholor,NE,2021,18,0,0,0,0,0,0,0,1,23,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cym6r5v9z8uizic8ak5i",23
+00-0031549,Nelson Agholor,NE,2021,19,0,0,0,0,0,0,0,1,18,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cym6r5v9z8uizic8ak5i",18
 00-0031558,Maxx Williams,ARI,2021,1,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/njqxudmwe409p1fcg7if",0
 00-0031558,Maxx Williams,ARI,2021,2,0,0,0,0,0,0,0,7,94,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/njqxudmwe409p1fcg7if",94
 00-0031558,Maxx Williams,ARI,2021,3,0,0,0,0,0,0,0,3,19,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/njqxudmwe409p1fcg7if",19
@@ -1028,6 +1078,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031588,Stefon Diggs,BUF,2021,16,0,0,0,0,0,0,0,7,85,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hcvd2avk0kufoli80veb",85
 00-0031588,Stefon Diggs,BUF,2021,17,0,0,0,0,0,0,0,5,52,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hcvd2avk0kufoli80veb",52
 00-0031588,Stefon Diggs,BUF,2021,18,0,0,0,0,0,0,0,9,81,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hcvd2avk0kufoli80veb",81
+00-0031588,Stefon Diggs,BUF,2021,19,0,0,0,0,0,0,0,3,60,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hcvd2avk0kufoli80veb",60
+00-0031588,Stefon Diggs,BUF,2021,20,0,0,0,0,0,0,0,3,7,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hcvd2avk0kufoli80veb",7
 00-0031595,Michael Burton,KC,2021,1,0,0,0,0,0,1,2,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vsa0egebclbkccj7uzwp",2
 00-0031595,Michael Burton,KC,2021,2,0,0,0,0,0,0,0,1,11,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vsa0egebclbkccj7uzwp",11
 00-0031595,Michael Burton,KC,2021,4,0,0,0,0,0,1,5,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vsa0egebclbkccj7uzwp",5
@@ -1037,6 +1089,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031595,Michael Burton,KC,2021,15,0,0,0,0,0,1,7,2,20,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vsa0egebclbkccj7uzwp",27
 00-0031595,Michael Burton,KC,2021,16,0,0,0,0,0,1,2,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vsa0egebclbkccj7uzwp",2
 00-0031595,Michael Burton,KC,2021,17,0,0,0,0,0,1,2,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vsa0egebclbkccj7uzwp",2
+00-0031595,Michael Burton,KC,2021,19,0,0,0,0,0,1,3,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vsa0egebclbkccj7uzwp",3
+00-0031595,Michael Burton,KC,2021,21,0,0,0,0,0,1,1,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vsa0egebclbkccj7uzwp",1
 00-0031598,Nick Boyle,BAL,2021,11,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ezhws8qbjhti1p3gcn2h",0
 00-0031598,Nick Boyle,BAL,2021,17,0,0,0,0,0,0,0,1,2,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ezhws8qbjhti1p3gcn2h",2
 00-0031610,Darren Waller,LV,2021,1,0,0,0,0,0,0,0,10,105,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zr239ya4yqyvi16jmoyh",105
@@ -1050,6 +1104,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0031610,Darren Waller,LV,2021,11,0,0,0,0,0,0,0,7,116,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zr239ya4yqyvi16jmoyh",116
 00-0031610,Darren Waller,LV,2021,12,0,0,0,0,0,0,0,2,33,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zr239ya4yqyvi16jmoyh",33
 00-0031610,Darren Waller,LV,2021,18,0,0,0,0,0,0,0,2,22,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zr239ya4yqyvi16jmoyh",22
+00-0031610,Darren Waller,LV,2021,19,0,0,0,0,0,0,0,7,76,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zr239ya4yqyvi16jmoyh",76
 00-0031687,Raheem Mostert,SF,2021,1,0,0,0,0,0,2,20,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ukk92rkuyqdyx3sigj5z",20
 00-0031690,Eric Tomlinson,BAL,2021,9,0,0,0,0,0,0,0,1,7,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/swiwooxium4wmas8wq4c",7
 00-0031763,DeAndre Carter,WAS,2021,2,0,0,0,0,0,1,2,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ntvfcvfd32hho1rkokwi",2
@@ -1146,6 +1201,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0032054,Breshad Perriman,TB,2021,14,0,0,0,0,0,0,0,1,58,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yaurjahdzk6pski1lvcp",58
 00-0032054,Breshad Perriman,TB,2021,17,0,0,0,0,0,0,0,2,41,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yaurjahdzk6pski1lvcp",41
 00-0032054,Breshad Perriman,TB,2021,18,0,0,0,0,0,0,0,5,44,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yaurjahdzk6pski1lvcp",44
+00-0032054,Breshad Perriman,TB,2021,19,0,0,0,0,0,0,0,1,5,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yaurjahdzk6pski1lvcp",5
 00-0032058,Tevin Coleman,NYJ,2021,1,0,0,0,0,0,9,24,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cy80drx21ucuyagaochk",24
 00-0032058,Tevin Coleman,NYJ,2021,2,0,0,0,0,0,5,24,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cy80drx21ucuyagaochk",24
 00-0032058,Tevin Coleman,NYJ,2021,4,0,0,0,0,0,4,14,2,17,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cy80drx21ucuyagaochk",31
@@ -1168,6 +1224,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0032062,Blake Bell,KC,2021,15,0,0,0,0,0,1,3,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ntxr4nalgvk0hszuoggg",3
 00-0032062,Blake Bell,KC,2021,16,0,0,0,0,0,0,0,1,11,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ntxr4nalgvk0hszuoggg",11
 00-0032062,Blake Bell,KC,2021,17,0,0,0,0,0,1,2,3,35,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ntxr4nalgvk0hszuoggg",37
+00-0032062,Blake Bell,KC,2021,19,0,0,0,0,0,0,0,1,3,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ntxr4nalgvk0hszuoggg",3
 00-0032063,Mike Davis,ATL,2021,1,0,0,0,0,0,15,49,3,23,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/a12intlc15po42xebdxv",72
 00-0032063,Mike Davis,ATL,2021,2,0,0,0,0,0,9,38,7,25,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/a12intlc15po42xebdxv",63
 00-0032063,Mike Davis,ATL,2021,3,0,0,0,0,0,12,50,4,20,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/a12intlc15po42xebdxv",70
@@ -1231,6 +1288,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0032134,CJ Uzomah,CIN,2021,15,0,0,0,0,0,0,0,3,18,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mx5gvpkq84jphclpkvux",18
 00-0032134,CJ Uzomah,CIN,2021,16,0,0,0,0,0,0,0,5,36,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mx5gvpkq84jphclpkvux",36
 00-0032134,CJ Uzomah,CIN,2021,17,0,0,0,0,0,0,0,4,32,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mx5gvpkq84jphclpkvux",32
+00-0032134,CJ Uzomah,CIN,2021,19,0,0,0,0,0,0,0,6,64,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mx5gvpkq84jphclpkvux",64
+00-0032134,CJ Uzomah,CIN,2021,20,0,0,0,0,0,0,0,7,71,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mx5gvpkq84jphclpkvux",71
+00-0032134,CJ Uzomah,CIN,2021,21,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mx5gvpkq84jphclpkvux",0
 00-0032135,Jesse James,CHI,2021,7,0,0,0,0,0,0,0,3,20,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/paqmqdfdbzhs6lqyqyck",20
 00-0032135,Jesse James,CHI,2021,8,0,0,0,0,0,0,0,3,38,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/paqmqdfdbzhs6lqyqyck",38
 00-0032135,Jesse James,CHI,2021,12,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/paqmqdfdbzhs6lqyqyck",0
@@ -1357,6 +1417,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0032355,Chester Rogers,TEN,2021,16,0,0,0,0,0,0,0,1,3,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lkszsifhpwtjpvjvlxw5",3
 00-0032355,Chester Rogers,TEN,2021,17,0,0,0,0,0,0,0,2,13,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lkszsifhpwtjpvjvlxw5",13
 00-0032355,Chester Rogers,TEN,2021,18,0,0,0,0,0,0,0,2,4,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lkszsifhpwtjpvjvlxw5",4
+00-0032355,Chester Rogers,TEN,2021,20,0,0,0,0,0,0,0,1,3,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lkszsifhpwtjpvjvlxw5",3
 00-0032381,Taylor Decker,DET,2021,14,0,0,0,0,0,0,0,1,-2,T,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p3bmsboyvddc9gdvv88h",-2
 00-0032381,Taylor Decker,DET,2021,17,0,0,0,0,0,0,0,1,6,T,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p3bmsboyvddc9gdvv88h",6
 00-0032385,Sterling Shepard,NYG,2021,1,0,0,0,0,0,0,0,7,113,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/apha3gqxgww5w48msti9",113
@@ -1491,6 +1552,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0032764,Derrick Henry,TEN,2021,6,0,0,0,0,0,20,143,2,13,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ved7bttliyuaps02d77d",156
 00-0032764,Derrick Henry,TEN,2021,7,1,1,5,1,0,29,86,2,16,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ved7bttliyuaps02d77d",102
 00-0032764,Derrick Henry,TEN,2021,8,0,0,0,0,0,28,68,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ved7bttliyuaps02d77d",68
+00-0032764,Derrick Henry,TEN,2021,20,0,0,0,0,0,20,62,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ved7bttliyuaps02d77d",62
 00-0032775,Demarcus Robinson,KC,2021,1,0,0,0,0,0,0,0,1,9,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wtcqldbyzmcdvsmgez1e",9
 00-0032775,Demarcus Robinson,KC,2021,2,0,0,0,0,0,0,0,3,46,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wtcqldbyzmcdvsmgez1e",46
 00-0032775,Demarcus Robinson,KC,2021,3,0,0,0,0,0,0,0,2,17,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wtcqldbyzmcdvsmgez1e",17
@@ -1505,6 +1567,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0032775,Demarcus Robinson,KC,2021,16,0,0,0,0,0,0,0,2,15,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wtcqldbyzmcdvsmgez1e",15
 00-0032775,Demarcus Robinson,KC,2021,17,0,0,0,0,0,0,0,2,33,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wtcqldbyzmcdvsmgez1e",33
 00-0032775,Demarcus Robinson,KC,2021,18,0,0,0,0,0,0,0,3,19,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wtcqldbyzmcdvsmgez1e",19
+00-0032775,Demarcus Robinson,KC,2021,19,0,0,0,0,0,0,0,4,76,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wtcqldbyzmcdvsmgez1e",76
+00-0032775,Demarcus Robinson,KC,2021,20,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wtcqldbyzmcdvsmgez1e",0
+00-0032775,Demarcus Robinson,KC,2021,21,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wtcqldbyzmcdvsmgez1e",0
 00-0032778,Tajae Sharpe,ATL,2021,2,0,0,0,0,0,0,0,1,8,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/alumkphxkkcwbqiahmgj",8
 00-0032778,Tajae Sharpe,ATL,2021,3,0,0,0,0,0,0,0,1,6,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/alumkphxkkcwbqiahmgj",6
 00-0032778,Tajae Sharpe,ATL,2021,4,0,0,0,0,0,0,0,2,15,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/alumkphxkkcwbqiahmgj",15
@@ -1526,6 +1591,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0032780,Jordan Howard,PHI,2021,15,0,0,0,0,0,15,69,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nbvb6bsrmjupmqrrf1n4",69
 00-0032780,Jordan Howard,PHI,2021,16,0,0,0,0,0,9,37,2,19,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nbvb6bsrmjupmqrrf1n4",56
 00-0032780,Jordan Howard,PHI,2021,17,0,0,0,0,0,11,26,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nbvb6bsrmjupmqrrf1n4",26
+00-0032780,Jordan Howard,PHI,2021,19,0,0,0,0,0,0,0,1,7,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nbvb6bsrmjupmqrrf1n4",7
 00-0032782,Wendell Smallwood,WAS,2021,13,0,0,0,0,0,1,13,2,12,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/r20rhl0c17ql8dtnl5kz",25
 00-0032782,Wendell Smallwood,WAS,2021,17,0,0,0,0,0,4,12,2,10,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/r20rhl0c17ql8dtnl5kz",22
 00-0032791,Jakeem Grant,MIA,2021,2,0,0,0,0,0,0,0,1,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/oroebifwkpzeyvna7khw",0
@@ -1552,6 +1618,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0032897,Derek Watt,PIT,2021,9,0,0,0,0,0,0,0,1,3,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/t4ahbnrenftmoq8ljyhv",3
 00-0032897,Derek Watt,PIT,2021,10,0,0,0,0,0,0,0,1,9,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/t4ahbnrenftmoq8ljyhv",9
 00-0032897,Derek Watt,PIT,2021,17,0,0,0,0,0,1,1,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/t4ahbnrenftmoq8ljyhv",1
+00-0032897,Derek Watt,PIT,2021,19,0,0,0,0,0,0,0,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/t4ahbnrenftmoq8ljyhv",0
 00-0032918,CJ Ham,MIN,2021,1,0,0,0,0,0,0,0,2,9,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wwea2evo37nfcnukjsdp",9
 00-0032918,CJ Ham,MIN,2021,3,0,0,0,0,0,2,2,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wwea2evo37nfcnukjsdp",2
 00-0032918,CJ Ham,MIN,2021,4,0,0,0,0,0,1,1,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wwea2evo37nfcnukjsdp",1
@@ -1659,6 +1726,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033009,Tyler Boyd,CIN,2021,15,0,0,0,0,0,0,0,5,96,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p4khoqwg4cbtvkyxnyop",96
 00-0033009,Tyler Boyd,CIN,2021,16,0,0,0,0,0,0,0,3,85,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p4khoqwg4cbtvkyxnyop",85
 00-0033009,Tyler Boyd,CIN,2021,17,0,0,0,0,0,0,0,4,36,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p4khoqwg4cbtvkyxnyop",36
+00-0033009,Tyler Boyd,CIN,2021,19,0,0,0,0,0,1,3,4,26,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p4khoqwg4cbtvkyxnyop",29
+00-0033009,Tyler Boyd,CIN,2021,20,0,0,0,0,0,0,0,2,17,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p4khoqwg4cbtvkyxnyop",17
+00-0033009,Tyler Boyd,CIN,2021,21,0,0,0,0,0,0,0,4,19,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p4khoqwg4cbtvkyxnyop",19
 00-0033025,Jalen Richard,LV,2021,5,0,0,0,0,0,0,0,1,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/evmn0ccnvk73tukpmk5f",4
 00-0033025,Jalen Richard,LV,2021,6,0,0,0,0,0,1,0,1,3,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/evmn0ccnvk73tukpmk5f",3
 00-0033025,Jalen Richard,LV,2021,7,0,0,0,0,0,4,8,3,17,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/evmn0ccnvk73tukpmk5f",25
@@ -1667,6 +1737,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033025,Jalen Richard,LV,2021,16,0,0,0,0,0,1,4,1,5,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/evmn0ccnvk73tukpmk5f",9
 00-0033025,Jalen Richard,LV,2021,17,0,0,0,0,0,1,4,1,19,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/evmn0ccnvk73tukpmk5f",23
 00-0033025,Jalen Richard,LV,2021,18,0,0,0,0,0,2,24,2,3,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/evmn0ccnvk73tukpmk5f",27
+00-0033025,Jalen Richard,LV,2021,19,0,0,0,0,0,0,0,1,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/evmn0ccnvk73tukpmk5f",4
 00-0033040,Tyreek Hill,KC,2021,1,0,0,0,0,0,1,4,11,197,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xw0jhb7zeobj4bkxfpwg",201
 00-0033040,Tyreek Hill,KC,2021,2,0,0,0,0,0,1,15,3,14,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xw0jhb7zeobj4bkxfpwg",29
 00-0033040,Tyreek Hill,KC,2021,3,0,0,0,0,0,1,11,5,56,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xw0jhb7zeobj4bkxfpwg",67
@@ -1684,6 +1755,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033040,Tyreek Hill,KC,2021,16,0,0,0,0,0,0,0,2,19,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xw0jhb7zeobj4bkxfpwg",19
 00-0033040,Tyreek Hill,KC,2021,17,0,0,0,0,0,1,2,6,40,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xw0jhb7zeobj4bkxfpwg",42
 00-0033040,Tyreek Hill,KC,2021,18,0,0,0,0,0,0,0,1,2,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xw0jhb7zeobj4bkxfpwg",2
+00-0033040,Tyreek Hill,KC,2021,19,0,0,0,0,0,0,0,5,57,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xw0jhb7zeobj4bkxfpwg",57
+00-0033040,Tyreek Hill,KC,2021,20,0,0,0,0,0,1,-2,11,150,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xw0jhb7zeobj4bkxfpwg",148
+00-0033040,Tyreek Hill,KC,2021,21,0,0,0,0,0,0,0,7,78,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xw0jhb7zeobj4bkxfpwg",78
 00-0033045,Ezekiel Elliott,DAL,2021,1,0,0,0,0,0,11,33,2,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/n8wmfstlhnieqa8fll7l",39
 00-0033045,Ezekiel Elliott,DAL,2021,2,0,0,0,0,0,16,71,2,26,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/n8wmfstlhnieqa8fll7l",97
 00-0033045,Ezekiel Elliott,DAL,2021,3,0,0,0,0,0,17,95,3,21,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/n8wmfstlhnieqa8fll7l",116
@@ -1701,6 +1775,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033045,Ezekiel Elliott,DAL,2021,16,0,0,0,0,0,9,37,1,5,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/n8wmfstlhnieqa8fll7l",42
 00-0033045,Ezekiel Elliott,DAL,2021,17,0,0,0,0,0,9,16,1,14,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/n8wmfstlhnieqa8fll7l",30
 00-0033045,Ezekiel Elliott,DAL,2021,18,0,0,0,0,0,18,87,1,3,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/n8wmfstlhnieqa8fll7l",90
+00-0033045,Ezekiel Elliott,DAL,2021,19,0,0,0,0,0,12,31,1,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/n8wmfstlhnieqa8fll7l",31
 00-0033077,Dak Prescott,DAL,2021,1,42,58,403,3,1,4,13,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yazkcmz5ke0rz11p3vbo",13
 00-0033077,Dak Prescott,DAL,2021,2,23,27,237,0,1,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yazkcmz5ke0rz11p3vbo",0
 00-0033077,Dak Prescott,DAL,2021,3,21,26,238,3,0,6,9,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yazkcmz5ke0rz11p3vbo",9
@@ -1717,6 +1792,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033077,Dak Prescott,DAL,2021,16,28,39,330,4,0,4,21,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yazkcmz5ke0rz11p3vbo",21
 00-0033077,Dak Prescott,DAL,2021,17,24,38,226,3,0,5,20,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yazkcmz5ke0rz11p3vbo",20
 00-0033077,Dak Prescott,DAL,2021,18,21,27,295,5,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yazkcmz5ke0rz11p3vbo",0
+00-0033077,Dak Prescott,DAL,2021,19,23,42,254,1,1,4,27,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yazkcmz5ke0rz11p3vbo",27
 00-0033090,Hunter Henry,NE,2021,1,0,0,0,0,0,0,0,3,31,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ldzlkisbxebv2pzup9qd",31
 00-0033090,Hunter Henry,NE,2021,2,0,0,0,0,0,0,0,2,42,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ldzlkisbxebv2pzup9qd",42
 00-0033090,Hunter Henry,NE,2021,3,0,0,0,0,0,0,0,5,36,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ldzlkisbxebv2pzup9qd",36
@@ -1733,6 +1809,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033090,Hunter Henry,NE,2021,16,0,0,0,0,0,0,0,1,9,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ldzlkisbxebv2pzup9qd",9
 00-0033090,Hunter Henry,NE,2021,17,0,0,0,0,0,0,0,3,37,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ldzlkisbxebv2pzup9qd",37
 00-0033090,Hunter Henry,NE,2021,18,0,0,0,0,0,0,0,5,86,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ldzlkisbxebv2pzup9qd",86
+00-0033090,Hunter Henry,NE,2021,19,0,0,0,0,0,0,0,1,30,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ldzlkisbxebv2pzup9qd",30
 00-0033094,Marvin Hall,ATL,2021,16,0,0,0,0,0,0,0,1,10,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vy6tm3vmwozeob7nhjiq",10
 00-0033095,Garrett Griffin,NO,2021,8,0,0,0,0,0,0,0,3,30,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wwpscfi1obscn39je7js",30
 00-0033095,Garrett Griffin,NO,2021,13,0,0,0,0,0,0,0,1,9,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wwpscfi1obscn39je7js",9
@@ -1765,6 +1842,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033110,Tyler Higbee,LA,2021,16,0,0,0,0,0,0,0,5,41,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bu5gamvcta2q5smo17pb",41
 00-0033110,Tyler Higbee,LA,2021,17,0,0,0,0,0,0,0,6,69,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bu5gamvcta2q5smo17pb",69
 00-0033110,Tyler Higbee,LA,2021,18,0,0,0,0,0,0,0,6,55,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bu5gamvcta2q5smo17pb",55
+00-0033110,Tyler Higbee,LA,2021,19,0,0,0,0,0,0,0,3,46,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bu5gamvcta2q5smo17pb",46
+00-0033110,Tyler Higbee,LA,2021,20,0,0,0,0,0,0,0,4,51,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bu5gamvcta2q5smo17pb",51
+00-0033110,Tyler Higbee,LA,2021,21,0,0,0,0,0,0,0,2,18,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bu5gamvcta2q5smo17pb",18
 00-0033111,Pharoh Cooper,NYG,2021,12,0,0,0,0,0,1,3,1,6,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mnsqfcfqiehw5aocr1lg",9
 00-0033111,Pharoh Cooper,NYG,2021,13,0,0,0,0,0,0,0,2,21,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mnsqfcfqiehw5aocr1lg",21
 00-0033111,Pharoh Cooper,NYG,2021,14,0,0,0,0,0,0,0,1,6,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mnsqfcfqiehw5aocr1lg",6
@@ -1842,6 +1922,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033258,Darrell Daniels,ARI,2021,6,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uite1keyl09qsvofsqzf",0
 00-0033258,Darrell Daniels,ARI,2021,9,0,0,0,0,0,0,0,1,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uite1keyl09qsvofsqzf",0
 00-0033258,Darrell Daniels,ARI,2021,11,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uite1keyl09qsvofsqzf",0
+00-0033258,Darrell Daniels,ARI,2021,19,0,0,0,0,0,0,0,2,2,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uite1keyl09qsvofsqzf",2
 00-0033275,Phillip Walker,CAR,2021,7,3,14,33,0,0,1,13,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/kfrldn7zoysrwgpmaqwq",13
 00-0033275,Phillip Walker,CAR,2021,8,0,1,0,0,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/kfrldn7zoysrwgpmaqwq",0
 00-0033275,Phillip Walker,CAR,2021,10,22,28,167,0,1,3,6,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/kfrldn7zoysrwgpmaqwq",6
@@ -1873,6 +1954,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033288,George Kittle,SF,2021,16,0,0,0,0,0,0,0,2,21,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/i5jklsh3tbdq6qhjjx3z",21
 00-0033288,George Kittle,SF,2021,17,0,0,0,0,0,1,6,1,29,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/i5jklsh3tbdq6qhjjx3z",35
 00-0033288,George Kittle,SF,2021,18,0,0,0,0,0,0,0,5,10,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/i5jklsh3tbdq6qhjjx3z",10
+00-0033288,George Kittle,SF,2021,19,0,0,0,0,0,0,0,1,18,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/i5jklsh3tbdq6qhjjx3z",18
+00-0033288,George Kittle,SF,2021,20,0,0,0,0,0,0,0,4,63,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/i5jklsh3tbdq6qhjjx3z",63
+00-0033288,George Kittle,SF,2021,21,0,0,0,0,0,0,0,2,27,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/i5jklsh3tbdq6qhjjx3z",27
 00-0033292,Trent Taylor,CIN,2021,18,0,0,0,0,0,0,0,2,41,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bxgw74r70ceehcdzxjkg",41
 00-0033293,Aaron Jones,GB,2021,1,0,0,0,0,0,5,9,2,13,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aspau9t4rjwirkedoz5o",22
 00-0033293,Aaron Jones,GB,2021,2,0,0,0,0,0,17,67,6,48,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aspau9t4rjwirkedoz5o",115
@@ -1889,6 +1973,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033293,Aaron Jones,GB,2021,15,0,0,0,0,0,13,58,2,12,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aspau9t4rjwirkedoz5o",70
 00-0033293,Aaron Jones,GB,2021,16,0,0,0,0,0,12,66,5,21,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aspau9t4rjwirkedoz5o",87
 00-0033293,Aaron Jones,GB,2021,17,0,0,0,0,0,8,76,5,30,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aspau9t4rjwirkedoz5o",106
+00-0033293,Aaron Jones,GB,2021,20,0,0,0,0,0,12,41,9,129,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aspau9t4rjwirkedoz5o",170
 00-0033296,Alex Armah,NO,2021,3,0,0,0,0,0,1,5,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/m7e4m3npoqhgw9kngd1e",5
 00-0033296,Alex Armah,NO,2021,4,0,0,0,0,0,1,2,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/m7e4m3npoqhgw9kngd1e",2
 00-0033296,Alex Armah,NO,2021,7,0,0,0,0,0,1,2,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/m7e4m3npoqhgw9kngd1e",2
@@ -1912,6 +1997,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033307,Kendrick Bourne,NE,2021,16,0,0,0,0,0,0,0,2,33,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/juhjhxyvitkwt0qcfqod",33
 00-0033307,Kendrick Bourne,NE,2021,17,0,0,0,0,0,2,17,5,76,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/juhjhxyvitkwt0qcfqod",93
 00-0033307,Kendrick Bourne,NE,2021,18,0,0,0,0,0,1,8,3,24,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/juhjhxyvitkwt0qcfqod",32
+00-0033307,Kendrick Bourne,NE,2021,19,0,0,0,0,0,1,14,7,77,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/juhjhxyvitkwt0qcfqod",91
 00-0033308,Matt Breida,BUF,2021,1,0,0,0,0,0,4,4,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gvidkdvfipoehupzghgj",4
 00-0033308,Matt Breida,BUF,2021,10,0,0,0,0,0,3,28,3,22,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gvidkdvfipoehupzghgj",50
 00-0033308,Matt Breida,BUF,2021,11,0,0,0,0,0,5,51,1,16,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gvidkdvfipoehupzghgj",67
@@ -2001,6 +2087,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033455,Anthony Firkser,TEN,2021,16,0,0,0,0,0,0,0,1,13,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/swezlow3dgygychrqrph",13
 00-0033455,Anthony Firkser,TEN,2021,17,0,0,0,0,0,0,0,3,24,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/swezlow3dgygychrqrph",24
 00-0033455,Anthony Firkser,TEN,2021,18,0,0,0,0,0,0,0,4,56,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/swezlow3dgygychrqrph",56
+00-0033455,Anthony Firkser,TEN,2021,20,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/swezlow3dgygychrqrph",0
 00-0033460,John Ross,NYG,2021,4,0,0,0,0,0,0,0,3,77,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wltmlsewrakxwlmia9ua",77
 00-0033460,John Ross,NYG,2021,5,0,0,0,0,0,0,0,1,13,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wltmlsewrakxwlmia9ua",13
 00-0033460,John Ross,NYG,2021,6,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wltmlsewrakxwlmia9ua",0
@@ -2021,6 +2108,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033466,Isaiah McKenzie,BUF,2021,16,0,0,0,0,0,1,-1,11,125,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/q85fyisrpc6o3ve1je1u",124
 00-0033466,Isaiah McKenzie,BUF,2021,17,0,0,0,0,0,1,3,1,6,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/q85fyisrpc6o3ve1je1u",9
 00-0033466,Isaiah McKenzie,BUF,2021,18,0,0,0,0,0,1,10,1,9,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/q85fyisrpc6o3ve1je1u",19
+00-0033466,Isaiah McKenzie,BUF,2021,19,0,0,0,0,0,3,29,3,45,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/q85fyisrpc6o3ve1je1u",74
+00-0033466,Isaiah McKenzie,BUF,2021,20,0,0,0,0,0,3,15,1,3,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/q85fyisrpc6o3ve1je1u",18
 00-0033471,Isaiah Ford,MIA,2021,5,0,0,0,0,0,0,0,1,3,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tslvgjuz8ypuxszl8n2u",3
 00-0033471,Isaiah Ford,MIA,2021,6,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tslvgjuz8ypuxszl8n2u",0
 00-0033471,Isaiah Ford,MIA,2021,7,0,0,0,0,0,0,0,1,10,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tslvgjuz8ypuxszl8n2u",10
@@ -2051,6 +2140,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033526,Samaje Perine,CIN,2021,15,0,0,0,0,0,4,30,2,13,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/r0fzveuohc8pxomjaknr",43
 00-0033526,Samaje Perine,CIN,2021,16,0,0,0,0,0,0,0,2,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/r0fzveuohc8pxomjaknr",6
 00-0033526,Samaje Perine,CIN,2021,17,0,0,0,0,0,1,4,1,10,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/r0fzveuohc8pxomjaknr",14
+00-0033526,Samaje Perine,CIN,2021,19,0,0,0,0,0,1,2,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/r0fzveuohc8pxomjaknr",2
+00-0033526,Samaje Perine,CIN,2021,20,0,0,0,0,0,0,0,1,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/r0fzveuohc8pxomjaknr",4
+00-0033526,Samaje Perine,CIN,2021,21,0,0,0,0,0,0,0,3,43,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/r0fzveuohc8pxomjaknr",43
 00-0033528,Jeremy Sprinkle,DAL,2021,15,0,0,0,0,0,0,0,2,21,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xid7htgxtc9nkfy32hyc",21
 00-0033528,Jeremy Sprinkle,DAL,2021,18,0,0,0,0,0,0,0,1,10,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xid7htgxtc9nkfy32hyc",10
 00-0033536,Mike Williams,LAC,2021,1,0,0,0,0,0,0,0,8,82,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mjon6c2fwtnxbmdfoxcu",82
@@ -2084,6 +2176,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033553,James Conner,ARI,2021,14,0,0,0,0,0,13,31,9,94,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nq7mtvvxmgc2vukwwcpo",125
 00-0033553,James Conner,ARI,2021,15,0,0,0,0,0,8,39,2,31,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nq7mtvvxmgc2vukwwcpo",70
 00-0033553,James Conner,ARI,2021,18,0,0,0,0,0,15,52,6,41,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nq7mtvvxmgc2vukwwcpo",93
+00-0033553,James Conner,ARI,2021,19,0,0,0,0,0,4,19,1,5,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/nq7mtvvxmgc2vukwwcpo",24
 00-0033555,Mack Hollins,MIA,2021,5,0,0,0,0,0,0,0,1,10,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hlyp8qsgct5mqkfbkaxx",10
 00-0033555,Mack Hollins,MIA,2021,6,0,0,0,0,0,0,0,4,61,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hlyp8qsgct5mqkfbkaxx",61
 00-0033555,Mack Hollins,MIA,2021,7,0,0,0,0,0,0,0,2,13,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hlyp8qsgct5mqkfbkaxx",13
@@ -2143,6 +2236,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033658,Blake Jarwin,DAL,2021,6,0,0,0,0,0,0,0,1,1,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fsn8rvgup22r5e53mu7i",1
 00-0033658,Blake Jarwin,DAL,2021,8,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fsn8rvgup22r5e53mu7i",0
 00-0033658,Blake Jarwin,DAL,2021,18,0,0,0,0,0,0,0,1,6,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fsn8rvgup22r5e53mu7i",6
+00-0033658,Blake Jarwin,DAL,2021,19,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fsn8rvgup22r5e53mu7i",0
 00-0033662,Cooper Rush,DAL,2021,8,24,40,325,2,1,1,2,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yattccumaadclrl5nyo9",2
 00-0033662,Cooper Rush,DAL,2021,10,3,3,17,0,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yattccumaadclrl5nyo9",0
 00-0033662,Cooper Rush,DAL,2021,16,2,3,70,1,0,1,2,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yattccumaadclrl5nyo9",2
@@ -2230,11 +2324,13 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033856,Leonard Fournette,TB,2021,13,0,0,0,0,0,13,44,7,48,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jcmgyeiruehjjdpfkyf4",92
 00-0033856,Leonard Fournette,TB,2021,14,0,0,0,0,0,19,113,4,19,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jcmgyeiruehjjdpfkyf4",132
 00-0033856,Leonard Fournette,TB,2021,15,0,0,0,0,0,9,34,7,33,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jcmgyeiruehjjdpfkyf4",67
+00-0033856,Leonard Fournette,TB,2021,20,0,0,0,0,0,13,51,9,56,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jcmgyeiruehjjdpfkyf4",107
 00-0033857,JuJu Smith-Schuster,PIT,2021,1,0,0,0,0,0,0,0,4,52,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sp4gz46f1rkpksvsmtg7",52
 00-0033857,JuJu Smith-Schuster,PIT,2021,2,0,0,0,0,0,1,3,6,41,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sp4gz46f1rkpksvsmtg7",44
 00-0033857,JuJu Smith-Schuster,PIT,2021,3,0,0,0,0,0,0,0,3,25,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sp4gz46f1rkpksvsmtg7",25
 00-0033857,JuJu Smith-Schuster,PIT,2021,4,0,0,0,0,0,0,0,2,11,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sp4gz46f1rkpksvsmtg7",11
 00-0033857,JuJu Smith-Schuster,PIT,2021,5,0,0,0,0,0,2,6,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sp4gz46f1rkpksvsmtg7",6
+00-0033857,JuJu Smith-Schuster,PIT,2021,19,0,0,0,0,0,0,0,5,26,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sp4gz46f1rkpksvsmtg7",26
 00-0033858,Jonnu Smith,NE,2021,1,0,0,0,0,0,1,6,5,42,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uqux8vr24dx5tvqf97hb",48
 00-0033858,Jonnu Smith,NE,2021,2,0,0,0,0,0,0,0,4,28,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uqux8vr24dx5tvqf97hb",28
 00-0033858,Jonnu Smith,NE,2021,3,0,0,0,0,0,0,0,1,4,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uqux8vr24dx5tvqf97hb",4
@@ -2280,6 +2376,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033873,Patrick Mahomes,KC,2021,16,23,30,258,3,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tlg2oo5yrk6mins3nxxe",0
 00-0033873,Patrick Mahomes,KC,2021,17,26,35,259,2,0,2,25,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tlg2oo5yrk6mins3nxxe",25
 00-0033873,Patrick Mahomes,KC,2021,18,27,44,270,2,0,6,58,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tlg2oo5yrk6mins3nxxe",58
+00-0033873,Patrick Mahomes,KC,2021,19,30,39,404,5,1,3,29,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tlg2oo5yrk6mins3nxxe",29
+00-0033873,Patrick Mahomes,KC,2021,20,33,44,378,3,0,7,69,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tlg2oo5yrk6mins3nxxe",69
+00-0033873,Patrick Mahomes,KC,2021,21,26,39,275,3,2,3,19,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tlg2oo5yrk6mins3nxxe",19
 00-0033879,OJ Howard,TB,2021,2,0,0,0,0,0,0,0,1,21,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jllhqmkhnoyxiaexd8ar",21
 00-0033879,OJ Howard,TB,2021,3,0,0,0,0,0,0,0,1,11,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jllhqmkhnoyxiaexd8ar",11
 00-0033879,OJ Howard,TB,2021,4,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jllhqmkhnoyxiaexd8ar",0
@@ -2289,6 +2388,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033879,OJ Howard,TB,2021,8,0,0,0,0,0,0,0,2,16,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jllhqmkhnoyxiaexd8ar",16
 00-0033879,OJ Howard,TB,2021,11,0,0,0,0,0,0,0,1,10,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jllhqmkhnoyxiaexd8ar",10
 00-0033879,OJ Howard,TB,2021,15,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jllhqmkhnoyxiaexd8ar",0
+00-0033879,OJ Howard,TB,2021,19,0,0,0,0,0,0,0,1,3,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jllhqmkhnoyxiaexd8ar",3
+00-0033879,OJ Howard,TB,2021,20,0,0,0,0,0,0,0,1,7,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jllhqmkhnoyxiaexd8ar",7
 00-0033881,Evan Engram,NYG,2021,3,0,0,0,0,0,0,0,2,21,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mvkkl292m78tv1p1tqr4",21
 00-0033881,Evan Engram,NYG,2021,4,0,0,0,0,0,1,-3,5,27,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mvkkl292m78tv1p1tqr4",24
 00-0033881,Evan Engram,NYG,2021,5,0,0,0,0,0,0,0,4,55,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mvkkl292m78tv1p1tqr4",55
@@ -2334,6 +2435,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033891,Zay Jones,LV,2021,16,0,0,0,0,0,0,0,6,50,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cbusqo5hvl7zlb25n9n0",50
 00-0033891,Zay Jones,LV,2021,17,0,0,0,0,0,1,-1,8,120,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cbusqo5hvl7zlb25n9n0",119
 00-0033891,Zay Jones,LV,2021,18,0,0,0,0,0,0,0,5,27,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cbusqo5hvl7zlb25n9n0",27
+00-0033891,Zay Jones,LV,2021,19,0,0,0,0,0,0,0,5,61,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cbusqo5hvl7zlb25n9n0",61
 00-0033893,Dalvin Cook,MIN,2021,1,0,0,0,0,0,20,61,6,43,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/eb7vfxsratwcfr03ufau",104
 00-0033893,Dalvin Cook,MIN,2021,2,0,0,0,0,0,22,131,2,17,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/eb7vfxsratwcfr03ufau",148
 00-0033893,Dalvin Cook,MIN,2021,4,0,0,0,0,0,9,34,2,10,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/eb7vfxsratwcfr03ufau",44
@@ -2385,6 +2487,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033897,Joe Mixon,CIN,2021,15,0,0,0,0,0,17,58,1,2,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pucb3gqsidpxzivdp9hd",60
 00-0033897,Joe Mixon,CIN,2021,16,0,0,0,0,0,18,65,6,70,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pucb3gqsidpxzivdp9hd",135
 00-0033897,Joe Mixon,CIN,2021,17,0,0,0,0,0,12,46,7,40,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pucb3gqsidpxzivdp9hd",86
+00-0033897,Joe Mixon,CIN,2021,19,0,0,0,0,0,17,48,4,28,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pucb3gqsidpxzivdp9hd",76
+00-0033897,Joe Mixon,CIN,2021,20,0,0,0,0,0,14,54,6,51,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pucb3gqsidpxzivdp9hd",105
+00-0033897,Joe Mixon,CIN,2021,21,0,0,0,0,0,21,88,3,27,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pucb3gqsidpxzivdp9hd",115
 00-0033904,Dion Dawkins,BUF,2021,17,0,0,0,0,0,0,0,0,0,OT,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wzce8w4ehyr1e33ir5js",0
 00-0033906,Alvin Kamara,NO,2021,1,0,0,0,0,0,20,83,3,8,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jvutsfx86o0omypemcxl",91
 00-0033906,Alvin Kamara,NO,2021,2,0,0,0,0,0,8,5,4,25,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jvutsfx86o0omypemcxl",30
@@ -2416,6 +2521,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033908,Cooper Kupp,LA,2021,16,0,0,0,0,0,1,4,10,109,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jiaeufv3lpbkhulrddjq",113
 00-0033908,Cooper Kupp,LA,2021,17,0,0,0,0,0,0,0,6,95,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jiaeufv3lpbkhulrddjq",95
 00-0033908,Cooper Kupp,LA,2021,18,0,0,0,0,0,1,18,7,118,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jiaeufv3lpbkhulrddjq",136
+00-0033908,Cooper Kupp,LA,2021,19,0,0,0,0,0,0,0,5,61,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jiaeufv3lpbkhulrddjq",61
+00-0033908,Cooper Kupp,LA,2021,20,0,0,0,0,0,0,0,9,183,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jiaeufv3lpbkhulrddjq",183
+00-0033908,Cooper Kupp,LA,2021,21,0,0,0,0,0,1,-2,11,142,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jiaeufv3lpbkhulrddjq",140
 00-0033921,Chris Godwin,TB,2021,1,0,0,0,0,0,0,0,9,105,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ckwncz8djwnlo1miq1vq",105
 00-0033921,Chris Godwin,TB,2021,2,0,0,0,0,0,0,0,4,62,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ckwncz8djwnlo1miq1vq",62
 00-0033921,Chris Godwin,TB,2021,3,0,0,0,0,0,1,2,6,74,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ckwncz8djwnlo1miq1vq",76
@@ -2447,6 +2555,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033925,D'Onta Foreman,TEN,2021,16,0,0,0,0,0,9,17,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hjztfvhrrtjgczvmyhnz",17
 00-0033925,D'Onta Foreman,TEN,2021,17,0,0,0,0,0,26,132,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hjztfvhrrtjgczvmyhnz",132
 00-0033925,D'Onta Foreman,TEN,2021,18,0,0,0,0,0,21,69,1,15,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hjztfvhrrtjgczvmyhnz",84
+00-0033925,D'Onta Foreman,TEN,2021,20,0,0,0,0,0,4,66,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hjztfvhrrtjgczvmyhnz",66
 00-0033932,Kenny Golladay,NYG,2021,1,0,0,0,0,0,0,0,4,64,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gdihhyi6bpsvyljtenua",64
 00-0033932,Kenny Golladay,NYG,2021,2,0,0,0,0,0,0,0,3,38,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gdihhyi6bpsvyljtenua",38
 00-0033932,Kenny Golladay,NYG,2021,3,0,0,0,0,0,0,0,4,64,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gdihhyi6bpsvyljtenua",64
@@ -2605,6 +2714,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034253,Dontrell Hilliard,TEN,2021,16,0,0,0,0,0,5,20,2,-6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ywwq5sjtwptjrbawq6w5",14
 00-0034253,Dontrell Hilliard,TEN,2021,17,0,0,0,0,0,8,45,3,33,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ywwq5sjtwptjrbawq6w5",78
 00-0034253,Dontrell Hilliard,TEN,2021,18,0,0,0,0,0,9,57,1,1,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ywwq5sjtwptjrbawq6w5",58
+00-0034253,Dontrell Hilliard,TEN,2021,20,0,0,0,0,0,0,0,3,13,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ywwq5sjtwptjrbawq6w5",13
 00-0034270,Tyler Conklin,MIN,2021,1,0,0,0,0,0,0,0,4,41,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/t5dcv5rlo0vuzptw6qmy",41
 00-0034270,Tyler Conklin,MIN,2021,2,0,0,0,0,0,0,0,2,15,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/t5dcv5rlo0vuzptw6qmy",15
 00-0034270,Tyler Conklin,MIN,2021,3,0,0,0,0,0,0,0,7,70,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/t5dcv5rlo0vuzptw6qmy",70
@@ -2643,6 +2753,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034279,Equanimeous St,GB,2021,16,0,0,0,0,0,1,-10,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xocz1xxst4wbh4cgfp9k",-10
 00-0034279,Equanimeous St,GB,2021,17,0,0,0,0,0,0,0,1,14,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xocz1xxst4wbh4cgfp9k",14
 00-0034279,Equanimeous St,GB,2021,18,0,0,0,0,0,0,0,2,22,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xocz1xxst4wbh4cgfp9k",22
+00-0034279,Equanimeous St,GB,2021,20,0,0,0,0,0,1,1,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xocz1xxst4wbh4cgfp9k",1
 00-0034297,Byron Pringle,KC,2021,1,0,0,0,0,0,0,0,1,6,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ciojowlm1oqc6onkec8u",6
 00-0034297,Byron Pringle,KC,2021,2,0,0,0,0,0,0,0,2,63,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ciojowlm1oqc6onkec8u",63
 00-0034297,Byron Pringle,KC,2021,3,0,0,0,0,0,0,0,2,12,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ciojowlm1oqc6onkec8u",12
@@ -2659,6 +2770,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034297,Byron Pringle,KC,2021,16,0,0,0,0,0,0,0,6,75,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ciojowlm1oqc6onkec8u",75
 00-0034297,Byron Pringle,KC,2021,17,0,0,0,0,0,0,0,3,35,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ciojowlm1oqc6onkec8u",35
 00-0034297,Byron Pringle,KC,2021,18,0,0,0,0,0,0,0,5,56,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ciojowlm1oqc6onkec8u",56
+00-0034297,Byron Pringle,KC,2021,19,0,0,0,0,0,0,0,5,37,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ciojowlm1oqc6onkec8u",37
+00-0034297,Byron Pringle,KC,2021,20,0,0,0,0,0,0,0,5,29,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ciojowlm1oqc6onkec8u",29
+00-0034297,Byron Pringle,KC,2021,21,0,0,0,0,0,0,0,2,16,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ciojowlm1oqc6onkec8u",16
 00-0034301,Darrel Williams,KC,2021,1,0,0,0,0,0,1,4,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xg74gjuqnd9e03fqplot",4
 00-0034301,Darrel Williams,KC,2021,2,0,0,0,0,0,3,-2,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xg74gjuqnd9e03fqplot",-2
 00-0034301,Darrel Williams,KC,2021,3,0,0,0,0,0,7,28,2,11,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xg74gjuqnd9e03fqplot",39
@@ -2676,6 +2790,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034301,Darrel Williams,KC,2021,16,0,0,0,0,0,11,55,3,30,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xg74gjuqnd9e03fqplot",85
 00-0034301,Darrel Williams,KC,2021,17,0,0,0,0,0,14,88,3,19,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xg74gjuqnd9e03fqplot",107
 00-0034301,Darrel Williams,KC,2021,18,0,0,0,0,0,7,17,3,30,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xg74gjuqnd9e03fqplot",47
+00-0034301,Darrel Williams,KC,2021,19,0,0,0,0,0,1,4,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/xg74gjuqnd9e03fqplot",4
 00-0034311,Johnny Stanton,CLE,2021,6,0,0,0,0,0,0,0,1,6,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mo4jkdbhwgp3fcczc7kq",6
 00-0034311,Johnny Stanton,CLE,2021,7,0,0,0,0,0,2,5,1,1,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mo4jkdbhwgp3fcczc7kq",6
 00-0034311,Johnny Stanton,CLE,2021,10,0,0,0,0,0,1,0,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mo4jkdbhwgp3fcczc7kq",0
@@ -2720,6 +2835,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034351,Dallas Goedert,PHI,2021,15,0,0,0,0,0,0,0,7,135,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/toiqpnmbuxgfwr8wkw4r",135
 00-0034351,Dallas Goedert,PHI,2021,16,0,0,0,0,0,0,0,2,28,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/toiqpnmbuxgfwr8wkw4r",28
 00-0034351,Dallas Goedert,PHI,2021,17,0,0,0,0,0,0,0,6,71,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/toiqpnmbuxgfwr8wkw4r",71
+00-0034351,Dallas Goedert,PHI,2021,19,0,0,0,0,0,0,0,6,92,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/toiqpnmbuxgfwr8wkw4r",92
 00-0034353,Anthony Miller,HOU,2021,3,0,0,0,0,0,0,0,4,20,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/u3xq3snkesclrrqulagk",20
 00-0034353,Anthony Miller,HOU,2021,4,0,0,0,0,0,0,0,1,3,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/u3xq3snkesclrrqulagk",3
 00-0034353,Anthony Miller,PIT,2021,12,0,0,0,0,0,0,0,1,2,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/u3xq3snkesclrrqulagk",2
@@ -2785,6 +2901,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034383,Dalton Schultz,DAL,2021,16,0,0,0,0,0,0,0,8,82,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mbqinxum5qovm6p8xgkc",82
 00-0034383,Dalton Schultz,DAL,2021,17,0,0,0,0,0,0,0,6,54,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mbqinxum5qovm6p8xgkc",54
 00-0034383,Dalton Schultz,DAL,2021,18,0,0,0,0,0,0,0,3,21,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mbqinxum5qovm6p8xgkc",21
+00-0034383,Dalton Schultz,DAL,2021,19,0,0,0,0,0,0,0,7,89,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mbqinxum5qovm6p8xgkc",89
 00-0034401,Mike White,NYJ,2021,7,20,32,202,1,2,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uplanmusamdr4bzil0v4",0
 00-0034401,Mike White,NYJ,2021,8,37,45,405,3,2,2,3,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uplanmusamdr4bzil0v4",3
 00-0034401,Mike White,NYJ,2021,9,7,11,95,1,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uplanmusamdr4bzil0v4",0
@@ -2803,6 +2920,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034407,Ray-Ray McCloud,PIT,2021,16,0,0,0,0,0,0,0,4,25,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/q25yzjly8zz4elodqdhr",25
 00-0034407,Ray-Ray McCloud,PIT,2021,17,0,0,0,0,0,0,0,4,35,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/q25yzjly8zz4elodqdhr",35
 00-0034407,Ray-Ray McCloud,PIT,2021,18,0,0,0,0,0,0,0,4,37,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/q25yzjly8zz4elodqdhr",37
+00-0034407,Ray-Ray McCloud,PIT,2021,19,0,0,0,0,0,0,0,2,20,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/q25yzjly8zz4elodqdhr",20
 00-0034411,Russell Gage,ATL,2021,1,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yvgvukodrs3aabp4qty7",0
 00-0034411,Russell Gage,ATL,2021,2,0,0,0,0,0,0,0,5,28,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yvgvukodrs3aabp4qty7",28
 00-0034411,Russell Gage,ATL,2021,7,0,0,0,0,0,0,0,4,67,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yvgvukodrs3aabp4qty7",67
@@ -2825,6 +2943,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034414,Boston Scott,PHI,2021,12,0,0,0,0,0,15,64,2,8,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/azkmwe4bavbca3tmx9em",72
 00-0034414,Boston Scott,PHI,2021,16,0,0,0,0,0,12,41,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/azkmwe4bavbca3tmx9em",41
 00-0034414,Boston Scott,PHI,2021,17,0,0,0,0,0,14,47,4,39,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/azkmwe4bavbca3tmx9em",86
+00-0034414,Boston Scott,PHI,2021,19,0,0,0,0,0,1,34,1,1,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/azkmwe4bavbca3tmx9em",35
 00-0034418,Cedrick Wilson,DAL,2021,1,0,0,0,0,0,0,0,3,24,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mqx2ue8p1i49rsft8lrx",24
 00-0034418,Cedrick Wilson,DAL,2021,2,0,0,0,0,0,1,5,2,20,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mqx2ue8p1i49rsft8lrx",25
 00-0034418,Cedrick Wilson,DAL,2021,3,0,0,0,0,0,0,0,2,17,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mqx2ue8p1i49rsft8lrx",17
@@ -2839,6 +2958,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034418,Cedrick Wilson,DAL,2021,16,0,0,0,0,0,0,0,2,10,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mqx2ue8p1i49rsft8lrx",10
 00-0034418,Cedrick Wilson,DAL,2021,17,1,1,31,0,0,0,0,6,35,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mqx2ue8p1i49rsft8lrx",35
 00-0034418,Cedrick Wilson,DAL,2021,18,0,0,0,0,0,0,0,5,119,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mqx2ue8p1i49rsft8lrx",119
+00-0034418,Cedrick Wilson,DAL,2021,19,0,0,0,0,0,0,0,5,62,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mqx2ue8p1i49rsft8lrx",62
 00-0034419,Braxton Berrios,NYJ,2021,1,0,0,0,0,0,0,0,5,51,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vlx5vkd8ghcq1snnhdij",51
 00-0034419,Braxton Berrios,NYJ,2021,2,0,0,0,0,0,0,0,7,73,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vlx5vkd8ghcq1snnhdij",73
 00-0034419,Braxton Berrios,NYJ,2021,3,0,0,0,0,0,0,0,2,26,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vlx5vkd8ghcq1snnhdij",26
@@ -2879,6 +2999,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034487,Trent Sherfield,SF,2021,15,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vkgyacrnsjci3n3pkii9",0
 00-0034487,Trent Sherfield,SF,2021,17,0,0,0,0,0,0,0,1,12,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vkgyacrnsjci3n3pkii9",12
 00-0034487,Trent Sherfield,SF,2021,18,0,0,0,0,0,0,0,1,13,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vkgyacrnsjci3n3pkii9",13
+00-0034487,Trent Sherfield,SF,2021,19,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vkgyacrnsjci3n3pkii9",0
 00-0034496,Sean Chandler,CAR,2021,12,0,0,0,0,0,1,14,0,0,DB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tpcicjvkxcispybcyhfl",14
 00-0034521,Allen Lazard,GB,2021,1,0,0,0,0,0,0,0,2,16,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcfdd6indtpjzydbmsbs",16
 00-0034521,Allen Lazard,GB,2021,3,0,0,0,0,0,0,0,1,42,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcfdd6indtpjzydbmsbs",42
@@ -2894,6 +3015,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034521,Allen Lazard,GB,2021,16,0,0,0,0,0,1,13,2,45,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcfdd6indtpjzydbmsbs",58
 00-0034521,Allen Lazard,GB,2021,17,0,0,0,0,0,0,0,6,72,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcfdd6indtpjzydbmsbs",72
 00-0034521,Allen Lazard,GB,2021,18,0,0,0,0,0,0,0,5,75,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcfdd6indtpjzydbmsbs",75
+00-0034521,Allen Lazard,GB,2021,20,0,0,0,0,0,0,0,1,6,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcfdd6indtpjzydbmsbs",6
 00-0034577,Kyle Allen,WAS,2021,14,4,9,53,0,0,2,11,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/e8em3pmzh60r4tayjg25",11
 00-0034577,Kyle Allen,WAS,2021,16,8,10,67,1,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/e8em3pmzh60r4tayjg25",0
 00-0034578,Reggie Bonnafon,CAR,2021,16,0,0,0,0,0,1,4,2,12,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pbzlcbsc3yb28i6fdvqa",16
@@ -2927,6 +3049,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034676,James Washington,PIT,2021,15,0,0,0,0,0,0,0,3,36,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/opchvatsc0lwxlirkp8s",36
 00-0034676,James Washington,PIT,2021,16,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/opchvatsc0lwxlirkp8s",0
 00-0034676,James Washington,PIT,2021,17,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/opchvatsc0lwxlirkp8s",0
+00-0034676,James Washington,PIT,2021,19,0,0,0,0,0,0,0,2,37,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/opchvatsc0lwxlirkp8s",37
 00-0034681,Chase Edmonds,ARI,2021,1,0,0,0,0,0,12,63,4,43,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/piq7mvpfdh7ybggohlt9",106
 00-0034681,Chase Edmonds,ARI,2021,2,0,0,0,0,0,8,46,5,29,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/piq7mvpfdh7ybggohlt9",75
 00-0034681,Chase Edmonds,ARI,2021,3,0,0,0,0,0,11,26,7,49,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/piq7mvpfdh7ybggohlt9",75
@@ -2939,6 +3062,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034681,Chase Edmonds,ARI,2021,15,0,0,0,0,0,6,53,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/piq7mvpfdh7ybggohlt9",53
 00-0034681,Chase Edmonds,ARI,2021,16,0,0,0,0,0,16,56,8,71,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/piq7mvpfdh7ybggohlt9",127
 00-0034681,Chase Edmonds,ARI,2021,17,0,0,0,0,0,18,53,5,29,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/piq7mvpfdh7ybggohlt9",82
+00-0034681,Chase Edmonds,ARI,2021,19,0,0,0,0,0,8,28,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/piq7mvpfdh7ybggohlt9",28
 00-0034686,Auden Tate,CIN,2021,3,0,0,0,0,0,0,0,1,14,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/kriiu42m14not0pusw1a",14
 00-0034686,Auden Tate,CIN,2021,4,0,0,0,0,0,0,0,1,18,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/kriiu42m14not0pusw1a",18
 00-0034686,Auden Tate,CIN,2021,5,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/kriiu42m14not0pusw1a",0
@@ -3016,6 +3140,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034775,Christian Kirk,ARI,2021,16,0,0,0,0,0,0,0,7,48,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y1uvf0zoqcmhdnnm9zpt",48
 00-0034775,Christian Kirk,ARI,2021,17,0,0,0,0,0,0,0,6,79,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y1uvf0zoqcmhdnnm9zpt",79
 00-0034775,Christian Kirk,ARI,2021,18,0,0,0,0,0,0,0,2,43,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y1uvf0zoqcmhdnnm9zpt",43
+00-0034775,Christian Kirk,ARI,2021,19,0,0,0,0,0,0,0,6,51,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y1uvf0zoqcmhdnnm9zpt",51
 00-0034777,DJ Chark,JAX,2021,1,0,0,0,0,0,0,0,3,86,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hbngdzf66ssvjgbjd9oz",86
 00-0034777,DJ Chark,JAX,2021,2,0,0,0,0,0,0,0,1,19,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hbngdzf66ssvjgbjd9oz",19
 00-0034777,DJ Chark,JAX,2021,3,0,0,0,0,0,0,0,3,49,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hbngdzf66ssvjgbjd9oz",49
@@ -3068,6 +3193,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034799,Kalen Ballage,PIT,2021,11,0,0,0,0,0,1,3,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zxxklmhekefz5gaaxqi0",3
 00-0034799,Kalen Ballage,PIT,2021,12,0,0,0,0,0,3,21,1,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zxxklmhekefz5gaaxqi0",27
 00-0034799,Kalen Ballage,PIT,2021,18,0,0,0,0,0,1,0,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zxxklmhekefz5gaaxqi0",0
+00-0034799,Kalen Ballage,PIT,2021,19,0,0,0,0,0,4,13,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zxxklmhekefz5gaaxqi0",13
 00-0034808,John Kelly,CLE,2021,7,0,0,0,0,0,2,13,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bzxdybo7yboaqo4ciepk",13
 00-0034816,Ronald Jones,TB,2021,1,0,0,0,0,0,4,14,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fkizryjprkp9t1wsarw3",14
 00-0034816,Ronald Jones,TB,2021,2,0,0,0,0,0,6,27,1,9,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fkizryjprkp9t1wsarw3",36
@@ -3176,6 +3302,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034845,Sony Michel,LA,2021,16,0,0,0,0,0,27,131,1,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sge9qla3wyhfzemqaq5f",135
 00-0034845,Sony Michel,LA,2021,17,0,0,0,0,0,19,74,3,25,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sge9qla3wyhfzemqaq5f",99
 00-0034845,Sony Michel,LA,2021,18,0,0,0,0,0,21,43,1,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sge9qla3wyhfzemqaq5f",49
+00-0034845,Sony Michel,LA,2021,19,0,0,0,0,0,13,58,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sge9qla3wyhfzemqaq5f",58
+00-0034845,Sony Michel,LA,2021,20,0,0,0,0,0,1,4,2,-4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sge9qla3wyhfzemqaq5f",0
+00-0034845,Sony Michel,LA,2021,21,0,0,0,0,0,10,16,1,-4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sge9qla3wyhfzemqaq5f",12
 00-0034854,Khadarel Hodge,DET,2021,3,0,0,0,0,0,0,0,1,9,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zcwkpnyqldpd23dqhkwi",9
 00-0034854,Khadarel Hodge,DET,2021,4,0,0,0,0,0,0,0,1,13,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zcwkpnyqldpd23dqhkwi",13
 00-0034854,Khadarel Hodge,DET,2021,5,0,0,0,0,0,0,0,1,17,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zcwkpnyqldpd23dqhkwi",17
@@ -3217,6 +3346,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034857,Josh Allen,BUF,2021,16,30,47,314,3,0,10,65,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tllerqpaxoqygxsfo0qo",65
 00-0034857,Josh Allen,BUF,2021,17,11,26,120,0,3,12,84,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tllerqpaxoqygxsfo0qo",84
 00-0034857,Josh Allen,BUF,2021,18,24,45,239,2,0,5,63,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tllerqpaxoqygxsfo0qo",63
+00-0034857,Josh Allen,BUF,2021,19,21,25,308,5,0,6,66,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tllerqpaxoqygxsfo0qo",66
+00-0034857,Josh Allen,BUF,2021,20,27,37,329,4,0,11,68,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tllerqpaxoqygxsfo0qo",68
 00-0034860,Dante Pettis,NYG,2021,6,0,0,0,0,0,0,0,5,48,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/e2azuskrvnlktvb9kkra",48
 00-0034860,Dante Pettis,NYG,2021,7,1,1,16,0,0,0,0,5,39,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/e2azuskrvnlktvb9kkra",39
 00-0034867,Malik Turner,DAL,2021,6,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/syek8itqtkh8ojh2bybi",0
@@ -3226,6 +3357,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034867,Malik Turner,DAL,2021,13,0,0,0,0,0,0,0,1,10,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/syek8itqtkh8ojh2bybi",10
 00-0034867,Malik Turner,DAL,2021,15,0,0,0,0,0,0,0,1,6,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/syek8itqtkh8ojh2bybi",6
 00-0034867,Malik Turner,DAL,2021,16,0,0,0,0,0,0,0,3,82,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/syek8itqtkh8ojh2bybi",82
+00-0034867,Malik Turner,DAL,2021,19,0,0,0,0,0,0,0,1,6,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/syek8itqtkh8ojh2bybi",6
 00-0034869,Sam Darnold,CAR,2021,1,24,35,279,1,0,2,5,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/izcmywlqedam7djfuayc",5
 00-0034869,Sam Darnold,CAR,2021,2,26,38,305,2,1,1,7,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/izcmywlqedam7djfuayc",7
 00-0034869,Sam Darnold,CAR,2021,3,23,34,304,0,0,5,14,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/izcmywlqedam7djfuayc",14
@@ -3265,6 +3397,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034960,Jakobi Meyers,NE,2021,16,0,0,0,0,0,0,0,6,59,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/g0apvgjnlqqhw0zaremx",59
 00-0034960,Jakobi Meyers,NE,2021,17,0,0,0,0,0,0,0,8,73,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/g0apvgjnlqqhw0zaremx",73
 00-0034960,Jakobi Meyers,NE,2021,18,0,0,0,0,0,0,0,4,70,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/g0apvgjnlqqhw0zaremx",70
+00-0034960,Jakobi Meyers,NE,2021,19,0,0,0,0,0,0,0,6,40,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/g0apvgjnlqqhw0zaremx",40
 00-0034972,Alexander Mattison,MIN,2021,1,0,0,0,0,0,1,2,1,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bssga4lvtidckbcroyr0",6
 00-0034972,Alexander Mattison,MIN,2021,2,0,0,0,0,0,3,11,1,17,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bssga4lvtidckbcroyr0",28
 00-0034972,Alexander Mattison,MIN,2021,3,0,0,0,0,0,26,112,6,59,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bssga4lvtidckbcroyr0",171
@@ -3293,6 +3426,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034981,Foster Moreau,LV,2021,16,0,0,0,0,0,0,0,4,67,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ksoygx2sk5hvmfurwprn",67
 00-0034981,Foster Moreau,LV,2021,17,0,0,0,0,0,0,0,1,9,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ksoygx2sk5hvmfurwprn",9
 00-0034981,Foster Moreau,LV,2021,18,0,0,0,0,0,0,0,2,50,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ksoygx2sk5hvmfurwprn",50
+00-0034981,Foster Moreau,LV,2021,19,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ksoygx2sk5hvmfurwprn",0
 00-0034983,Hunter Renfrow,LV,2021,1,0,0,0,0,0,0,0,6,70,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ei9rwrzfpwto9ktqc3mt",70
 00-0034983,Hunter Renfrow,LV,2021,2,0,0,0,0,0,0,0,5,57,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ei9rwrzfpwto9ktqc3mt",57
 00-0034983,Hunter Renfrow,LV,2021,3,0,0,0,0,0,0,0,5,77,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ei9rwrzfpwto9ktqc3mt",77
@@ -3310,6 +3444,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0034983,Hunter Renfrow,LV,2021,16,0,0,0,0,0,0,0,3,40,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ei9rwrzfpwto9ktqc3mt",40
 00-0034983,Hunter Renfrow,LV,2021,17,0,0,0,0,0,0,0,7,76,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ei9rwrzfpwto9ktqc3mt",76
 00-0034983,Hunter Renfrow,LV,2021,18,0,0,0,0,0,1,-4,4,13,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ei9rwrzfpwto9ktqc3mt",9
+00-0034983,Hunter Renfrow,LV,2021,19,0,0,0,0,0,0,0,8,58,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ei9rwrzfpwto9ktqc3mt",58
 00-0034988,Kaden Smith,NYG,2021,2,0,0,0,0,0,0,0,2,24,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gbwycqfz69f3c3ozzt0g",24
 00-0034988,Kaden Smith,NYG,2021,3,0,0,0,0,0,0,0,1,9,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gbwycqfz69f3c3ozzt0g",9
 00-0035021,Ashton Dulin,IND,2021,2,0,0,0,0,0,0,0,1,10,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mzmnlq7h25nsless0hvr",10
@@ -3341,6 +3476,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035099,Khari Blasingame,TEN,2021,12,0,0,0,0,0,3,6,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wqrpuvejwlemzj7trlfw",6
 00-0035099,Khari Blasingame,TEN,2021,16,0,0,0,0,0,0,0,1,-1,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wqrpuvejwlemzj7trlfw",-1
 00-0035099,Khari Blasingame,TEN,2021,18,0,0,0,0,0,0,0,1,5,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wqrpuvejwlemzj7trlfw",5
+00-0035099,Khari Blasingame,TEN,2021,20,0,0,0,0,0,0,0,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wqrpuvejwlemzj7trlfw",0
 00-0035101,Davion Davis,HOU,2021,13,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sgkxjpz7oqrlcttuxl1p",0
 00-0035101,Davion Davis,HOU,2021,14,0,0,0,0,0,0,0,1,17,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sgkxjpz7oqrlcttuxl1p",17
 00-0035125,Alec Ingold,LV,2021,1,0,0,0,0,0,0,0,4,22,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/kqdrvnfnb1zsndipu97d",22
@@ -3358,6 +3494,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035126,Antoine Wesley,ARI,2021,16,0,0,0,0,0,0,0,2,29,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/of7qshvgovrbc20wflca",29
 00-0035126,Antoine Wesley,ARI,2021,17,0,0,0,0,0,0,0,4,30,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/of7qshvgovrbc20wflca",30
 00-0035126,Antoine Wesley,ARI,2021,18,0,0,0,0,0,0,0,2,17,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/of7qshvgovrbc20wflca",17
+00-0035126,Antoine Wesley,ARI,2021,19,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/of7qshvgovrbc20wflca",0
 00-0035140,Mecole Hardman,KC,2021,1,0,0,0,0,0,0,0,3,19,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/isxo1qciv0ikmo8urkpc",19
 00-0035140,Mecole Hardman,KC,2021,2,0,0,0,0,0,0,0,5,55,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/isxo1qciv0ikmo8urkpc",55
 00-0035140,Mecole Hardman,KC,2021,3,0,0,0,0,0,1,2,3,33,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/isxo1qciv0ikmo8urkpc",35
@@ -3375,6 +3512,10 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035140,Mecole Hardman,KC,2021,16,0,0,0,0,0,0,0,3,31,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/isxo1qciv0ikmo8urkpc",31
 00-0035140,Mecole Hardman,KC,2021,17,0,0,0,0,0,0,0,1,53,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/isxo1qciv0ikmo8urkpc",53
 00-0035140,Mecole Hardman,KC,2021,18,0,0,0,0,0,1,10,8,103,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/isxo1qciv0ikmo8urkpc",113
+00-0035140,Mecole Hardman,KC,2021,19,0,0,0,0,0,2,6,4,43,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/isxo1qciv0ikmo8urkpc",49
+00-0035140,Mecole Hardman,KC,2021,20,0,0,0,0,0,2,31,1,26,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/isxo1qciv0ikmo8urkpc",57
+00-0035140,Mecole Hardman,KC,2021,21,0,0,0,0,0,2,18,3,52,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/isxo1qciv0ikmo8urkpc",70
+00-0035149,Nick Allegretti,KC,2021,19,0,0,0,0,0,0,0,1,1,G,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/roxpfvldz3p4w6xtlmao",1
 00-0035156,Jack Fox,DET,2021,7,1,1,17,0,0,0,0,0,0,P,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pmowf95dk1dregucgmga",0
 00-0035156,Jack Fox,DET,2021,16,1,1,21,0,0,0,0,0,0,P,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pmowf95dk1dregucgmga",0
 00-0035156,Jack Fox,DET,2021,18,0,1,0,0,0,0,0,0,0,P,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/pmowf95dk1dregucgmga",0
@@ -3427,6 +3568,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035216,Diontae Johnson,PIT,2021,16,0,0,0,0,0,0,0,6,51,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/kpxblj81lquuhjasvhe8",51
 00-0035216,Diontae Johnson,PIT,2021,17,0,0,0,0,0,0,0,8,31,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/kpxblj81lquuhjasvhe8",31
 00-0035216,Diontae Johnson,PIT,2021,18,0,0,0,0,0,0,0,7,51,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/kpxblj81lquuhjasvhe8",51
+00-0035216,Diontae Johnson,PIT,2021,19,0,0,0,0,0,0,0,5,34,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/kpxblj81lquuhjasvhe8",34
 00-0035217,Benny Snell,PIT,2021,2,0,0,0,0,0,2,1,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fo3ppnx6djkougdmpthf",1
 00-0035217,Benny Snell,PIT,2021,4,0,0,0,0,0,1,0,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fo3ppnx6djkougdmpthf",0
 00-0035217,Benny Snell,PIT,2021,5,0,0,0,0,0,5,20,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fo3ppnx6djkougdmpthf",20
@@ -3440,6 +3582,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035217,Benny Snell,PIT,2021,16,0,0,0,0,0,5,20,1,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fo3ppnx6djkougdmpthf",26
 00-0035217,Benny Snell,PIT,2021,17,0,0,0,0,0,1,2,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fo3ppnx6djkougdmpthf",2
 00-0035217,Benny Snell,PIT,2021,18,0,0,0,0,0,12,22,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fo3ppnx6djkougdmpthf",22
+00-0035217,Benny Snell,PIT,2021,19,0,0,0,0,0,2,15,2,16,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fo3ppnx6djkougdmpthf",31
 00-0035222,Zach Gentry,PIT,2021,1,0,0,0,0,0,0,0,1,-2,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cxzwzntife33bkwsmqb3",-2
 00-0035222,Zach Gentry,PIT,2021,4,0,0,0,0,0,0,0,1,10,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cxzwzntife33bkwsmqb3",10
 00-0035222,Zach Gentry,PIT,2021,5,0,0,0,0,0,0,0,1,13,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cxzwzntife33bkwsmqb3",13
@@ -3450,6 +3593,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035222,Zach Gentry,PIT,2021,16,0,0,0,0,0,0,0,4,31,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cxzwzntife33bkwsmqb3",31
 00-0035222,Zach Gentry,PIT,2021,17,0,0,0,0,0,0,0,1,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cxzwzntife33bkwsmqb3",0
 00-0035222,Zach Gentry,PIT,2021,18,0,0,0,0,0,0,0,4,39,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cxzwzntife33bkwsmqb3",39
+00-0035222,Zach Gentry,PIT,2021,19,0,0,0,0,0,0,0,4,33,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cxzwzntife33bkwsmqb3",33
 00-0035228,Kyler Murray,ARI,2021,1,21,32,289,4,1,5,20,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lu27xcnywfgzjq9vhvdl",20
 00-0035228,Kyler Murray,ARI,2021,2,29,36,400,3,2,5,31,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lu27xcnywfgzjq9vhvdl",31
 00-0035228,Kyler Murray,ARI,2021,3,28,34,316,0,1,7,19,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lu27xcnywfgzjq9vhvdl",19
@@ -3464,6 +3608,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035228,Kyler Murray,ARI,2021,16,27,43,245,1,0,4,74,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lu27xcnywfgzjq9vhvdl",74
 00-0035228,Kyler Murray,ARI,2021,17,26,38,263,2,0,6,47,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lu27xcnywfgzjq9vhvdl",47
 00-0035228,Kyler Murray,ARI,2021,18,28,39,240,1,0,5,35,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lu27xcnywfgzjq9vhvdl",35
+00-0035228,Kyler Murray,ARI,2021,19,19,34,137,0,2,2,6,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lu27xcnywfgzjq9vhvdl",6
 00-0035229,TJ Hockenson,DET,2021,1,0,0,0,0,0,0,0,8,97,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ad89lw2t6v9bywmbh2uu",97
 00-0035229,TJ Hockenson,DET,2021,2,0,0,0,0,0,0,0,8,66,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ad89lw2t6v9bywmbh2uu",66
 00-0035229,TJ Hockenson,DET,2021,3,0,0,0,0,0,0,0,2,10,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ad89lw2t6v9bywmbh2uu",10
@@ -3489,6 +3634,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035243,Miles Sanders,PHI,2021,13,0,0,0,0,0,24,120,3,22,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vjypf6fscqpp1ecslzkh",142
 00-0035243,Miles Sanders,PHI,2021,15,0,0,0,0,0,18,131,2,15,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vjypf6fscqpp1ecslzkh",146
 00-0035243,Miles Sanders,PHI,2021,16,0,0,0,0,0,7,45,1,3,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vjypf6fscqpp1ecslzkh",48
+00-0035243,Miles Sanders,PHI,2021,19,0,0,0,0,0,7,16,3,12,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vjypf6fscqpp1ecslzkh",28
 00-0035246,JJ Arcega-Whiteside,PHI,2021,11,0,0,0,0,0,0,0,1,23,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ybukzc2rvl0mqfnn387e",23
 00-0035246,JJ Arcega-Whiteside,PHI,2021,12,0,0,0,0,0,0,0,1,13,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ybukzc2rvl0mqfnn387e",13
 00-0035246,JJ Arcega-Whiteside,PHI,2021,18,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ybukzc2rvl0mqfnn387e",0
@@ -3519,6 +3665,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035250,Devin Singletary,BUF,2021,16,0,0,0,0,0,12,39,5,39,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p6ctkdyvfwi8a7cwln0h",78
 00-0035250,Devin Singletary,BUF,2021,17,0,0,0,0,0,23,110,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p6ctkdyvfwi8a7cwln0h",110
 00-0035250,Devin Singletary,BUF,2021,18,0,0,0,0,0,19,88,2,24,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p6ctkdyvfwi8a7cwln0h",112
+00-0035250,Devin Singletary,BUF,2021,19,0,0,0,0,0,16,81,3,13,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p6ctkdyvfwi8a7cwln0h",94
+00-0035250,Devin Singletary,BUF,2021,20,0,0,0,0,0,10,26,4,25,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p6ctkdyvfwi8a7cwln0h",51
 00-0035259,Trevon Wesco,NYJ,2021,4,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ms6xqej2bwgsxnmgfxe6",0
 00-0035259,Trevon Wesco,NYJ,2021,7,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ms6xqej2bwgsxnmgfxe6",0
 00-0035259,Trevon Wesco,NYJ,2021,9,0,0,0,0,0,0,0,2,16,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ms6xqej2bwgsxnmgfxe6",16
@@ -3538,6 +3686,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035261,Tony Pollard,DAL,2021,15,0,0,0,0,0,12,74,3,13,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/oqfnlprsjpr6pziqzfoi",87
 00-0035261,Tony Pollard,DAL,2021,16,0,0,0,0,0,8,34,2,16,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/oqfnlprsjpr6pziqzfoi",50
 00-0035261,Tony Pollard,DAL,2021,17,0,0,0,0,0,3,9,3,49,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/oqfnlprsjpr6pziqzfoi",58
+00-0035261,Tony Pollard,DAL,2021,19,0,0,0,0,0,4,14,2,12,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/oqfnlprsjpr6pziqzfoi",26
 00-0035268,Ryquell Armstead,JAX,2021,17,0,0,0,0,0,6,28,1,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ypki87zzvmjyus9ncktq",34
 00-0035268,Ryquell Armstead,JAX,2021,18,0,0,0,0,0,9,52,2,10,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ypki87zzvmjyus9ncktq",62
 00-0035273,Qadree Ollison,ATL,2021,11,0,0,0,0,0,9,34,2,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/w1pihpngfp8jwnb5y0xg",34
@@ -3556,6 +3705,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035298,Scott Miller,TB,2021,15,0,0,0,0,0,0,0,2,18,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/t25xiwqy1y0k99fybmpv",18
 00-0035298,Scott Miller,TB,2021,16,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/t25xiwqy1y0k99fybmpv",0
 00-0035298,Scott Miller,TB,2021,18,0,0,0,0,0,2,43,1,9,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/t25xiwqy1y0k99fybmpv",52
+00-0035298,Scott Miller,TB,2021,19,0,0,0,0,0,1,9,1,8,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/t25xiwqy1y0k99fybmpv",17
+00-0035298,Scott Miller,TB,2021,20,0,0,0,0,0,0,0,4,38,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/t25xiwqy1y0k99fybmpv",38
 00-0035308,Tommy Sweeney,BUF,2021,3,0,0,0,0,0,0,0,2,2,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vngi1vxe8cmzirk67vpi",2
 00-0035308,Tommy Sweeney,BUF,2021,5,0,0,0,0,0,0,0,1,1,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vngi1vxe8cmzirk67vpi",1
 00-0035308,Tommy Sweeney,BUF,2021,6,0,0,0,0,0,0,0,1,1,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vngi1vxe8cmzirk67vpi",1
@@ -3736,6 +3887,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035603,Kendall Blanton,LA,2021,13,0,0,0,0,0,0,0,1,6,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ubhnsnv67wdxc7qscclw",6
 00-0035603,Kendall Blanton,LA,2021,14,0,0,0,0,0,0,0,2,29,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ubhnsnv67wdxc7qscclw",29
 00-0035603,Kendall Blanton,LA,2021,15,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ubhnsnv67wdxc7qscclw",0
+00-0035603,Kendall Blanton,LA,2021,20,0,0,0,0,0,0,0,2,18,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ubhnsnv67wdxc7qscclw",18
+00-0035603,Kendall Blanton,LA,2021,21,0,0,0,0,0,0,0,5,57,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ubhnsnv67wdxc7qscclw",57
 00-0035624,N'Keal Harry,NE,2021,4,0,0,0,0,0,0,0,1,10,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mkmpcg8czmkafk56prus",10
 00-0035624,N'Keal Harry,NE,2021,5,0,0,0,0,0,0,0,1,9,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mkmpcg8czmkafk56prus",9
 00-0035624,N'Keal Harry,NE,2021,7,0,0,0,0,0,0,0,1,28,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mkmpcg8czmkafk56prus",28
@@ -3765,6 +3918,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035631,Drew Sample,CIN,2021,15,0,0,0,0,0,0,0,1,2,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qzyhfqljjhckv5ltvez2",2
 00-0035631,Drew Sample,CIN,2021,16,0,0,0,0,0,0,0,2,9,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qzyhfqljjhckv5ltvez2",9
 00-0035631,Drew Sample,CIN,2021,18,0,0,0,0,0,0,0,1,8,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qzyhfqljjhckv5ltvez2",8
+00-0035631,Drew Sample,CIN,2021,21,0,0,0,0,0,0,0,1,4,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qzyhfqljjhckv5ltvez2",4
 00-0035632,Amani Hooker,TEN,2021,1,0,0,0,0,0,0,0,1,6,DB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tinnxmzllaiyh8rmebz8",6
 00-0035639,Parris Campbell,IND,2021,1,0,0,0,0,0,0,0,1,24,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/m7ccuvmvbmlvsifgolts",24
 00-0035639,Parris Campbell,IND,2021,3,0,0,0,0,0,0,0,2,9,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/m7ccuvmvbmlvsifgolts",9
@@ -3824,6 +3978,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035657,Damien Harris,NE,2021,16,0,0,0,0,0,18,103,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/decle9hmcvpyutys1hep",103
 00-0035657,Damien Harris,NE,2021,17,0,0,0,0,0,9,35,1,12,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/decle9hmcvpyutys1hep",47
 00-0035657,Damien Harris,NE,2021,18,0,0,0,0,0,11,37,4,36,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/decle9hmcvpyutys1hep",73
+00-0035657,Damien Harris,NE,2021,19,0,0,0,0,0,9,30,1,7,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/decle9hmcvpyutys1hep",37
 00-0035659,Terry McLaurin,WAS,2021,1,0,0,0,0,0,0,0,4,62,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bxkrzih9phr5abgabo7v",62
 00-0035659,Terry McLaurin,WAS,2021,2,0,0,0,0,0,0,0,11,107,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bxkrzih9phr5abgabo7v",107
 00-0035659,Terry McLaurin,WAS,2021,3,0,0,0,0,0,0,0,4,62,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bxkrzih9phr5abgabo7v",62
@@ -3882,6 +4037,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035676,AJ Brown,TEN,2021,16,0,1,0,0,0,0,0,11,145,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/oiacjddbxvaeiewm9v62",145
 00-0035676,AJ Brown,TEN,2021,17,0,0,0,0,0,0,0,2,41,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/oiacjddbxvaeiewm9v62",41
 00-0035676,AJ Brown,TEN,2021,18,0,0,0,0,0,0,0,4,68,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/oiacjddbxvaeiewm9v62",68
+00-0035676,AJ Brown,TEN,2021,20,0,0,0,0,0,0,0,5,142,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/oiacjddbxvaeiewm9v62",142
 00-0035685,David Montgomery,CHI,2021,1,0,0,0,0,0,16,108,1,10,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gpt7rscbkoi9r5jgnwi8",118
 00-0035685,David Montgomery,CHI,2021,2,0,0,0,0,0,20,61,3,18,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gpt7rscbkoi9r5jgnwi8",79
 00-0035685,David Montgomery,CHI,2021,3,0,0,0,0,0,10,34,2,21,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gpt7rscbkoi9r5jgnwi8",55
@@ -3910,6 +4066,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035689,Dawson Knox,BUF,2021,16,0,0,0,0,0,0,0,2,11,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ud6ifpmkntqowvg7s0vy",11
 00-0035689,Dawson Knox,BUF,2021,17,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ud6ifpmkntqowvg7s0vy",0
 00-0035689,Dawson Knox,BUF,2021,18,0,0,0,0,0,0,0,3,49,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ud6ifpmkntqowvg7s0vy",49
+00-0035689,Dawson Knox,BUF,2021,19,0,0,0,0,0,0,0,5,89,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ud6ifpmkntqowvg7s0vy",89
+00-0035689,Dawson Knox,BUF,2021,20,0,0,0,0,0,0,0,2,9,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ud6ifpmkntqowvg7s0vy",9
 00-0035700,Josh Jacobs,LV,2021,1,0,0,0,0,0,10,34,1,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ziwgmqhkc97v5corfgh4",40
 00-0035700,Josh Jacobs,LV,2021,4,0,0,0,0,0,13,40,5,17,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ziwgmqhkc97v5corfgh4",57
 00-0035700,Josh Jacobs,LV,2021,5,0,0,0,0,0,15,48,4,19,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ziwgmqhkc97v5corfgh4",67
@@ -3925,6 +4083,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035700,Josh Jacobs,LV,2021,16,0,0,0,0,0,27,129,1,-5,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ziwgmqhkc97v5corfgh4",124
 00-0035700,Josh Jacobs,LV,2021,17,0,0,0,0,0,16,63,4,17,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ziwgmqhkc97v5corfgh4",80
 00-0035700,Josh Jacobs,LV,2021,18,0,0,0,0,0,26,132,2,12,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ziwgmqhkc97v5corfgh4",144
+00-0035700,Josh Jacobs,LV,2021,19,0,0,0,0,0,13,83,4,44,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ziwgmqhkc97v5corfgh4",127
 00-0035703,Miles Boykin,BAL,2021,6,0,0,0,0,0,0,0,1,6,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yrvkhtd013c5nsv8az6w",6
 00-0035704,Drew Lock,DEN,2021,4,12,21,113,0,1,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fynx0mirag2uzhzxaz7k",0
 00-0035704,Drew Lock,DEN,2021,12,4,6,26,0,1,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fynx0mirag2uzhzxaz7k",0
@@ -3951,6 +4110,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035715,Derrick Gore,KC,2021,16,0,0,0,0,0,12,43,3,61,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p00rdx54lyoiefnpipi3",104
 00-0035715,Derrick Gore,KC,2021,17,0,0,0,0,0,3,37,1,8,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p00rdx54lyoiefnpipi3",45
 00-0035715,Derrick Gore,KC,2021,18,0,0,0,0,0,7,30,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p00rdx54lyoiefnpipi3",30
+00-0035715,Derrick Gore,KC,2021,19,0,0,0,0,0,3,3,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p00rdx54lyoiefnpipi3",3
 00-0035719,Deebo Samuel,SF,2021,1,0,0,0,0,0,0,0,9,189,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccgevhaduyc9llngcnlu",189
 00-0035719,Deebo Samuel,SF,2021,2,0,0,0,0,0,2,8,6,93,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccgevhaduyc9llngcnlu",101
 00-0035719,Deebo Samuel,SF,2021,3,0,0,0,0,0,2,0,5,52,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccgevhaduyc9llngcnlu",52
@@ -3967,9 +4127,13 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035719,Deebo Samuel,SF,2021,16,0,0,0,0,0,5,32,9,159,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccgevhaduyc9llngcnlu",191
 00-0035719,Deebo Samuel,SF,2021,17,0,0,0,0,0,7,19,3,63,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccgevhaduyc9llngcnlu",82
 00-0035719,Deebo Samuel,SF,2021,18,1,1,24,1,0,8,45,4,95,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccgevhaduyc9llngcnlu",140
+00-0035719,Deebo Samuel,SF,2021,19,0,0,0,0,0,10,72,3,38,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccgevhaduyc9llngcnlu",110
+00-0035719,Deebo Samuel,SF,2021,20,0,0,0,0,0,10,39,3,44,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccgevhaduyc9llngcnlu",83
+00-0035719,Deebo Samuel,SF,2021,21,0,0,0,0,0,7,26,4,72,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ccgevhaduyc9llngcnlu",98
 00-0035726,Jakob Johnson,NE,2021,7,0,0,0,0,0,0,0,2,32,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mb15fr5ocgljfrwnjckp",32
 00-0035726,Jakob Johnson,NE,2021,8,0,0,0,0,0,0,0,1,2,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mb15fr5ocgljfrwnjckp",2
 00-0035726,Jakob Johnson,NE,2021,16,0,0,0,0,0,0,0,1,9,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mb15fr5ocgljfrwnjckp",9
+00-0035726,Jakob Johnson,NE,2021,19,0,0,0,0,0,0,0,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mb15fr5ocgljfrwnjckp",0
 00-0035752,Chris Streveler,ARI,2021,9,0,0,0,0,0,1,2,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gmxc7wwol58uicomfh9z",2
 00-0035752,Chris Streveler,ARI,2021,10,6,9,36,0,0,2,4,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gmxc7wwol58uicomfh9z",4
 00-0035760,Jacques Patrick,SF,2021,4,0,0,0,0,0,2,12,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/c7akgryuyuxz7wok2qcf",12
@@ -3984,6 +4148,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0035806,JaMycal Hasty,SF,2021,16,0,0,0,0,0,1,3,3,26,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cny5zdqbqkimr4ypua1x",29
 00-0035806,JaMycal Hasty,SF,2021,17,0,0,0,0,0,0,0,1,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cny5zdqbqkimr4ypua1x",6
 00-0035806,JaMycal Hasty,SF,2021,18,0,0,0,0,0,1,4,2,21,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cny5zdqbqkimr4ypua1x",25
+00-0035806,JaMycal Hasty,SF,2021,21,0,0,0,0,0,0,0,1,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cny5zdqbqkimr4ypua1x",6
 00-0035823,Ben Ellefson,MIN,2021,5,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y0hbeopgzwlsxyahal8b",0
 00-0035831,James Robinson,JAX,2021,1,0,0,0,0,0,5,25,3,29,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jgpqcnw0pdx9hic7ifia",54
 00-0035831,James Robinson,JAX,2021,2,0,0,0,0,0,11,47,3,17,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jgpqcnw0pdx9hic7ifia",64
@@ -4118,6 +4283,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036182,Nick Westbrook-Ikhine,TEN,2021,16,0,0,0,0,0,0,0,2,38,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qkfbmmwufx3fmqd9cth9",38
 00-0036182,Nick Westbrook-Ikhine,TEN,2021,17,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qkfbmmwufx3fmqd9cth9",0
 00-0036182,Nick Westbrook-Ikhine,TEN,2021,18,0,0,0,0,0,0,0,4,78,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qkfbmmwufx3fmqd9cth9",78
+00-0036182,Nick Westbrook-Ikhine,TEN,2021,20,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qkfbmmwufx3fmqd9cth9",0
 00-0036183,Kristian Wilkerson,NE,2021,17,0,0,0,0,0,0,0,4,42,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wlcu1mukacosgmleeawx",42
 00-0036187,Reggie Gilliam,BUF,2021,2,0,0,0,0,0,2,2,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/rkn01wpun5cvnj63d1jo",2
 00-0036187,Reggie Gilliam,BUF,2021,3,0,0,0,0,0,0,0,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/rkn01wpun5cvnj63d1jo",0
@@ -4125,6 +4291,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036187,Reggie Gilliam,BUF,2021,11,0,0,0,0,0,0,0,1,7,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/rkn01wpun5cvnj63d1jo",7
 00-0036187,Reggie Gilliam,BUF,2021,16,0,0,0,0,0,0,0,1,8,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/rkn01wpun5cvnj63d1jo",8
 00-0036187,Reggie Gilliam,BUF,2021,18,0,0,0,0,0,0,0,0,0,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/rkn01wpun5cvnj63d1jo",0
+00-0036187,Reggie Gilliam,BUF,2021,19,0,0,0,0,0,0,0,1,4,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/rkn01wpun5cvnj63d1jo",4
+00-0036187,Reggie Gilliam,BUF,2021,20,0,0,0,0,0,0,0,2,8,FB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/rkn01wpun5cvnj63d1jo",8
 00-0036196,Gabriel Davis,BUF,2021,1,0,0,0,0,0,0,0,2,40,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ebtshr6tcwatrt1mptvb",40
 00-0036196,Gabriel Davis,BUF,2021,3,0,0,0,0,0,0,0,1,23,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ebtshr6tcwatrt1mptvb",23
 00-0036196,Gabriel Davis,BUF,2021,4,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ebtshr6tcwatrt1mptvb",0
@@ -4140,6 +4308,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036196,Gabriel Davis,BUF,2021,15,0,0,0,0,0,0,0,5,85,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ebtshr6tcwatrt1mptvb",85
 00-0036196,Gabriel Davis,BUF,2021,17,0,0,0,0,0,0,0,3,40,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ebtshr6tcwatrt1mptvb",40
 00-0036196,Gabriel Davis,BUF,2021,18,0,0,0,0,0,0,0,3,39,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ebtshr6tcwatrt1mptvb",39
+00-0036196,Gabriel Davis,BUF,2021,19,0,0,0,0,0,0,0,2,41,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ebtshr6tcwatrt1mptvb",41
+00-0036196,Gabriel Davis,BUF,2021,20,0,0,0,0,0,0,0,8,201,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ebtshr6tcwatrt1mptvb",201
 00-0036197,Jake Fromm,NYG,2021,15,6,12,82,0,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ckv12gsfo9541uhnpr8k",0
 00-0036197,Jake Fromm,NYG,2021,16,6,17,25,0,1,3,12,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ckv12gsfo9541uhnpr8k",12
 00-0036197,Jake Fromm,NYG,2021,18,15,31,103,1,2,5,53,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ckv12gsfo9541uhnpr8k",53
@@ -4260,6 +4430,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036251,Zack Moss,BUF,2021,16,0,0,0,0,0,3,12,1,13,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mbtglu8hlaj2uaztgscv",25
 00-0036251,Zack Moss,BUF,2021,17,0,0,0,0,0,5,39,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mbtglu8hlaj2uaztgscv",39
 00-0036251,Zack Moss,BUF,2021,18,0,0,0,0,0,5,8,2,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mbtglu8hlaj2uaztgscv",14
+00-0036251,Zack Moss,BUF,2021,19,0,0,0,0,0,1,0,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mbtglu8hlaj2uaztgscv",0
 00-0036252,Michael Pittman,IND,2021,1,0,0,0,0,0,0,0,3,29,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jhiv3hec1nnxwg4ok46w",29
 00-0036252,Michael Pittman,IND,2021,2,0,0,0,0,0,0,0,8,123,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jhiv3hec1nnxwg4ok46w",123
 00-0036252,Michael Pittman,IND,2021,3,0,0,0,0,0,1,5,6,68,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jhiv3hec1nnxwg4ok46w",73
@@ -4307,6 +4478,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036259,Jauan Jennings,SF,2021,16,0,0,0,0,0,0,0,2,19,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cqlktgcvfqbt8j8w6kel",19
 00-0036259,Jauan Jennings,SF,2021,17,0,0,0,0,0,0,0,2,25,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cqlktgcvfqbt8j8w6kel",25
 00-0036259,Jauan Jennings,SF,2021,18,0,0,0,0,0,0,0,6,94,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cqlktgcvfqbt8j8w6kel",94
+00-0036259,Jauan Jennings,SF,2021,19,0,0,0,0,0,0,0,3,29,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cqlktgcvfqbt8j8w6kel",29
+00-0036259,Jauan Jennings,SF,2021,20,0,0,0,0,0,0,0,1,6,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cqlktgcvfqbt8j8w6kel",6
+00-0036259,Jauan Jennings,SF,2021,21,0,0,0,0,0,0,0,2,8,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cqlktgcvfqbt8j8w6kel",8
 00-0036261,Brandon Aiyuk,SF,2021,2,0,0,0,0,0,0,0,1,6,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/myd0hbdegadm0beryuxz",6
 00-0036261,Brandon Aiyuk,SF,2021,3,0,0,0,0,0,1,8,4,37,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/myd0hbdegadm0beryuxz",45
 00-0036261,Brandon Aiyuk,SF,2021,4,0,0,0,0,0,0,0,1,15,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/myd0hbdegadm0beryuxz",15
@@ -4323,6 +4497,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036261,Brandon Aiyuk,SF,2021,16,0,0,0,0,0,0,0,4,40,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/myd0hbdegadm0beryuxz",40
 00-0036261,Brandon Aiyuk,SF,2021,17,0,0,0,0,0,0,0,4,94,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/myd0hbdegadm0beryuxz",94
 00-0036261,Brandon Aiyuk,SF,2021,18,0,0,0,0,0,0,0,6,107,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/myd0hbdegadm0beryuxz",107
+00-0036261,Brandon Aiyuk,SF,2021,19,0,0,0,0,0,0,0,5,66,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/myd0hbdegadm0beryuxz",66
+00-0036261,Brandon Aiyuk,SF,2021,20,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/myd0hbdegadm0beryuxz",0
+00-0036261,Brandon Aiyuk,SF,2021,21,0,0,0,0,0,0,0,4,69,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/myd0hbdegadm0beryuxz",69
 00-0036264,Jordan Love,GB,2021,1,5,7,68,0,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tm8zrpwj62zkn2mqxef1",0
 00-0036264,Jordan Love,GB,2021,9,19,34,190,1,1,5,23,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tm8zrpwj62zkn2mqxef1",23
 00-0036264,Jordan Love,GB,2021,17,2,4,19,0,0,1,10,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tm8zrpwj62zkn2mqxef1",10
@@ -4344,6 +4521,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036265,AJ Dillon,GB,2021,16,0,0,0,0,0,9,41,3,15,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jpowpgjn6nm6umrls2px",56
 00-0036265,AJ Dillon,GB,2021,17,0,0,0,0,0,14,63,2,20,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jpowpgjn6nm6umrls2px",83
 00-0036265,AJ Dillon,GB,2021,18,0,0,0,0,0,14,63,1,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jpowpgjn6nm6umrls2px",67
+00-0036265,AJ Dillon,GB,2021,20,0,0,0,0,0,7,25,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/jpowpgjn6nm6umrls2px",25
 00-0036268,Laviska Shenault,JAX,2021,1,0,0,0,0,0,1,9,7,50,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zkrdtuid0lmeopve1c7e",59
 00-0036268,Laviska Shenault,JAX,2021,2,0,0,0,0,0,1,0,2,-3,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zkrdtuid0lmeopve1c7e",-3
 00-0036268,Laviska Shenault,JAX,2021,3,0,0,0,0,0,0,0,4,48,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zkrdtuid0lmeopve1c7e",48
@@ -4379,6 +4557,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036271,Quez Watkins,PHI,2021,16,0,0,0,0,0,0,0,3,43,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gwow6ytckqv1ukrbrl5l",43
 00-0036271,Quez Watkins,PHI,2021,17,0,0,0,0,0,0,0,2,15,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gwow6ytckqv1ukrbrl5l",15
 00-0036271,Quez Watkins,PHI,2021,18,0,0,0,0,0,0,0,5,84,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gwow6ytckqv1ukrbrl5l",84
+00-0036271,Quez Watkins,PHI,2021,19,0,0,0,0,0,0,0,2,35,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/gwow6ytckqv1ukrbrl5l",35
 00-0036275,D'Andre Swift,DET,2021,1,0,0,0,0,0,11,39,8,65,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lt7dpkcsisbq1txestzs",104
 00-0036275,D'Andre Swift,DET,2021,2,0,0,0,0,0,8,37,4,41,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lt7dpkcsisbq1txestzs",78
 00-0036275,D'Andre Swift,DET,2021,3,0,1,0,0,0,14,47,7,60,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lt7dpkcsisbq1txestzs",107
@@ -4467,6 +4646,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036326,Chase Claypool,PIT,2021,16,0,0,0,0,0,0,0,4,41,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zxk0jfinayjjhguk83gw",41
 00-0036326,Chase Claypool,PIT,2021,17,0,0,0,0,0,0,0,3,17,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zxk0jfinayjjhguk83gw",17
 00-0036326,Chase Claypool,PIT,2021,18,0,0,0,0,0,3,33,5,37,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zxk0jfinayjjhguk83gw",70
+00-0036326,Chase Claypool,PIT,2021,19,0,0,0,0,0,0,0,3,25,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zxk0jfinayjjhguk83gw",25
 00-0036328,Antonio Gibson,WAS,2021,1,0,0,0,0,0,20,90,3,18,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/un4o255q07fjcbknndwn",108
 00-0036328,Antonio Gibson,WAS,2021,2,0,0,0,0,0,13,69,2,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/un4o255q07fjcbknndwn",73
 00-0036328,Antonio Gibson,WAS,2021,3,0,0,0,0,0,12,31,1,73,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/un4o255q07fjcbknndwn",104
@@ -4510,6 +4690,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036332,Josiah Deguara,GB,2021,16,0,0,0,0,0,0,0,2,5,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yzw2xy9ibxvwfogeywcx",5
 00-0036332,Josiah Deguara,GB,2021,17,0,0,0,0,0,0,0,2,11,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yzw2xy9ibxvwfogeywcx",11
 00-0036332,Josiah Deguara,GB,2021,18,0,0,0,0,0,0,0,3,66,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yzw2xy9ibxvwfogeywcx",66
+00-0036332,Josiah Deguara,GB,2021,20,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yzw2xy9ibxvwfogeywcx",0
 00-0036336,Anthony McFarland,PIT,2021,8,0,0,0,0,0,1,1,0,0,RB,https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241941.png,1
 00-0036336,Anthony McFarland,PIT,2021,12,0,0,0,0,0,2,2,1,11,RB,https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241941.png,13
 00-0036345,KJ Osborn,MIN,2021,1,0,0,0,0,0,0,0,7,76,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/p44nhjopxr4mwncbdx5l",76
@@ -4569,6 +4750,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036358,CeeDee Lamb,DAL,2021,16,0,0,0,0,0,1,-2,4,66,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fe4iwsyp8kiiqjigeooo",64
 00-0036358,CeeDee Lamb,DAL,2021,17,0,0,0,0,0,0,0,3,51,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fe4iwsyp8kiiqjigeooo",51
 00-0036358,CeeDee Lamb,DAL,2021,18,0,0,0,0,0,0,0,2,45,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fe4iwsyp8kiiqjigeooo",45
+00-0036358,CeeDee Lamb,DAL,2021,19,0,0,0,0,0,1,5,1,21,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fe4iwsyp8kiiqjigeooo",26
 00-0036360,Clyde Edwards-Helaire,KC,2021,1,0,0,0,0,0,14,43,3,29,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bvb7x487fiolt7c3hlke",72
 00-0036360,Clyde Edwards-Helaire,KC,2021,2,0,0,0,0,0,13,46,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bvb7x487fiolt7c3hlke",46
 00-0036360,Clyde Edwards-Helaire,KC,2021,3,0,0,0,0,0,17,100,2,9,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bvb7x487fiolt7c3hlke",109
@@ -4579,6 +4761,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036360,Clyde Edwards-Helaire,KC,2021,14,0,0,0,0,0,10,37,3,5,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bvb7x487fiolt7c3hlke",42
 00-0036360,Clyde Edwards-Helaire,KC,2021,15,0,0,0,0,0,9,32,2,18,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bvb7x487fiolt7c3hlke",50
 00-0036360,Clyde Edwards-Helaire,KC,2021,16,0,0,0,0,0,9,27,1,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bvb7x487fiolt7c3hlke",31
+00-0036360,Clyde Edwards-Helaire,KC,2021,20,0,0,0,0,0,7,60,1,9,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bvb7x487fiolt7c3hlke",69
+00-0036360,Clyde Edwards-Helaire,KC,2021,21,0,0,0,0,0,6,36,1,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bvb7x487fiolt7c3hlke",40
 00-0036365,Bryan Edwards,LV,2021,1,0,0,0,0,0,0,0,4,81,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aqic7l7pnw9x5ukh6iqr",81
 00-0036365,Bryan Edwards,LV,2021,2,0,0,0,0,0,0,0,3,40,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aqic7l7pnw9x5ukh6iqr",40
 00-0036365,Bryan Edwards,LV,2021,3,0,0,0,0,0,0,0,3,89,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aqic7l7pnw9x5ukh6iqr",89
@@ -4595,6 +4779,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036365,Bryan Edwards,LV,2021,15,0,0,0,0,0,0,0,3,8,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aqic7l7pnw9x5ukh6iqr",8
 00-0036365,Bryan Edwards,LV,2021,17,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aqic7l7pnw9x5ukh6iqr",0
 00-0036365,Bryan Edwards,LV,2021,18,0,0,0,0,0,0,0,4,63,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aqic7l7pnw9x5ukh6iqr",63
+00-0036365,Bryan Edwards,LV,2021,19,0,0,0,0,0,0,0,3,41,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/aqic7l7pnw9x5ukh6iqr",41
 00-0036370,Joshua Kelley,LAC,2021,5,0,0,0,0,0,2,17,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hiv9gahn8zwch5mkdwt9",17
 00-0036370,Joshua Kelley,LAC,2021,6,0,0,0,0,0,4,7,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hiv9gahn8zwch5mkdwt9",7
 00-0036370,Joshua Kelley,LAC,2021,9,0,0,0,0,0,3,6,1,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hiv9gahn8zwch5mkdwt9",10
@@ -4611,6 +4796,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036383,Eno Benjamin,ARI,2021,13,0,0,0,0,0,2,1,1,12,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/w7mijnbndcfyrrzykuwt",13
 00-0036383,Eno Benjamin,ARI,2021,17,0,0,0,0,0,2,3,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/w7mijnbndcfyrrzykuwt",3
 00-0036383,Eno Benjamin,ARI,2021,18,0,0,0,0,0,7,31,4,25,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/w7mijnbndcfyrrzykuwt",56
+00-0036383,Eno Benjamin,ARI,2021,19,0,0,0,0,0,4,8,2,26,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/w7mijnbndcfyrrzykuwt",34
 00-0036386,Andrew Thomas,NYG,2021,11,0,0,0,0,0,0,0,1,2,T,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dkoqc5qomdkbi576ohqp",2
 00-0036387,Jalen Reagor,PHI,2021,1,0,0,0,0,0,0,0,6,49,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zfubpbpgf0lhhhixkotn",49
 00-0036387,Jalen Reagor,PHI,2021,2,0,0,0,0,0,0,0,2,5,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zfubpbpgf0lhhhixkotn",5
@@ -4629,6 +4815,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036387,Jalen Reagor,PHI,2021,16,0,0,0,0,0,0,0,2,15,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zfubpbpgf0lhhhixkotn",15
 00-0036387,Jalen Reagor,PHI,2021,17,0,0,0,0,0,1,-3,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zfubpbpgf0lhhhixkotn",-3
 00-0036387,Jalen Reagor,PHI,2021,18,0,0,0,0,0,3,10,2,19,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zfubpbpgf0lhhhixkotn",29
+00-0036387,Jalen Reagor,PHI,2021,19,0,0,0,0,0,0,0,1,2,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zfubpbpgf0lhhhixkotn",2
 00-0036389,Jalen Hurts,PHI,2021,1,27,34,264,3,0,7,62,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dnq0smzas3ifwi7sydu6",62
 00-0036389,Jalen Hurts,PHI,2021,2,12,23,190,0,0,9,83,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dnq0smzas3ifwi7sydu6",83
 00-0036389,Jalen Hurts,PHI,2021,3,25,39,326,2,2,9,35,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dnq0smzas3ifwi7sydu6",35
@@ -4644,6 +4831,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036389,Jalen Hurts,PHI,2021,15,20,26,296,1,1,8,38,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dnq0smzas3ifwi7sydu6",38
 00-0036389,Jalen Hurts,PHI,2021,16,17,29,199,2,0,2,7,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dnq0smzas3ifwi7sydu6",7
 00-0036389,Jalen Hurts,PHI,2021,17,17,26,214,0,0,6,45,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dnq0smzas3ifwi7sydu6",45
+00-0036389,Jalen Hurts,PHI,2021,19,23,43,258,1,2,8,39,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dnq0smzas3ifwi7sydu6",39
 00-0036407,Jerry Jeudy,DEN,2021,1,0,0,0,0,0,0,0,6,72,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/unhcnjpbwzbykujxhcqe",72
 00-0036407,Jerry Jeudy,DEN,2021,8,0,0,0,0,0,1,0,4,39,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/unhcnjpbwzbykujxhcqe",39
 00-0036407,Jerry Jeudy,DEN,2021,9,0,0,0,0,0,0,0,6,69,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/unhcnjpbwzbykujxhcqe",69
@@ -4668,10 +4856,16 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036410,Tee Higgins,CIN,2021,15,0,0,0,0,0,0,0,2,23,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bhghlnepvrsmsztx0wzh",23
 00-0036410,Tee Higgins,CIN,2021,16,0,0,0,0,0,0,0,12,194,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bhghlnepvrsmsztx0wzh",194
 00-0036410,Tee Higgins,CIN,2021,17,0,0,0,0,0,0,0,3,62,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bhghlnepvrsmsztx0wzh",62
+00-0036410,Tee Higgins,CIN,2021,19,0,0,0,0,0,0,0,1,10,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bhghlnepvrsmsztx0wzh",10
+00-0036410,Tee Higgins,CIN,2021,20,0,0,0,0,0,0,0,7,96,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bhghlnepvrsmsztx0wzh",96
+00-0036410,Tee Higgins,CIN,2021,21,0,0,0,0,0,0,0,6,103,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/bhghlnepvrsmsztx0wzh",103
 00-0036412,KJ Hamler,DEN,2021,1,0,0,0,0,0,0,0,3,41,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/w2zhcr5cconyonvyhhbo",41
 00-0036412,KJ Hamler,DEN,2021,2,0,0,0,0,0,0,0,1,5,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/w2zhcr5cconyonvyhhbo",5
 00-0036412,KJ Hamler,DEN,2021,3,0,0,0,0,0,0,0,1,28,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/w2zhcr5cconyonvyhhbo",28
 00-0036414,Cam Akers,LA,2021,18,0,0,0,0,0,5,3,3,10,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/v4mc7guudoifyi2z1ag0",13
+00-0036414,Cam Akers,LA,2021,19,0,0,0,0,0,17,55,1,40,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/v4mc7guudoifyi2z1ag0",95
+00-0036414,Cam Akers,LA,2021,20,0,0,0,0,0,24,48,3,20,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/v4mc7guudoifyi2z1ag0",68
+00-0036414,Cam Akers,LA,2021,21,0,0,0,0,0,13,48,1,2,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/v4mc7guudoifyi2z1ag0",50
 00-0036415,Van Jefferson,LA,2021,1,0,0,0,0,0,0,0,2,80,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mpf79etf7jsptmu1ywv8",80
 00-0036415,Van Jefferson,LA,2021,2,0,0,0,0,0,0,0,1,14,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mpf79etf7jsptmu1ywv8",14
 00-0036415,Van Jefferson,LA,2021,3,0,0,0,0,0,0,0,4,42,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mpf79etf7jsptmu1ywv8",42
@@ -4689,6 +4883,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036415,Van Jefferson,LA,2021,16,0,0,0,0,0,0,0,1,6,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mpf79etf7jsptmu1ywv8",6
 00-0036415,Van Jefferson,LA,2021,17,0,0,0,0,0,0,0,4,63,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mpf79etf7jsptmu1ywv8",63
 00-0036415,Van Jefferson,LA,2021,18,0,0,0,0,0,0,0,2,31,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mpf79etf7jsptmu1ywv8",31
+00-0036415,Van Jefferson,LA,2021,19,0,0,0,0,0,0,0,1,41,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mpf79etf7jsptmu1ywv8",41
+00-0036415,Van Jefferson,LA,2021,20,0,0,0,0,0,1,15,2,29,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mpf79etf7jsptmu1ywv8",44
+00-0036415,Van Jefferson,LA,2021,21,0,0,0,0,0,0,0,2,9,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mpf79etf7jsptmu1ywv8",9
 00-0036422,Adam Trautman,NO,2021,1,0,0,0,0,0,0,0,3,18,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uzw6h7whiuhlo15vneqk",18
 00-0036422,Adam Trautman,NO,2021,3,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uzw6h7whiuhlo15vneqk",0
 00-0036422,Adam Trautman,NO,2021,4,0,0,0,0,0,0,0,1,3,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/uzw6h7whiuhlo15vneqk",3
@@ -4740,10 +4937,13 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036427,Tyler Johnson,TB,2021,15,0,0,0,0,0,0,0,4,41,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/d6e5mwllmmwixl01o93g",41
 00-0036427,Tyler Johnson,TB,2021,17,0,0,0,0,0,0,0,4,50,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/d6e5mwllmmwixl01o93g",50
 00-0036427,Tyler Johnson,TB,2021,18,0,0,0,0,0,0,0,5,22,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/d6e5mwllmmwixl01o93g",22
+00-0036427,Tyler Johnson,TB,2021,19,0,0,0,0,0,0,0,2,30,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/d6e5mwllmmwixl01o93g",30
+00-0036427,Tyler Johnson,TB,2021,20,0,0,0,0,0,0,0,3,15,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/d6e5mwllmmwixl01o93g",15
 00-0036429,Charlie Woerner,SF,2021,5,0,0,0,0,0,0,0,1,4,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/v811mn47vy4yym5qefhd",4
 00-0036429,Charlie Woerner,SF,2021,7,0,0,0,0,0,0,0,2,30,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/v811mn47vy4yym5qefhd",30
 00-0036429,Charlie Woerner,SF,2021,8,0,0,0,0,0,0,0,1,7,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/v811mn47vy4yym5qefhd",7
 00-0036429,Charlie Woerner,SF,2021,12,0,0,0,0,0,0,0,1,11,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/v811mn47vy4yym5qefhd",11
+00-0036429,Charlie Woerner,SF,2021,20,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/v811mn47vy4yym5qefhd",0
 00-0036438,Stephen Sullivan,CAR,2021,16,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wcy0cghssxmp1bvvg7sx",0
 00-0036439,Tyrie Cleveland,DEN,2021,7,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mhrcpjt2f5nrzhlosumc",0
 00-0036442,Joe Burrow,CIN,2021,1,20,26,261,2,0,1,2,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fhvbn2cstui3nchv8vil",2
@@ -4762,16 +4962,21 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036442,Joe Burrow,CIN,2021,15,15,22,157,1,0,4,26,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fhvbn2cstui3nchv8vil",26
 00-0036442,Joe Burrow,CIN,2021,16,37,46,525,4,0,1,12,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fhvbn2cstui3nchv8vil",12
 00-0036442,Joe Burrow,CIN,2021,17,30,39,446,4,0,5,10,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fhvbn2cstui3nchv8vil",10
+00-0036442,Joe Burrow,CIN,2021,19,24,34,244,2,0,0,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fhvbn2cstui3nchv8vil",0
+00-0036442,Joe Burrow,CIN,2021,20,28,36,348,0,1,2,5,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fhvbn2cstui3nchv8vil",5
+00-0036442,Joe Burrow,CIN,2021,21,23,38,250,2,1,5,25,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fhvbn2cstui3nchv8vil",25
 00-0036450,Ke'Shawn Vaughn,TB,2021,7,0,0,0,0,0,5,27,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/to1j3eftgyobffvygini",27
 00-0036450,Ke'Shawn Vaughn,TB,2021,11,0,0,0,0,0,3,4,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/to1j3eftgyobffvygini",4
 00-0036450,Ke'Shawn Vaughn,TB,2021,15,0,0,0,0,0,3,19,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/to1j3eftgyobffvygini",19
 00-0036450,Ke'Shawn Vaughn,TB,2021,16,0,0,0,0,0,7,70,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/to1j3eftgyobffvygini",70
 00-0036450,Ke'Shawn Vaughn,TB,2021,17,0,0,0,0,0,8,31,2,14,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/to1j3eftgyobffvygini",45
 00-0036450,Ke'Shawn Vaughn,TB,2021,18,0,0,0,0,0,10,29,2,12,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/to1j3eftgyobffvygini",41
+00-0036450,Ke'Shawn Vaughn,TB,2021,19,0,0,0,0,0,17,53,2,9,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/to1j3eftgyobffvygini",62
 00-0036456,Dominique Dafney,GB,2021,9,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vf7qexjmputzrfdjg84k",0
 00-0036456,Dominique Dafney,GB,2021,11,0,0,0,0,0,0,0,1,8,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vf7qexjmputzrfdjg84k",8
 00-0036456,Dominique Dafney,GB,2021,17,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vf7qexjmputzrfdjg84k",0
 00-0036456,Dominique Dafney,GB,2021,18,0,0,0,0,0,0,0,1,26,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vf7qexjmputzrfdjg84k",26
+00-0036456,Dominique Dafney,GB,2021,20,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vf7qexjmputzrfdjg84k",0
 00-0036457,Ty'Son Williams,BAL,2021,1,0,0,0,0,0,9,65,3,29,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ucxy1zbyppgm62iyvrdr",94
 00-0036457,Ty'Son Williams,BAL,2021,2,0,0,0,0,0,13,77,2,16,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ucxy1zbyppgm62iyvrdr",93
 00-0036457,Ty'Son Williams,BAL,2021,3,0,0,0,0,0,5,22,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ucxy1zbyppgm62iyvrdr",22
@@ -4840,6 +5045,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036556,Brevin Jordan,HOU,2021,14,0,0,0,0,0,0,0,4,26,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/w4bjagx9z3mmt25mnng6",26
 00-0036556,Brevin Jordan,HOU,2021,16,0,0,0,0,0,0,0,4,56,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/w4bjagx9z3mmt25mnng6",56
 00-0036556,Brevin Jordan,HOU,2021,17,0,0,0,0,0,0,0,1,9,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/w4bjagx9z3mmt25mnng6",9
+00-0036560,Tommy Doyle,BUF,2021,19,0,0,0,0,0,0,0,1,1,OT,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/j7grdumiur6myividckv",1
 00-0036567,Elijah Mitchell,SF,2021,1,0,0,0,0,0,19,104,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/csra0oiqwh6i2utjdlud",104
 00-0036567,Elijah Mitchell,SF,2021,2,0,0,0,0,0,17,42,2,11,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/csra0oiqwh6i2utjdlud",53
 00-0036567,Elijah Mitchell,SF,2021,5,0,0,0,0,0,9,43,2,19,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/csra0oiqwh6i2utjdlud",62
@@ -4851,6 +5057,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036567,Elijah Mitchell,SF,2021,13,0,0,0,0,0,22,66,3,18,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/csra0oiqwh6i2utjdlud",84
 00-0036567,Elijah Mitchell,SF,2021,17,0,0,0,0,0,21,119,2,11,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/csra0oiqwh6i2utjdlud",130
 00-0036567,Elijah Mitchell,SF,2021,18,0,0,0,0,0,21,85,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/csra0oiqwh6i2utjdlud",85
+00-0036567,Elijah Mitchell,SF,2021,19,0,0,0,0,0,27,96,1,-11,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/csra0oiqwh6i2utjdlud",85
+00-0036567,Elijah Mitchell,SF,2021,20,0,0,0,0,0,17,53,3,18,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/csra0oiqwh6i2utjdlud",71
+00-0036567,Elijah Mitchell,SF,2021,21,0,0,0,0,0,11,20,3,50,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/csra0oiqwh6i2utjdlud",70
 00-0036569,Gary Brightwell,NYG,2021,1,0,0,0,0,0,0,0,1,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cltvldq0qakafqrqnmlk",6
 00-0036569,Gary Brightwell,NYG,2021,3,0,0,0,0,0,1,4,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/cltvldq0qakafqrqnmlk",4
 00-0036572,Shi Smith,CAR,2021,6,0,0,0,0,0,0,0,2,20,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/y2mmjzsfwbfw4vkexjle",20
@@ -4920,6 +5129,8 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036637,Noah Gray,KC,2021,11,0,0,0,0,0,0,0,1,8,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dzjfasdzid8lfjwsbjfi",8
 00-0036637,Noah Gray,KC,2021,16,0,0,0,0,0,0,0,2,12,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dzjfasdzid8lfjwsbjfi",12
 00-0036637,Noah Gray,KC,2021,17,0,0,0,0,0,0,0,1,6,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dzjfasdzid8lfjwsbjfi",6
+00-0036637,Noah Gray,KC,2021,19,0,0,0,0,0,0,0,0,0,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dzjfasdzid8lfjwsbjfi",0
+00-0036637,Noah Gray,KC,2021,20,0,0,0,0,0,0,0,2,14,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dzjfasdzid8lfjwsbjfi",14
 00-0036650,Larry Rountree,LAC,2021,1,0,0,0,0,0,8,27,0,0,RB,NA,27
 00-0036650,Larry Rountree,LAC,2021,2,0,0,0,0,0,1,-1,1,-1,RB,NA,-2
 00-0036650,Larry Rountree,LAC,2021,3,0,0,0,0,0,4,3,0,0,RB,NA,3
@@ -5014,8 +5225,11 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036857,Chris Evans,CIN,2021,12,0,0,0,0,0,5,23,1,5,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zy1arcaxeerecvvoz0if",28
 00-0036857,Chris Evans,CIN,2021,16,0,0,0,0,0,1,1,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zy1arcaxeerecvvoz0if",1
 00-0036857,Chris Evans,CIN,2021,18,0,0,0,0,0,7,35,4,24,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zy1arcaxeerecvvoz0if",59
+00-0036857,Chris Evans,CIN,2021,19,0,0,0,0,0,1,9,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zy1arcaxeerecvvoz0if",9
+00-0036857,Chris Evans,CIN,2021,20,0,0,0,0,0,1,4,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zy1arcaxeerecvvoz0if",4
 00-0036860,Jake Funk,LA,2021,3,0,0,0,0,0,1,6,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dadnuulhjc8t6t3kcihg",6
 00-0036860,Jake Funk,LA,2021,16,0,0,0,0,0,1,-1,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dadnuulhjc8t6t3kcihg",-1
+00-0036860,Jake Funk,LA,2021,19,0,0,0,0,0,2,5,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/dadnuulhjc8t6t3kcihg",5
 00-0036862,Ben Skowronek,LA,2021,8,0,0,0,0,0,0,0,3,30,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hf1x2vr8stnb27xlxplg",30
 00-0036862,Ben Skowronek,LA,2021,10,0,0,0,0,0,0,0,1,8,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hf1x2vr8stnb27xlxplg",8
 00-0036862,Ben Skowronek,LA,2021,13,0,0,0,0,0,0,0,1,35,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hf1x2vr8stnb27xlxplg",35
@@ -5023,6 +5237,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036862,Ben Skowronek,LA,2021,15,0,0,0,0,0,0,0,4,42,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hf1x2vr8stnb27xlxplg",42
 00-0036862,Ben Skowronek,LA,2021,17,0,0,0,0,0,0,0,2,18,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hf1x2vr8stnb27xlxplg",18
 00-0036862,Ben Skowronek,LA,2021,18,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hf1x2vr8stnb27xlxplg",0
+00-0036862,Ben Skowronek,LA,2021,21,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hf1x2vr8stnb27xlxplg",0
 00-0036875,Rhamondre Stevenson,NE,2021,1,0,0,0,0,0,1,2,1,9,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/igwbptxstony9xbzdwnn",11
 00-0036875,Rhamondre Stevenson,NE,2021,5,0,0,0,0,0,11,23,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/igwbptxstony9xbzdwnn",23
 00-0036875,Rhamondre Stevenson,NE,2021,6,0,0,0,0,0,5,23,3,39,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/igwbptxstony9xbzdwnn",62
@@ -5035,6 +5250,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036875,Rhamondre Stevenson,NE,2021,15,0,0,0,0,0,10,36,1,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/igwbptxstony9xbzdwnn",40
 00-0036875,Rhamondre Stevenson,NE,2021,17,0,0,0,0,0,19,107,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/igwbptxstony9xbzdwnn",107
 00-0036875,Rhamondre Stevenson,NE,2021,18,0,0,0,0,0,4,34,1,2,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/igwbptxstony9xbzdwnn",36
+00-0036875,Rhamondre Stevenson,NE,2021,19,0,0,0,0,0,8,27,4,33,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/igwbptxstony9xbzdwnn",60
 00-0036876,Kylen Granson,IND,2021,4,0,0,0,0,0,0,0,1,3,TE,NA,3
 00-0036876,Kylen Granson,IND,2021,5,0,0,0,0,0,0,0,2,19,TE,NA,19
 00-0036876,Kylen Granson,IND,2021,7,0,0,0,0,0,0,0,0,0,TE,NA,0
@@ -5079,6 +5295,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036893,Najee Harris,PIT,2021,16,0,0,0,0,0,19,93,5,17,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lwcct10u7lfzsgtaoqce",110
 00-0036893,Najee Harris,PIT,2021,17,0,0,0,0,0,28,188,3,18,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lwcct10u7lfzsgtaoqce",206
 00-0036893,Najee Harris,PIT,2021,18,0,0,0,0,0,11,28,4,27,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lwcct10u7lfzsgtaoqce",55
+00-0036893,Najee Harris,PIT,2021,19,0,0,0,0,0,12,29,2,-1,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/lwcct10u7lfzsgtaoqce",28
 00-0036894,Pat Freiermuth,PIT,2021,1,0,0,0,0,0,0,0,1,24,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcmq0fne7lzmd4ymuonx",24
 00-0036894,Pat Freiermuth,PIT,2021,2,0,0,0,0,0,0,0,4,36,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcmq0fne7lzmd4ymuonx",36
 00-0036894,Pat Freiermuth,PIT,2021,3,0,0,0,0,0,0,0,3,22,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcmq0fne7lzmd4ymuonx",22
@@ -5095,6 +5312,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036894,Pat Freiermuth,PIT,2021,15,0,0,0,0,0,0,0,4,37,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcmq0fne7lzmd4ymuonx",37
 00-0036894,Pat Freiermuth,PIT,2021,17,0,0,0,0,0,0,0,5,22,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcmq0fne7lzmd4ymuonx",22
 00-0036894,Pat Freiermuth,PIT,2021,18,0,0,0,0,0,0,0,6,53,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcmq0fne7lzmd4ymuonx",53
+00-0036894,Pat Freiermuth,PIT,2021,19,0,0,0,0,0,0,0,4,25,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/mcmq0fne7lzmd4ymuonx",25
 00-0036898,Davis Mills,HOU,2021,2,8,18,102,1,1,2,-1,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zzk8nhal2wi51xdbw7bm",-1
 00-0036898,Davis Mills,HOU,2021,3,19,27,168,1,0,1,0,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zzk8nhal2wi51xdbw7bm",0
 00-0036898,Davis Mills,HOU,2021,4,11,21,87,0,4,1,2,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/zzk8nhal2wi51xdbw7bm",2
@@ -5125,6 +5343,9 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036900,Ja'Marr Chase,CIN,2021,16,0,0,0,0,0,0,0,7,125,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fxclfdx8fz5cbuep6ngd",125
 00-0036900,Ja'Marr Chase,CIN,2021,17,0,0,0,0,0,0,0,11,266,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fxclfdx8fz5cbuep6ngd",266
 00-0036900,Ja'Marr Chase,CIN,2021,18,0,0,0,0,0,0,0,2,26,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fxclfdx8fz5cbuep6ngd",26
+00-0036900,Ja'Marr Chase,CIN,2021,19,0,0,0,0,0,3,23,9,116,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fxclfdx8fz5cbuep6ngd",139
+00-0036900,Ja'Marr Chase,CIN,2021,20,0,0,0,0,0,1,2,5,109,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fxclfdx8fz5cbuep6ngd",111
+00-0036900,Ja'Marr Chase,CIN,2021,21,0,0,0,0,0,1,3,6,54,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fxclfdx8fz5cbuep6ngd",57
 00-0036906,Khalil Herbert,CHI,2021,4,0,0,0,0,0,3,7,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/q3joomqliqwvrqs9vkmj",7
 00-0036906,Khalil Herbert,CHI,2021,5,0,0,0,0,0,18,75,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/q3joomqliqwvrqs9vkmj",75
 00-0036906,Khalil Herbert,CHI,2021,6,0,0,0,0,0,19,97,2,15,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/q3joomqliqwvrqs9vkmj",112
@@ -5160,6 +5381,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036912,DeVonta Smith,PHI,2021,16,0,0,0,0,0,0,0,5,80,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hol7dluumxi1cqxyagg3",80
 00-0036912,DeVonta Smith,PHI,2021,17,0,0,0,0,0,0,0,3,54,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hol7dluumxi1cqxyagg3",54
 00-0036912,DeVonta Smith,PHI,2021,18,0,0,0,0,0,0,0,3,41,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hol7dluumxi1cqxyagg3",41
+00-0036912,DeVonta Smith,PHI,2021,19,0,0,0,0,0,0,0,4,60,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hol7dluumxi1cqxyagg3",60
 00-0036913,Kadarius Toney,NYG,2021,1,0,0,0,0,0,0,0,2,-2,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hyl8jzsa7dto7qekd7vl",-2
 00-0036913,Kadarius Toney,NYG,2021,3,0,0,0,0,0,0,0,2,16,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hyl8jzsa7dto7qekd7vl",16
 00-0036913,Kadarius Toney,NYG,2021,4,0,0,0,0,0,1,1,6,78,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hyl8jzsa7dto7qekd7vl",79
@@ -5185,6 +5407,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036919,Kenneth Gainwell,PHI,2021,16,0,0,0,0,0,0,0,1,6,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/s8prgy9fa6ldmp7apoeb",6
 00-0036919,Kenneth Gainwell,PHI,2021,17,0,0,0,0,0,1,4,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/s8prgy9fa6ldmp7apoeb",4
 00-0036919,Kenneth Gainwell,PHI,2021,18,0,0,0,0,0,12,78,4,9,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/s8prgy9fa6ldmp7apoeb",87
+00-0036919,Kenneth Gainwell,PHI,2021,19,0,0,0,0,0,1,6,5,49,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/s8prgy9fa6ldmp7apoeb",55
 00-0036924,Michael Carter,NYJ,2021,1,0,0,0,0,0,4,6,1,14,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wkcmseo5ayu4wydu1xig",20
 00-0036924,Michael Carter,NYJ,2021,2,0,0,0,0,0,11,59,2,29,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wkcmseo5ayu4wydu1xig",88
 00-0036924,Michael Carter,NYJ,2021,3,0,0,0,0,0,9,24,2,5,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wkcmseo5ayu4wydu1xig",29
@@ -5214,6 +5437,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036936,Rondale Moore,ARI,2021,13,0,0,0,0,0,3,2,1,8,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qwcd3lglkknslsavcvr7",10
 00-0036936,Rondale Moore,ARI,2021,14,0,0,0,0,0,2,11,3,5,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qwcd3lglkknslsavcvr7",16
 00-0036936,Rondale Moore,ARI,2021,15,0,0,0,0,0,1,1,3,9,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qwcd3lglkknslsavcvr7",10
+00-0036936,Rondale Moore,ARI,2021,19,0,0,0,0,0,0,0,5,32,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/qwcd3lglkknslsavcvr7",32
 00-0036945,Justin Fields,CHI,2021,1,2,2,10,0,0,1,3,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ohjocm3hzbdvvycmm3yf",3
 00-0036945,Justin Fields,CHI,2021,2,6,13,60,0,1,7,35,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ohjocm3hzbdvvycmm3yf",35
 00-0036945,Justin Fields,CHI,2021,3,6,20,68,0,0,3,12,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ohjocm3hzbdvvycmm3yf",12
@@ -5308,6 +5532,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036972,Mac Jones,NE,2021,16,14,32,145,0,2,6,33,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yucu9hddoj4x9w9ifiod",33
 00-0036972,Mac Jones,NE,2021,17,22,30,227,3,0,2,12,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yucu9hddoj4x9w9ifiod",12
 00-0036972,Mac Jones,NE,2021,18,20,30,261,1,1,3,4,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yucu9hddoj4x9w9ifiod",4
+00-0036972,Mac Jones,NE,2021,19,24,37,232,2,2,2,18,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/yucu9hddoj4x9w9ifiod",18
 00-0036980,Elijah Moore,NYJ,2021,1,0,0,0,0,0,0,0,1,-3,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/rk7rq0dyx9bjmgc6ijkj",-3
 00-0036980,Elijah Moore,NYJ,2021,2,0,0,0,0,0,0,0,4,47,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/rk7rq0dyx9bjmgc6ijkj",47
 00-0036980,Elijah Moore,NYJ,2021,3,0,0,0,0,0,0,0,3,22,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/rk7rq0dyx9bjmgc6ijkj",22
@@ -5324,21 +5549,21 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0036984,Trey Sermon,SF,2021,4,0,0,0,0,0,19,89,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/v2igdor3vf1ijb0qyyp1",89
 00-0036984,Trey Sermon,SF,2021,5,0,0,0,0,0,1,7,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/v2igdor3vf1ijb0qyyp1",7
 00-0036984,Trey Sermon,SF,2021,11,0,0,0,0,0,10,32,1,23,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/v2igdor3vf1ijb0qyyp1",55
-00-0036988,Josh Palmer,LAC,2021,1,0,0,0,0,0,0,0,1,17,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",17
-00-0036988,Josh Palmer,LAC,2021,2,0,0,0,0,0,0,0,2,21,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",21
-00-0036988,Josh Palmer,LAC,2021,5,0,0,0,0,0,0,0,2,12,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",12
-00-0036988,Josh Palmer,LAC,2021,6,0,0,0,0,0,0,0,1,8,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",8
-00-0036988,Josh Palmer,LAC,2021,8,0,0,0,0,0,0,0,1,24,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",24
-00-0036988,Josh Palmer,LAC,2021,9,0,0,0,0,0,0,0,2,22,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",22
-00-0036988,Josh Palmer,LAC,2021,10,0,0,0,0,0,0,0,3,22,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",22
-00-0036988,Josh Palmer,LAC,2021,11,0,0,0,0,0,1,6,1,17,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",23
-00-0036988,Josh Palmer,LAC,2021,12,0,0,0,0,0,0,0,2,25,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",25
-00-0036988,Josh Palmer,LAC,2021,13,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",0
-00-0036988,Josh Palmer,LAC,2021,14,0,0,0,0,0,0,0,5,66,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",66
-00-0036988,Josh Palmer,LAC,2021,15,0,0,0,0,0,0,0,1,15,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",15
-00-0036988,Josh Palmer,LAC,2021,16,0,0,0,0,0,0,0,5,43,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",43
-00-0036988,Josh Palmer,LAC,2021,17,0,0,0,0,0,0,0,3,16,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",16
-00-0036988,Josh Palmer,LAC,2021,18,0,0,0,0,0,0,0,4,45,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",45
+00-0036988,Joshua Palmer,LAC,2021,1,0,0,0,0,0,0,0,1,17,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",17
+00-0036988,Joshua Palmer,LAC,2021,2,0,0,0,0,0,0,0,2,21,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",21
+00-0036988,Joshua Palmer,LAC,2021,5,0,0,0,0,0,0,0,2,12,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",12
+00-0036988,Joshua Palmer,LAC,2021,6,0,0,0,0,0,0,0,1,8,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",8
+00-0036988,Joshua Palmer,LAC,2021,8,0,0,0,0,0,0,0,1,24,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",24
+00-0036988,Joshua Palmer,LAC,2021,9,0,0,0,0,0,0,0,2,22,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",22
+00-0036988,Joshua Palmer,LAC,2021,10,0,0,0,0,0,0,0,3,22,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",22
+00-0036988,Joshua Palmer,LAC,2021,11,0,0,0,0,0,1,6,1,17,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",23
+00-0036988,Joshua Palmer,LAC,2021,12,0,0,0,0,0,0,0,2,25,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",25
+00-0036988,Joshua Palmer,LAC,2021,13,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",0
+00-0036988,Joshua Palmer,LAC,2021,14,0,0,0,0,0,0,0,5,66,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",66
+00-0036988,Joshua Palmer,LAC,2021,15,0,0,0,0,0,0,0,1,15,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",15
+00-0036988,Joshua Palmer,LAC,2021,16,0,0,0,0,0,0,0,5,43,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",43
+00-0036988,Joshua Palmer,LAC,2021,17,0,0,0,0,0,0,0,3,16,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",16
+00-0036988,Joshua Palmer,LAC,2021,18,0,0,0,0,0,0,0,4,45,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/x2gobzerrjxzgpxij4ac",45
 00-0036991,Amari Rodgers,GB,2021,1,0,0,0,0,0,0,0,1,19,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fjhb4qyjvr5cljohmee6",19
 00-0036991,Amari Rodgers,GB,2021,6,0,0,0,0,0,0,0,1,14,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fjhb4qyjvr5cljohmee6",14
 00-0036991,Amari Rodgers,GB,2021,8,0,0,0,0,0,1,11,1,7,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fjhb4qyjvr5cljohmee6",18
