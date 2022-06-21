@@ -45,8 +45,8 @@ logo_asp <- 1.618
 
 showtext_opts(dpi = 480)
 
-brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_wordmarks = F, logo = F, logo_FL = F,
-                               logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F, logo_SC = F, logo_loc) {
+brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_wordmarks = F, logo = F,
+                           logo_BSG = F, logo_4for4 = F, logo_4for4_red = F, logo_loc) {
   
   ## start by adding team wordmarks
   if (tm_wordmarks) {
@@ -76,47 +76,26 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_w
   #}
   
   # aesthetics for various logos used
-  if (logo_FE){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/Fantasy Evaluator/Logo.png")
-    logo_width <- 0.16
-    logo_height <- 0.09
-    logo_x <- 0.85
-    logo_y <- 0.91
-  }
-  if (logo_SC){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/Ship Chasing.jpg")
-    logo_width <- 0.09
-    logo_height <- 0.09
-    logo_x <- 0.925
-    logo_y <- 0.91
-  }
   if (logo_4for4){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
+    logo_file <- magick::image_read("C:/Users/sphop/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
     logo_width <- 0.09
     logo_height <- 0.09
     logo_x <- 0.925
     logo_y <- 0.91
   }
   if (logo_4for4_red){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4_red.jpg")
+    logo_file <- magick::image_read("C:/Users/sphop/OneDrive/NFL Analysis/Data Repository/4for4_red.jpg")
     logo_width <- 0.09
     logo_height <- 0.09
     logo_x <- 0.925
     logo_y <- 0.91
   }
-  if (logo_FL){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/FL_logo.jpg")
-    logo_width <- 0.09
-    logo_height <- 0.09
-    logo_x <- 0.925
-    logo_y <- 0.91
-  }
-  if (logo_ETR){
-    logo_file <- magick::image_read_svg("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/etr.svg")
+  if (logo_BSG){
+    logo_file <- magick::image_read("C:/Users/sphop/OneDrive/Betsperts/R/Betsperts Golf - Logo - Final-01.jpg")
     logo_width <- 0.12
     logo_height <- 0.0675
     logo_x <- 0.87
-    logo_y <- 0.91
+    logo_y <- 0.93
   }
   
   
