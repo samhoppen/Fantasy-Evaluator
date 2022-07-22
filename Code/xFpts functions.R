@@ -243,7 +243,7 @@ ryoe_pbp_join <- function(nfl_pbp, ngs_pbp){
            roof = case_when(is.na(roof) & (home_team %in% c("ATL", "HOU", "IND")) ~ "dome",
                             TRUE ~ roof))
   
-  cols <- c('old_game_id', 'play_id', 'drive_play_id_started', 'desc', 'play_type', 'game_id',
+  cols <- c('old_game_id', 'play_id', 'posteam', 'drive_play_id_started', 'desc', 'play_type', 'game_id',
             'yards_gained', 'ydstogo', 'down', 'half_seconds_remaining', 'yardline_100',
             'roof', 'run_location', 'run_gap', 'wp', 'posteam_type',
             'offense.offenseFormation', 'offense.personnel', 'defense.defendersInTheBox',
@@ -306,7 +306,7 @@ ryoe_model_mutations <- function(joined_pbp, szn){
     select(-c(rusher_pos,roof, offense.personnel, offense.offenseFormation,
               run_location, run_gap))
   
-  model_cols <- c('season', 'game_id', 'play_id', 'drive_play_id_started', 'yards_gained',
+  model_cols <- c('season', 'game_id', 'posteam', 'play_id', 'drive_play_id_started', 'yards_gained',
                   'rusher_player_id', 'ydstogo', 'down', 'half_seconds_remaining',
                   'yardline_100', 'wp', 'posteam_type', 'defense.defendersInTheBox',
                   'rusher_rb', 'rusher_wr', 'rusher_qb', 'closed_roof',
@@ -363,7 +363,7 @@ add_ryoe <- function(nfl_pbp, ngs_pbp, szn) {
     preds <- stats::predict(
       ryoe_model,
       # get rid of the things not needed for prediction here
-      as.matrix(rushes %>% select(-c(season, yards_gained, game_id,
+      as.matrix(rushes %>% select(-c(season, yards_gained, game_id, play_id, posteam,
                                      drive_play_id_started, rusher_player_id, index)))
     ) %>%
       tibble::as_tibble() %>%
