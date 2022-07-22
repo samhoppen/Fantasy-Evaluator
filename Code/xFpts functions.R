@@ -325,122 +325,58 @@ ryoe_model_mutations <- function(joined_pbp, szn){
 }
 
 
-add_ryoe <- function(nfl_pbp, ngs_pbp) {
-    # testing only
-    # pbp <- g
+ryoe_model <- xgb.load("C:/Users/sphop/OneDrive/Betsperts/R/Fantasy-Evaluator/Code/RYOE.model")
+
+add_ryoe <- function(nfl_pbp, ngs_pbp, szn) {
+
+  
+    orig_pbp <- ryoe_pbp_join(nfl_pbp = nfl_pbp, ngs_pbp = ngs_pbp)
     
-    # pbp <- pbp %>% dplyr::select(-tidyselect::any_of(drop.cols.xyac))
-    
+    fin_pbp <- ryoe_model_mutations(orig_pbp, szn = szn)
     # for joining at the end
-    pbp <- pbp %>%
-      dplyr::mutate(index = 1:dplyr::n())
+    
+    # fin_pbp <- fin_pbp %>%
+    #   dplyr::mutate(index = 1:dplyr::n())
     
     # prepare_xyac_data helper function shown below
-    passes <- prepare_xyac_data(pbp) %>%
-      dplyr::filter(valid_pass == 1, distance_to_goal != 0)
+    # passes <- prepare_xyac_data(pbp) %>%
+    #   dplyr::filter(valid_pass == 1, distance_to_goal != 0)
     
-    if (!nrow(passes) == 0) {
+    
+    # fin_pbp
+    rushes <- fin_pbp %>%
+      # filter(season == 2021) %>% 
+      dplyr::mutate(index = 1:dplyr::n())
+    
       # user_message("Computing xyac...", "todo")
-      join_data <- passes %>%
-        dplyr::select(
-          "index", "distance_to_goal", "season", "week", "home_team", "posteam", "roof",
-          "half_seconds_remaining", "down", "ydstogo",
-          "posteam_timeouts_remaining", "defteam_timeouts_remaining",
-          "original_spot" = "yardline_100", "original_ep" = "ep", "air_epa", "air_yards"
-        ) %>%
-        dplyr::mutate(
-          down = as.integer(down),
-          ydstogo = as.integer(ydstogo),
-          original_ydstogo = ydstogo
-        ) %>%
-        dplyr::select("index":"ydstogo", "original_ydstogo", dplyr::everything())
       
-      xyac_vars <-
-        stats::predict(
-          fastrmodels::xyac_model,
-          as.matrix(passes %>% xyac_model_select())
+    join_data <- rushes %>%
+      dplyr::mutate(index = 1:dplyr::n()) %>%
+      dplyr::mutate(
+        down = as.integer(down),
+        ydstogo = as.integer(ydstogo),
+        original_ydstogo = ydstogo
+      ) %>%
+      dplyr::select("index":"ydstogo", "original_ydstogo", dplyr::everything())
+    
+
+    preds <- stats::predict(
+      ryoe_model,
+      # get rid of the things not needed for prediction here
+      as.matrix(rushes %>% select(-label, -game_id, -rusher_player_id))
+    ) %>%
+      tibble::as_tibble() %>%
+      dplyr::rename(exp_ry = value) %>%
+      dplyr::mutate(exp_ry = round(exp_ry, 4))%>%
+      dplyr::bind_cols(
+        tibble::tibble(
+          "rushing_yds" = rep_len(-5:70, length.out = nrow(rushes) * 76),
+          "index" = rep(rushes$index, times = rep_len(76, length.out = nrow(rushes)))
         ) %>%
-        tibble::as_tibble() %>%
-        dplyr::rename(prob = "value") %>%
-        dplyr::bind_cols(
-          tibble::tibble(
-            "yac" = rep_len(-5:70, length.out = nrow(passes) * 76),
-            "index" = rep(passes$index, times = rep_len(76, length.out = nrow(passes)))
-          ) %>%
-            dplyr::left_join(join_data, by = "index") %>%
-            dplyr::mutate(
-              half_seconds_remaining = dplyr::if_else(
-                half_seconds_remaining <= 6,
-                0,
-                half_seconds_remaining - 6
-              )
-            )
-        ) %>%
-        dplyr::group_by(index) %>%
-        dplyr::mutate(
-          max_loss = dplyr::if_else(distance_to_goal < 95, -5, distance_to_goal - 99),
-          max_gain = dplyr::if_else(distance_to_goal > 70, 70, distance_to_goal),
-          cum_prob = cumsum(prob),
-          prob = dplyr::case_when(
-            # truncate probs at loss greater than max loss
-            yac == max_loss ~ cum_prob,
-            # same for gains bigger than possible
-            yac == max_gain ~ 1 - dplyr::lag(cum_prob, 1),
-            TRUE ~ prob
-          ),
-          # get updated end result for each possibility
-          yardline_100 = distance_to_goal - yac
-        ) %>%
-        # dplyr::filter(yac >= max_loss, yac <= max_gain) %>%
-        # dplyr::select(-cum_prob) %>%
-        dplyr::mutate(
-          posteam_timeouts_pre = posteam_timeouts_remaining,
-          defeam_timeouts_pre = defteam_timeouts_remaining,
-          gain = original_spot - yardline_100,
-          turnover = dplyr::if_else(down == 4 & gain < ydstogo, as.integer(1), as.integer(0)),
-          down = dplyr::if_else(gain >= ydstogo, 1, down + 1),
-          ydstogo = dplyr::if_else(gain >= ydstogo, 10, ydstogo - gain),
-          # possession change if 4th down failed
-          down = dplyr::if_else(turnover == 1, as.integer(1), as.integer(down)),
-          ydstogo = dplyr::if_else(turnover == 1, as.integer(10), as.integer(ydstogo)),
-          # save yardline_100 for yards gained calculation
-          yardline_100_noflip = yardline_100,
-          # flip yardline_100 and timeouts for turnovers for EP calculation
-          yardline_100 = dplyr::if_else(turnover == 1, as.integer(100 - yardline_100), as.integer(yardline_100)),
-          posteam_timeouts_remaining = dplyr::if_else(
-            turnover == 1,
-            defeam_timeouts_pre,
-            posteam_timeouts_pre
-          ),
-          defteam_timeouts_remaining = dplyr::if_else(
-            turnover == 1,
-            posteam_timeouts_pre,
-            defeam_timeouts_pre
-          ),
-          # ydstogo can't be bigger than yardline
-          ydstogo = dplyr::if_else(ydstogo >= yardline_100, as.integer(yardline_100), as.integer(ydstogo))
-        )
-      
-      
-      pbp <- pbp %>%
-        dplyr::left_join(xyac_vars, by = "index") %>%
-        dplyr::select(-index)
-      
-      # message_completed("added xyac variables", ...)
-    } else { # means no valid pass plays in the pbp
-      pbp <- pbp %>%
-        dplyr::mutate(
-          xyac_epa = NA_real_,
-          xyac_mean_yardage = NA_real_,
-          xyac_median_yardage = NA_real_,
-          xyac_success = NA_real_,
-          xyac_fd = NA_real_
-        ) %>%
-        dplyr::select(-index)
-      # user_message("No non-NA values for xyac calculation detected. xyac variables set to NA", "info")
-  }
-  
-  return(pbp)
+          dplyr::left_join(join_data, by = "index")
+      )
+
+  return(preds)
 }
 
 
