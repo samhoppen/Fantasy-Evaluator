@@ -1,3 +1,6 @@
+library(xgboost)
+library(stringi)
+
 xyac_model_select <- function(pbp) {
   pbp %>%
     dplyr::select(
@@ -240,7 +243,8 @@ ryoe_pbp_join <- function(nfl_pbp, ngs_pbp){
            roof = case_when(is.na(roof) & (home_team %in% c("ATL", "HOU", "IND")) ~ "dome",
                             TRUE ~ roof))
   
-  cols <- c('old_game_id', 'play_id', 'desc', 'play_type', 'game_id', 'yards_gained', 'ydstogo', 'down', 'half_seconds_remaining', 'yardline_100',
+  cols <- c('old_game_id', 'play_id', 'drive_play_id_started', 'desc', 'play_type', 'game_id',
+            'yards_gained', 'ydstogo', 'down', 'half_seconds_remaining', 'yardline_100',
             'roof', 'run_location', 'run_gap', 'wp', 'posteam_type',
             'offense.offenseFormation', 'offense.personnel', 'defense.defendersInTheBox',
             'defense.personnel', 'rusher_player_id')
@@ -300,9 +304,10 @@ ryoe_model_mutations <- function(joined_pbp, szn){
            gap_guard = if_else(run_gap == "guard", 1, 0),
            gap_tackle = if_else(run_gap == "tackle", 1, 0)) %>% 
     select(-c(rusher_pos,roof, offense.personnel, offense.offenseFormation,
-              rusher_player_id, run_location, run_gap))
+              run_location, run_gap))
   
-  model_cols <- c('season', 'game_id', 'yards_gained', 'ydstogo', 'down', 'half_seconds_remaining',
+  model_cols <- c('season', 'game_id', 'play_id', 'drive_play_id_started', 'yards_gained',
+                  'rusher_player_id', 'ydstogo', 'down', 'half_seconds_remaining',
                   'yardline_100', 'wp', 'posteam_type', 'defense.defendersInTheBox',
                   'rusher_rb', 'rusher_wr', 'rusher_qb', 'closed_roof',
                   'rb_count', 'wr_count', 'te_count', 'form_I', 'form_empty',
@@ -312,12 +317,7 @@ ryoe_model_mutations <- function(joined_pbp, szn){
   model_pbp <- dummy_pbp %>% 
     select(all_of(model_cols)) %>% 
     filter(!is.na(defense.defendersInTheBox),
-           !is.na(rusher_rb)) %>% 
-    mutate(yards_gained = case_when(yards_gained <= -5 ~ -5,
-                                    yards_gained >= 70 ~ 70,
-                                    TRUE ~ yards_gained),
-           label = yards_gained+5) %>% 
-    select(-yards_gained)
+           !is.na(rusher_rb))
   
   model_pbp[is.na(model_pbp)] <- 0
   
@@ -363,7 +363,8 @@ add_ryoe <- function(nfl_pbp, ngs_pbp, szn) {
     preds <- stats::predict(
       ryoe_model,
       # get rid of the things not needed for prediction here
-      as.matrix(rushes %>% select(-label, -game_id, -rusher_player_id))
+      as.matrix(rushes %>% select(-c(season, yards_gained, game_id,
+                                     drive_play_id_started, rusher_player_id, index)))
     ) %>%
       tibble::as_tibble() %>%
       dplyr::rename(exp_ry = value) %>%
