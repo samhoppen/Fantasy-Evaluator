@@ -308,11 +308,11 @@ ryoe_model_mutations <- function(joined_pbp, szn){
   
   model_cols <- c('season', 'game_id', 'posteam', 'play_id', 'drive_play_id_started', 'yards_gained',
                   'rusher_player_id', 'ydstogo', 'down', 'half_seconds_remaining',
-                  'yardline_100', 'wp', 'posteam_type', 'defense.defendersInTheBox',
+                  'yardline_100', 'wp', 'defense.defendersInTheBox', # 'posteam_type',
                   'rusher_rb', 'rusher_wr', 'rusher_qb', 'closed_roof',
-                  'rb_count', 'wr_count', 'te_count', 'form_I', 'form_empty',
-                  'form_jumbo', 'form_pistol', 'form_shotgun', 'form_singleback',
-                  'form_wildcat', 'location_R', 'location_L', 'gap_end', 'gap_guard', 'gap_tackle')
+                  'rb_count', 'wr_count', 'te_count', # 'form_I', 'form_empty',
+                  #'form_jumbo', 'form_pistol', 'form_shotgun', 'form_singleback','form_wildcat', 
+                  'location_R', 'location_L', 'gap_end', 'gap_guard', 'gap_tackle')
   
   model_pbp <- dummy_pbp %>% 
     select(all_of(model_cols)) %>% 
