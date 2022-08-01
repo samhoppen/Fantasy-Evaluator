@@ -1,6 +1,22 @@
 library(xgboost)
 library(stringi)
 
+new_ids <- tibble::tribble(
+  ~away_team, ~home_team, ~season, ~week, ~new_old_game_id,
+  "DAL",      "NYG",   2021L,   15L,      2021121903L,
+  "ATL",       "SF",   2021L,   15L,      2021121906L,
+  "NO",       "TB",   2021L,   15L,      2021121908L,
+  "SEA",       "LA",   2021L,   15L,      2021122101L,
+  "ARI",      "DET",   2021L,   15L,      2021121901L,
+  "CAR",      "BUF",   2021L,   15L,      2021121909L,
+  "HOU",      "JAX",   2021L,   15L,      2021121902L,
+  "NYJ",      "MIA",   2021L,   15L,      2021121910L,
+  "TEN",      "PIT",   2021L,   15L,      2021121904L,
+  "CIN",      "DEN",   2021L,   15L,      2021121905L,
+  "NE",      "BUF",   2021L,   19L,      2022011501L
+)
+
+
 xyac_model_select <- function(pbp) {
   pbp %>%
     dplyr::select(
@@ -231,13 +247,13 @@ get_ngs_pbp <- function(old_game_id, headers, cookies) {
 
 ryoe_pbp_join <- function(nfl_pbp, ngs_pbp){
   pbp <- nfl_pbp %>% 
-    filter(rush == 1,
+    dplyr::filter(rush == 1,
            qb_scramble == 0,
            play_type != 'no_play',
            down <= 4,
            aborted_play == 0,
            !is.na(posteam)) %>% 
-    mutate(posteam_type = if_else(posteam == home_team, 1, 0),
+    dplyr::mutate(posteam_type = if_else(posteam == home_team, 1, 0),
            home_team = nflreadr::clean_team_abbrs(home_team),
            away_team = nflreadr::clean_team_abbrs(away_team),
            roof = case_when(is.na(roof) & (home_team %in% c("ATL", "HOU", "IND")) ~ "dome",
@@ -254,7 +270,7 @@ ryoe_pbp_join <- function(nfl_pbp, ngs_pbp){
     left_join(ngs_pbp,
               by = c("old_game_id" = "old_game_id",
                      "play_id" = "play_id")) %>% 
-    select(all_of(cols))
+    dplyr::select(all_of(cols))
   
   return(final_pbp)
   
@@ -264,24 +280,24 @@ ryoe_pbp_join <- function(nfl_pbp, ngs_pbp){
 ryoe_model_mutations <- function(joined_pbp, szn){
   
   rosters <- nflreadr::load_rosters(seasons = szn) %>% 
-    select(gsis_id, position, season)
+    dplyr::select(gsis_id, position, season)
   
   pbp <- joined_pbp %>% 
-    mutate(run_gap = case_when(run_location == "middle" ~ "middle",
+    dplyr::mutate(run_gap = case_when(run_location == "middle" ~ "middle",
                                TRUE ~ run_gap),
            season = as.numeric(substr(game_id, 1, 4))) %>% 
-    filter(!is.na(run_location), !is.na(run_gap)) %>% 
-    filter(!grepl('Punt formation', desc)) %>% 
-    filter(!grepl('Field Goal formation', desc)) %>% 
+    dplyr::filter(!is.na(run_location), !is.na(run_gap)) %>% 
+    dplyr::filter(!grepl('Punt formation', desc)) %>% 
+    dplyr::filter(!grepl('Field Goal formation', desc)) %>% 
     unique() %>% 
     left_join(rosters,
               by = c("season" = "season",
                      "rusher_player_id" = "gsis_id")) %>% 
-    rename(rusher_pos = position)
+    dplyr::rename(rusher_pos = position)
   
   # roof, run_location, run_gap, offensive formation, offensive personnel, defensive personnel
   dummy_pbp <- pbp %>% 
-    mutate(rusher_rb = if_else(rusher_pos == "RB", 1, 0),
+    dplyr::mutate(rusher_rb = if_else(rusher_pos == "RB", 1, 0),
            rusher_wr = if_else(rusher_pos == "WR", 1, 0),
            rusher_qb = if_else(rusher_pos == "QB", 1, 0),
            closed_roof = if_else(roof %in% c("closed", "dome"), 1, 0),
@@ -303,7 +319,7 @@ ryoe_model_mutations <- function(joined_pbp, szn){
            gap_end = if_else(run_gap == "end", 1, 0),
            gap_guard = if_else(run_gap == "guard", 1, 0),
            gap_tackle = if_else(run_gap == "tackle", 1, 0)) %>% 
-    select(-c(rusher_pos,roof, offense.personnel, offense.offenseFormation,
+    dplyr::select(-c(rusher_pos,roof, offense.personnel, offense.offenseFormation,
               run_location, run_gap))
   
   model_cols <- c('season', 'game_id', 'posteam', 'play_id', 'drive_play_id_started', 'yards_gained',
@@ -315,8 +331,8 @@ ryoe_model_mutations <- function(joined_pbp, szn){
                   'location_R', 'location_L', 'gap_end', 'gap_guard', 'gap_tackle')
   
   model_pbp <- dummy_pbp %>% 
-    select(all_of(model_cols)) %>% 
-    filter(!is.na(defense.defendersInTheBox),
+    dplyr::select(all_of(model_cols)) %>% 
+    dplyr::filter(!is.na(defense.defendersInTheBox),
            !is.na(rusher_rb))
   
   model_pbp[is.na(model_pbp)] <- 0
