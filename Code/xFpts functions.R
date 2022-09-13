@@ -259,7 +259,7 @@ ryoe_pbp_join <- function(nfl_pbp, ngs_pbp){
            roof = case_when(is.na(roof) & (home_team %in% c("ATL", "HOU", "IND")) ~ "dome",
                             TRUE ~ roof))
   
-  cols <- c('old_game_id', 'play_id', 'posteam', 'drive_play_id_started', 'desc', 'play_type', 'game_id',
+  cols <- c('game_id', 'play_id', 'posteam', 'drive_play_id_started', 'desc', 'play_type', 'game_id',
             'yards_gained', 'ydstogo', 'down', 'half_seconds_remaining', 'yardline_100',
             'roof', 'run_location', 'run_gap', 'wp', 'posteam_type',
             'offense.offenseFormation', 'offense.personnel', 'defense.defendersInTheBox',
@@ -268,7 +268,7 @@ ryoe_pbp_join <- function(nfl_pbp, ngs_pbp){
   
   final_pbp <- pbp %>% 
     left_join(ngs_pbp,
-              by = c("game_id" = "old_game_id",
+              by = c("game_id" = "nflverse_game_id",
                      "play_id" = "play_id")) %>% 
     dplyr::select(all_of(cols))
   
