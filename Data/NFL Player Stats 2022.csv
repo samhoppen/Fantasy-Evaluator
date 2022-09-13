@@ -74,7 +74,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033045,Ezekiel Elliott,DAL,2022,1,0,0,0,0,0,10,52,1,-3,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/eazag7iwciy9ari8hoju",49
 00-0033077,Dak Prescott,DAL,2022,1,14,29,134,0,1,1,12,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/ofhu8bvafse5folcjzyu",12
 00-0033090,Hunter Henry,NE,2022,1,0,0,0,0,0,0,0,2,20,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hyjz8co5tlq5dkg8ff7p",20
-00-0033106,Jared Goff,DET,2022,1,22,39,217,2,1,1,10,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/s4hzfab5iglq2tmjb0xy",10
+00-0033106,Jared Goff,DET,2022,1,21,37,215,2,1,1,10,0,0,QB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/s4hzfab5iglq2tmjb0xy",10
 00-0033110,Tyler Higbee,LA,2022,1,0,0,0,0,0,0,0,5,39,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/b6kn7vqe0iplpkgmzzv1",39
 00-0033114,Mike Thomas,CIN,2022,1,0,0,0,0,0,0,0,1,5,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/sytj4awk8kseyootqzec",5
 00-0033118,Kenyan Drake,BAL,2022,1,0,0,0,0,0,11,31,1,15,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/rp5apwel9vuk49b4lykn",46
@@ -123,7 +123,7 @@ player_id,full_name,recent_team,season,week,pass_comp,pass_att,pass_yds,pass_td,
 00-0033925,DOnta Foreman,CAR,2022,1,0,0,0,0,0,2,5,0,0,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/kvowcl8ebdanhiuiwcrp",5
 00-0033932,Kenny Golladay,NYG,2022,1,0,0,0,0,0,0,0,2,22,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/vck7awhkwwhui3ndgts3",22
 00-0033943,Josh Reynolds,DET,2022,1,0,0,0,0,0,0,0,1,28,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/khqejrdwhxxjzvbco3nv",28
-00-0033948,Jamaal Williams,DET,2022,1,0,0,0,0,0,22,56,2,4,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hl8dsrs7awapodhiwvgn",60
+00-0033948,Jamaal Williams,DET,2022,1,0,0,0,0,0,11,28,1,2,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/hl8dsrs7awapodhiwvgn",30
 00-0034073,Ross Dwelley,SF,2022,1,0,0,0,0,0,0,0,1,11,TE,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/wsqd1kbdbqratcxretm5",11
 00-0034104,Cam Sims,WAS,2022,1,0,0,0,0,0,0,0,0,0,WR,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/tbldho8jbkode1uqoj6n",0
 00-0034115,Jeff Wilson,SF,2022,1,0,0,0,0,0,9,22,2,8,RB,"https://static.www.nfl.com/image/private/f_auto,q_auto/league/fff1gvfq1glc3quftab4",30
