@@ -268,7 +268,7 @@ ryoe_pbp_join <- function(nfl_pbp, ngs_pbp){
   
   final_pbp <- pbp %>% 
     left_join(ngs_pbp,
-              by = c("old_game_id" = "old_game_id",
+              by = c("game_id" = "old_game_id",
                      "play_id" = "play_id")) %>% 
     dplyr::select(all_of(cols))
   
