@@ -27709,3 +27709,380 @@ week,year,Pos,Team,H.A,Oppt,FPTS,Salary,player,away_score,home_score,total,sprea
 16,2021,Def,BAL,a,CIN,-1,3900,Ravens DST,21,41,62,7.5,43,loss
 16,2021,Def,PIT,a,KC,-2,3200,Steelers DST,10,36,46,10.5,44,loss
 16,2021,Def,LAC,a,HOU,-3,4800,Chargers DST,29,41,70,-13.5,46,loss
+1,2022,WR,MIN,h,GB,34.9,0,Justin Jefferson,7,23,30,2.5,47,win
+1,2022,QB,KC,a,ARI,34.9,0,Patrick Mahomes,44,21,65,-6,54,win
+1,2022,QB,BUF,a,LA,33.5,0,Josh Allen,31,10,41,-1,51.5,win
+1,2022,RB,NYG,a,TEN,30.4,0,Saquon Barkley,21,20,41,5.5,43.5,win
+1,2022,QB,WAS,h,JAX,29.7,0,Carson Wentz,22,28,50,3,43.5,win
+1,2022,RB,IND,a,HOU,25.5,0,Jonathan Taylor,20,20,40,-7,46,tie
+1,2022,WR,LAR,NA,NA,25.3,0,Cooper Kupp,NA,NA,NA,NA,NA,NA
+1,2022,WR,LV,a,LAC,25.1,0,Davante Adams,19,24,43,3.5,52.5,loss
+1,2022,RB,DET,h,PHI,25,0,D'Andre Swift,38,35,73,-6,49,loss
+1,2022,QB,PHI,a,DET,24.7,0,Jalen Hurts,38,35,73,-6,49,win
+1,2022,WR,CIN,h,PIT,23.9,0,Ja'Marr Chase,23,20,43,7.5,44.5,loss
+1,2022,QB,LAC,h,LV,23.3,0,Justin Herbert,19,24,43,3.5,52.5,win
+1,2022,WR,IND,a,HOU,22.6,0,Michael Pittman Jr.,20,20,40,-7,46,tie
+1,2022,QB,CIN,h,PIT,22.2,0,Joe Burrow,23,20,43,7.5,44.5,loss
+1,2022,WR,BUF,a,LA,22.2,0,Stefon Diggs,31,10,41,-1,51.5,win
+1,2022,TE,KC,a,ARI,22.1,0,Travis Kelce,44,21,65,-6,54,win
+1,2022,QB,NO,a,ATL,21.7,0,Jameis Winston,27,26,53,-6,43.5,win
+1,2022,QB,BAL,a,NYJ,21.2,0,Lamar Jackson,24,9,33,-6.5,44,win
+1,2022,RB,ATL,h,NO,21.1,0,Cordarrelle Patterson,27,26,53,-6,43.5,loss
+1,2022,RB,CLE,a,CAR,21,0,Kareem Hunt,26,24,50,2.5,42.5,win
+1,2022,RB,KC,a,ARI,20.9,0,Clyde Edwards-Helaire,44,21,65,-6,54,win
+1,2022,QB,ARI,h,KC,20.6,0,Kyler Murray,44,21,65,-6,54,loss
+1,2022,WR,PHI,a,DET,20.5,0,A.J. Brown,38,35,73,-6,49,win
+1,2022,RB,TEN,h,NYG,20.4,0,Dontrell Hilliard,21,20,41,5.5,43.5,loss
+1,2022,WR,NO,a,ATL,20.2,0,Michael Thomas,27,26,53,-6,43.5,win
+1,2022,QB,ATL,h,NO,19.8,0,Marcus Mariota,27,26,53,-6,43.5,loss
+1,2022,WR,BAL,a,NYJ,19.4,0,Devin Duvernay,24,9,33,-6.5,44,win
+1,2022,RB,JAX,a,WAS,19.4,0,James Robinson,22,28,50,3,43.5,loss
+1,2022,QB,TEN,h,NYG,19.3,0,Ryan Tannehill,21,20,41,5.5,43.5,loss
+1,2022,QB,MIN,h,GB,19.1,0,Kirk Cousins,7,23,30,2.5,47,win
+1,2022,QB,CAR,h,CLE,19,0,Baker Mayfield,26,24,50,2.5,42.5,loss
+1,2022,WR,CAR,h,CLE,18.7,0,Robbie Anderson,26,24,50,2.5,42.5,loss
+1,2022,WR,DEN,a,SEA,18.2,0,Jerry Jeudy,16,17,33,-6,44,loss
+1,2022,RB,CIN,h,PIT,18,0,Joe Mixon,23,20,43,7.5,44.5,loss
+1,2022,QB,DEN,a,SEA,17.8,0,Russell Wilson,16,17,33,-6,44,loss
+1,2022,RB,GB,a,MIN,17.6,0,A.J. Dillon,7,23,30,2.5,47,loss
+1,2022,RB,PHI,a,DET,17.5,0,Miles Sanders,38,35,73,-6,49,win
+1,2022,QB,SEA,h,DEN,17.2,0,Geno Smith,16,17,33,-6,44,win
+1,2022,QB,NYG,a,TEN,17,0,Daniel Jones,21,20,41,5.5,43.5,win
+1,2022,QB,LV,a,LAC,16.8,0,Derek Carr,19,24,43,3.5,52.5,loss
+1,2022,WR,BUF,a,LA,16.8,0,Gabriel Davis,31,10,41,-1,51.5,win
+1,2022,TE,HOU,h,IND,16.8,0,O.J. Howard,20,20,40,-7,46,tie
+1,2022,WR,WAS,h,JAX,16.5,0,Jahan Dotson,22,28,50,3,43.5,win
+1,2022,RB,WAS,h,JAX,16.5,0,Antonio Gibson,22,28,50,3,43.5,win
+1,2022,QB,DET,h,PHI,16.5,0,Jared Goff,38,35,73,-6,49,loss
+1,2022,WR,DET,h,PHI,16.4,0,Amon-Ra St. Brown,38,35,73,-6,49,loss
+1,2022,QB,IND,a,HOU,16.3,0,Matt Ryan,20,20,40,-7,46,tie
+1,2022,WR,MIA,h,NE,15.7,0,Jaylen Waddle,7,20,27,3,47,win
+1,2022,WR,TB,a,DAL,15.6,0,Mike Evans,19,3,22,-2.5,49.5,win
+1,2022,QB,HOU,h,IND,15.5,0,Davis Mills,20,20,40,-7,46,tie
+1,2022,RB,DET,h,PHI,15.5,0,Jamaal Williams,38,35,73,-6,49,loss
+1,2022,QB,NYJ,h,BAL,15.3,0,Joe Flacco,24,9,33,-6.5,44,loss
+1,2022,WR,WAS,h,JAX,15.2,0,Curtis Samuel,22,28,50,3,43.5,win
+1,2022,WR,NO,a,ATL,14.9,0,Jarvis Landry,27,26,53,-6,43.5,win
+1,2022,RB,CLE,a,CAR,14.8,0,Nick Chubb,26,24,50,2.5,42.5,win
+1,2022,TE,NO,a,ATL,14.8,0,Taysom Hill,27,26,53,-6,43.5,win
+1,2022,QB,MIA,h,NE,14.8,0,Tua Tagovailoa,7,20,27,3,47,win
+1,2022,RB,TB,a,DAL,14.7,0,Leonard Fournette,19,3,22,-2.5,49.5,win
+1,2022,WR,JAX,a,WAS,14.7,0,Christian Kirk,22,28,50,3,43.5,loss
+1,2022,QB,CHI,h,SF,14.6,0,Justin Fields,10,19,29,-6.5,38,win
+1,2022,QB,JAX,a,WAS,14.4,0,Trevor Lawrence,22,28,50,3,43.5,loss
+1,2022,RB,DEN,a,SEA,14.3,0,Javonte Williams,16,17,33,-6,44,loss
+1,2022,WR,NYG,a,TEN,14.1,0,Sterling Shepard,21,20,41,5.5,43.5,win
+1,2022,RB,ARI,h,KC,14,0,James Conner,44,21,65,-6,54,loss
+1,2022,WR,MIA,h,NE,14,0,Tyreek Hill,7,20,27,3,47,win
+1,2022,WR,LAC,h,LV,13.9,0,DeAndre Carter,19,24,43,3.5,52.5,win
+1,2022,RB,CAR,h,CLE,13.7,0,Christian McCaffrey,26,24,50,2.5,42.5,loss
+1,2022,RB,NYJ,h,BAL,13.5,0,Michael Carter,24,9,33,-6.5,44,loss
+1,2022,WR,DET,h,PHI,13.2,0,D.J. Chark,38,35,73,-6,49,loss
+1,2022,WR,BAL,a,NYJ,12.9,0,Rashod Bateman,24,9,33,-6.5,44,win
+1,2022,TE,LAC,h,LV,12.9,0,Gerald Everett,19,24,43,3.5,52.5,win
+1,2022,WR,WAS,h,JAX,12.8,0,Terry McLaurin,22,28,50,3,43.5,win
+1,2022,QB,PIT,a,CIN,12.7,0,Mitch Trubisky,23,20,43,7.5,44.5,win
+1,2022,WR,ARI,h,KC,12.3,0,Marquise Brown,44,21,65,-6,54,loss
+1,2022,RB,MIN,h,GB,12.3,0,Dalvin Cook,7,23,30,2.5,47,win
+1,2022,RB,KC,a,ARI,12.2,0,Isiah Pacheco,44,21,65,-6,54,win
+1,2022,TE,SEA,h,DEN,11.8,0,Will Dissly,16,17,33,-6,44,win
+1,2022,WR,HOU,h,IND,11.7,0,Brandin Cooks,20,20,40,-7,46,tie
+1,2022,WR,CHI,h,SF,11.6,0,Dante Pettis,10,19,29,-6.5,38,win
+1,2022,WR,SF,a,CHI,11.6,0,Deebo Samuel,10,19,29,-6.5,38,loss
+1,2022,QB,TB,a,DAL,11.4,0,Tom Brady,19,3,22,-2.5,49.5,win
+1,2022,WR,CIN,h,PIT,11.3,0,Tyler Boyd,23,20,43,7.5,44.5,loss
+1,2022,TE,SEA,h,DEN,11.3,0,Colby Parkinson,16,17,33,-6,44,win
+1,2022,QB,SF,a,CHI,11,0,Trey Lance,10,19,29,-6.5,38,loss
+1,2022,QB,CLE,a,CAR,10.9,0,Jacoby Brissett,26,24,50,2.5,42.5,win
+1,2022,RB,CHI,h,SF,10.8,0,Khalil Herbert,10,19,29,-6.5,38,win
+1,2022,QB,LAR,NA,NA,10.8,0,Matthew Stafford,NA,NA,NA,NA,NA,NA
+1,2022,WR,NYJ,h,BAL,10.7,0,Corey Davis,24,9,33,-6.5,44,loss
+1,2022,TE,ARI,h,KC,10.4,0,Zach Ertz,44,21,65,-6,54,loss
+1,2022,RB,PHI,a,DET,10.2,0,Kenneth Gainwell,38,35,73,-6,49,win
+1,2022,WR,TB,a,DAL,10.1,0,Julio Jones,19,3,22,-2.5,49.5,win
+1,2022,TE,PIT,a,CIN,10,0,Pat Freiermuth,23,20,43,7.5,44.5,win
+1,2022,WR,ATL,h,NO,9.9,0,Drake London,27,26,53,-6,43.5,loss
+1,2022,TE,LV,a,LAC,9.9,0,Darren Waller,19,24,43,3.5,52.5,loss
+1,2022,RB,LV,a,LAC,9.8,0,Brandon Bolden,19,24,43,3.5,52.5,loss
+1,2022,WR,ARI,h,KC,9.8,0,Greg Dortch,44,21,65,-6,54,loss
+1,2022,RB,LAR,NA,NA,9.8,0,Darrell Henderson,NA,NA,NA,NA,NA,NA
+1,2022,TE,DAL,h,TB,9.7,0,Dalton Schultz,19,3,22,-2.5,49.5,loss
+1,2022,RB,PIT,a,CIN,9.6,0,Najee Harris,23,20,43,7.5,44.5,win
+1,2022,QB,NE,a,MIA,9.5,0,Mac Jones,7,20,27,3,47,loss
+1,2022,RB,HOU,h,IND,9.5,0,Rex Burkhead,20,20,40,-7,46,tie
+1,2022,WR,JAX,a,WAS,9.5,0,Zay Jones,22,28,50,3,43.5,loss
+1,2022,TE,NYJ,h,BAL,9.4,0,Tyler Conklin,24,9,33,-6.5,44,loss
+1,2022,WR,DAL,h,TB,9.3,0,Noah Brown,19,3,22,-2.5,49.5,loss
+1,2022,RB,LAC,h,LV,9.2,0,Austin Ekeler,19,24,43,3.5,52.5,win
+1,2022,WR,DEN,a,SEA,9.2,0,Courtland Sutton,16,17,33,-6,44,loss
+1,2022,RB,GB,a,MIN,9.1,0,Aaron Jones,7,23,30,2.5,47,loss
+1,2022,WR,KC,a,ARI,9.1,0,Mecole Hardman,44,21,65,-6,54,win
+1,2022,WR,PIT,a,CIN,9,0,Diontae Johnson,23,20,43,7.5,44.5,win
+1,2022,WR,CLE,a,CAR,9,0,Donovan Peoples-Jones,26,24,50,2.5,42.5,win
+1,2022,WR,BUF,a,LA,8.9,0,Isaiah McKenzie,31,10,41,-1,51.5,win
+1,2022,WR,KC,a,ARI,8.9,0,JuJu Smith-Schuster,44,21,65,-6,54,win
+1,2022,RB,NE,a,MIA,8.8,0,Ty Montgomery,7,20,27,3,47,loss
+1,2022,WR,LAC,h,LV,8.6,0,Keenan Allen,19,24,43,3.5,52.5,win
+1,2022,WR,NYG,a,TEN,8.6,0,Richie James,21,20,41,5.5,43.5,win
+1,2022,RB,MIA,h,NE,8.5,0,Chase Edmonds,7,20,27,3,47,win
+1,2022,RB,IND,a,HOU,8.4,0,Nyheim Hines,20,20,40,-7,46,tie
+1,2022,WR,CHI,h,SF,8.3,0,Equanimeous St. Brown,10,19,29,-6.5,38,win
+1,2022,RB,TEN,h,NYG,8.2,0,Derrick Henry,21,20,41,5.5,43.5,loss
+1,2022,WR,SF,a,CHI,8.2,0,Jauan Jennings,10,19,29,-6.5,38,loss
+1,2022,WR,NE,a,MIA,8.2,0,Jakobi Meyers,7,20,27,3,47,loss
+1,2022,RB,LV,a,LAC,7.8,0,Josh Jacobs,19,24,43,3.5,52.5,loss
+1,2022,RB,LAC,h,LV,7.8,0,Zander Horvath,19,24,43,3.5,52.5,win
+1,2022,TE,BAL,a,NYJ,7.7,0,Mark Andrews,24,9,33,-6.5,44,win
+1,2022,RB,SEA,h,DEN,7.7,0,Rashaad Penny,16,17,33,-6,44,win
+1,2022,WR,TEN,h,NYG,7.6,0,Kyle Philips,21,20,41,5.5,43.5,loss
+1,2022,RB,ARI,h,KC,7.6,0,Eno Benjamin,44,21,65,-6,54,loss
+1,2022,WR,NO,a,ATL,7.6,0,Chris Olave,27,26,53,-6,43.5,win
+1,2022,RB,JAX,a,WAS,7.5,0,Travis Etienne,22,28,50,3,43.5,loss
+1,2022,TE,PHI,a,DET,7.5,0,Dallas Goedert,38,35,73,-6,49,win
+1,2022,WR,PIT,a,CIN,7.4,0,Chase Claypool,23,20,43,7.5,44.5,win
+1,2022,WR,NYJ,h,BAL,7.4,0,Elijah Moore,24,9,33,-6.5,44,loss
+1,2022,RB,BUF,a,LA,7.2,0,Devin Singletary,31,10,41,-1,51.5,win
+1,2022,WR,NYJ,h,BAL,7.2,0,Garrett Wilson,24,9,33,-6.5,44,loss
+1,2022,RB,NYJ,h,BAL,7.1,0,Breece Hall,24,9,33,-6.5,44,loss
+1,2022,TE,CIN,h,PIT,7.1,0,Hayden Hurst,23,20,43,7.5,44.5,loss
+1,2022,WR,TEN,h,NYG,7,0,Treylon Burks,21,20,41,5.5,43.5,loss
+1,2022,RB,PHI,a,DET,7,0,Boston Scott,38,35,73,-6,49,win
+1,2022,WR,GB,a,MIN,6.8,0,Romeo Doubs,7,23,30,2.5,47,loss
+1,2022,RB,NE,a,MIA,6.8,0,Damien Harris,7,20,27,3,47,loss
+1,2022,TE,KC,a,ARI,6.6,0,Jody Fortson,44,21,65,-6,54,win
+1,2022,RB,NYG,a,TEN,6.6,0,Chris Myarick,21,20,41,5.5,43.5,win
+1,2022,RB,CHI,h,SF,6.5,0,David Montgomery,10,19,29,-6.5,38,win
+1,2022,WR,CAR,h,CLE,6.5,0,D.J. Moore,26,24,50,2.5,42.5,loss
+1,2022,TE,LAR,NA,NA,6.4,0,Tyler Higbee,NA,NA,NA,NA,NA,NA
+1,2022,RB,KC,a,ARI,6.4,0,Jerick McKinnon,44,21,65,-6,54,win
+1,2022,RB,WAS,h,JAX,6.3,0,J.D. McKissic,22,28,50,3,43.5,win
+1,2022,TE,CAR,h,CLE,6.3,0,Ian Thomas,26,24,50,2.5,42.5,loss
+1,2022,TE,DEN,a,SEA,6.2,0,Andrew Beck,16,17,33,-6,44,loss
+1,2022,WR,NYJ,h,BAL,6.2,0,Braxton Berrios,24,9,33,-6.5,44,loss
+1,2022,RB,DEN,a,SEA,6.2,0,Melvin Gordon,16,17,33,-6,44,loss
+1,2022,WR,IND,a,HOU,6.1,0,Ashton Dulin,20,20,40,-7,46,tie
+1,2022,RB,NO,a,ATL,6.1,0,Alvin Kamara,27,26,53,-6,43.5,win
+1,2022,WR,KC,a,ARI,6.1,0,Marquez Valdes-Scantling,44,21,65,-6,54,win
+1,2022,TE,WAS,h,JAX,6,0,Logan Thomas,22,28,50,3,43.5,win
+1,2022,TE,DET,h,PHI,5.8,0,T.J. Hockenson,38,35,73,-6,49,loss
+1,2022,WR,JAX,a,WAS,5.8,0,Marvin Jones,22,28,50,3,43.5,loss
+1,2022,TE,DEN,a,SEA,5.8,0,Albert Okwuegbunam,16,17,33,-6,44,loss
+1,2022,WR,SF,a,CHI,5.7,0,Brandon Aiyuk,10,19,29,-6.5,38,loss
+1,2022,QB,DAL,h,TB,5.5,0,Dak Prescott,19,3,22,-2.5,49.5,loss
+1,2022,RB,DAL,h,TB,5.4,0,Ezekiel Elliott,19,3,22,-2.5,49.5,loss
+1,2022,WR,ATL,h,NO,5.3,0,KhaDarel Hodge,27,26,53,-6,43.5,loss
+1,2022,TE,NO,a,ATL,5.3,0,Juwan Johnson,27,26,53,-6,43.5,win
+1,2022,WR,IND,a,HOU,5.2,0,Parris Campbell,20,20,40,-7,46,tie
+1,2022,RB,CIN,h,PIT,5.2,0,Samaje Perine,23,20,43,7.5,44.5,loss
+1,2022,RB,BAL,a,NYJ,5.1,0,Kenyan Drake,24,9,33,-6.5,44,win
+1,2022,WR,GB,a,MIN,5.1,0,Christian Watson,7,23,30,2.5,47,loss
+1,2022,WR,SEA,h,DEN,5.1,0,DK Metcalf,16,17,33,-6,44,win
+1,2022,WR,MIN,h,GB,5.1,0,Adam Thielen,7,23,30,2.5,47,win
+1,2022,TE,GB,a,MIN,5.1,0,Robert Tonyan,7,23,30,2.5,47,loss
+1,2022,TE,PIT,a,CIN,5,0,Zach Gentry,23,20,43,7.5,44.5,win
+1,2022,WR,TB,a,DAL,5,0,Chris Godwin,19,3,22,-2.5,49.5,win
+1,2022,WR,ATL,h,NO,4.9,0,Olamide Zaccheaus,27,26,53,-6,43.5,loss
+1,2022,TE,JAX,a,WAS,4.8,0,Evan Engram,22,28,50,3,43.5,loss
+1,2022,TE,NE,a,MIA,4.8,0,Jonnu Smith,7,20,27,3,47,loss
+1,2022,QB,GB,a,MIN,4.7,0,Aaron Rodgers,7,23,30,2.5,47,loss
+1,2022,WR,NE,a,MIA,4.6,0,Kendrick Bourne,7,20,27,3,47,loss
+1,2022,WR,HOU,h,IND,4.6,0,Chris Moore,20,20,40,-7,46,tie
+1,2022,RB,BUF,a,LA,4.6,0,Zack Moss,31,10,41,-1,51.5,win
+1,2022,WR,IND,a,HOU,4.6,0,Mike Strachan,20,20,40,-7,46,tie
+1,2022,RB,LAC,h,LV,4.5,0,Joshua Kelley,19,24,43,3.5,52.5,win
+1,2022,WR,LAR,NA,NA,4.5,0,Ben Skowronek,NA,NA,NA,NA,NA,NA
+1,2022,RB,HOU,h,IND,4.4,0,Dameon Pierce,20,20,40,-7,46,tie
+1,2022,WR,CLE,a,CAR,4.4,0,Anthony Schwartz,26,24,50,2.5,42.5,win
+1,2022,WR,BUF,a,LA,4.3,0,Jamison Crowder,31,10,41,-1,51.5,win
+1,2022,WR,SEA,h,DEN,4.3,0,Tyler Lockett,16,17,33,-6,44,win
+1,2022,RB,SF,a,CHI,4.1,0,Elijah Mitchell,10,19,29,-6.5,38,loss
+1,2022,RB,SF,a,CHI,4,0,Jeff Wilson,10,19,29,-6.5,38,loss
+1,2022,WR,DAL,h,TB,3.9,0,CeeDee Lamb,19,3,22,-2.5,49.5,loss
+1,2022,TE,LAC,h,LV,3.9,0,Tre McKitty,19,24,43,3.5,52.5,win
+1,2022,TE,GB,a,MIN,3.8,0,Josiah Deguara,7,23,30,2.5,47,loss
+1,2022,WR,MIA,h,NE,3.8,0,Cedrick Wilson,7,20,27,3,47,win
+1,2022,TE,IND,a,HOU,3.7,0,Kylen Granson,20,20,40,-7,46,tie
+1,2022,WR,CIN,h,PIT,3.7,0,Tee Higgins,23,20,43,7.5,44.5,loss
+1,2022,RB,MIA,h,NE,3.7,0,Raheem Mostert,7,20,27,3,47,win
+1,2022,RB,NE,a,MIA,3.7,0,Rhamondre Stevenson,7,20,27,3,47,loss
+1,2022,TE,IND,a,HOU,3.6,0,Mo Alie-Cox,20,20,40,-7,46,tie
+1,2022,WR,HOU,h,IND,3.6,0,Nico Collins,20,20,40,-7,46,tie
+1,2022,RB,MIN,h,GB,3.6,0,Alexander Mattison,7,23,30,2.5,47,win
+1,2022,WR,LV,a,LAC,3.6,0,Hunter Renfrow,19,24,43,3.5,52.5,loss
+1,2022,WR,KC,a,ARI,3.5,0,Skyy Moore,44,21,65,-6,54,win
+1,2022,TE,TEN,h,NYG,3.4,0,Geoff Swaim,21,20,41,5.5,43.5,loss
+1,2022,WR,DET,h,PHI,3.3,0,Josh Reynolds,38,35,73,-6,49,loss
+1,2022,WR,GB,a,MIN,3.3,0,Sammy Watkins,7,23,30,2.5,47,loss
+1,2022,WR,CLE,a,CAR,3.2,0,Amari Cooper,26,24,50,2.5,42.5,win
+1,2022,WR,NYG,a,TEN,3.2,0,Kenny Golladay,21,20,41,5.5,43.5,win
+1,2022,WR,SEA,h,DEN,3.2,0,Marquise Goodwin,16,17,33,-6,44,win
+1,2022,TE,MIN,h,GB,3.2,0,Johnny Mundt,7,23,30,2.5,47,win
+1,2022,RB,DAL,h,TB,3.2,0,Tony Pollard,19,3,22,-2.5,49.5,loss
+1,2022,TE,SEA,h,DEN,3.1,0,Noah Fant,16,17,33,-6,44,win
+1,2022,RB,TB,a,DAL,3.1,0,Rachaad White,19,3,22,-2.5,49.5,win
+1,2022,TE,NE,a,MIA,3,0,Hunter Henry,7,20,27,3,47,loss
+1,2022,WR,MIN,h,GB,2.9,0,K.J. Osborn,7,23,30,2.5,47,win
+1,2022,TE,ATL,h,NO,2.9,0,Kyle Pitts,27,26,53,-6,43.5,loss
+1,2022,WR,BAL,a,NYJ,2.9,0,Demarcus Robinson,24,9,33,-6.5,44,win
+1,2022,TE,WAS,h,JAX,2.8,0,Armani Rogers,22,28,50,3,43.5,win
+1,2022,TE,CLE,a,CAR,2.8,0,Harrison Bryant,26,24,50,2.5,42.5,win
+1,2022,WR,TEN,h,NYG,2.7,0,Cody Hollister,21,20,41,5.5,43.5,loss
+1,2022,WR,CHI,h,SF,2.7,0,Byron Pringle,10,19,29,-6.5,38,win
+1,2022,WR,DAL,h,TB,2.6,0,Dennis Houston,19,3,22,-2.5,49.5,loss
+1,2022,QB,GB,a,MIN,2.6,0,Jordan Love,7,23,30,2.5,47,loss
+1,2022,QB,DAL,h,TB,2.6,0,Cooper Rush,19,3,22,-2.5,49.5,loss
+1,2022,WR,SF,a,CHI,2.5,0,Ray-Ray McCloud,10,19,29,-6.5,38,loss
+1,2022,QB,ARI,h,KC,2.5,0,Trace McSorley,44,21,65,-6,54,loss
+1,2022,RB,NYG,a,TEN,2.4,0,Matt Breida,21,20,41,5.5,43.5,win
+1,2022,WR,GB,a,MIN,2.4,0,Randall Cobb,7,23,30,2.5,47,loss
+1,2022,WR,LAC,h,LV,2.4,0,Josh Palmer,19,24,43,3.5,52.5,win
+1,2022,WR,NE,a,MIA,2.3,0,Nelson Agholor,7,20,27,3,47,loss
+1,2022,WR,NYG,a,TEN,2.3,0,Kadarius Toney,21,20,41,5.5,43.5,win
+1,2022,WR,TB,a,DAL,2.3,0,Russell Gage,19,3,22,-2.5,49.5,win
+1,2022,WR,ARI,h,KC,2.3,0,A.J. Green,44,21,65,-6,54,loss
+1,2022,TE,HOU,h,IND,2.2,0,Pharaoh Brown,20,20,40,-7,46,tie
+1,2022,WR,DAL,h,TB,2.2,0,Simi Fehoko,19,3,22,-2.5,49.5,loss
+1,2022,WR,GB,a,MIN,2.2,0,Juwann Winfree,7,23,30,2.5,47,loss
+1,2022,RB,BAL,a,NYJ,2.1,0,Justice Hill,24,9,33,-6.5,44,win
+1,2022,WR,LV,a,LAC,2.1,0,Mack Hollins,19,24,43,3.5,52.5,loss
+1,2022,RB,ATL,h,NO,2,0,Avery Williams,27,26,53,-6,43.5,loss
+1,2022,WR,LAC,h,LV,2,0,Mike Williams,19,24,43,3.5,52.5,win
+1,2022,TE,MIA,h,NE,1.9,0,Durham Smythe,7,20,27,3,47,win
+1,2022,WR,LAR,NA,NA,1.8,0,Brandon Powell,NA,NA,NA,NA,NA,NA
+1,2022,WR,TEN,h,NYG,1.8,0,Nick Westbrook-Ikhine,21,20,41,5.5,43.5,loss
+1,2022,WR,TEN,h,NYG,1.8,0,Robert Woods,21,20,41,5.5,43.5,loss
+1,2022,WR,JAX,a,WAS,1.7,0,Jamal Agnew,22,28,50,3,43.5,loss
+1,2022,WR,LAR,NA,NA,1.7,0,Allen Robinson,NA,NA,NA,NA,NA,NA
+1,2022,WR,CAR,h,CLE,1.7,0,Shi Smith,26,24,50,2.5,42.5,loss
+1,2022,TE,SF,a,CHI,1.6,0,Ross Dwelley,10,19,29,-6.5,38,loss
+1,2022,TE,KC,a,ARI,1.5,0,Noah Gray,44,21,65,-6,54,win
+1,2022,RB,MIA,h,NE,1.5,0,Alec Ingold,7,20,27,3,47,win
+1,2022,WR,ARI,h,KC,1.5,0,Andy Isabella,44,21,65,-6,54,loss
+1,2022,TE,SF,a,CHI,1.4,0,Tyler Kroft,10,19,29,-6.5,38,loss
+1,2022,WR,NE,a,MIA,1.4,0,DeVante Parker,7,20,27,3,47,loss
+1,2022,WR,CHI,h,SF,1.3,0,Darnell Mooney,10,19,29,-6.5,38,win
+1,2022,WR,MIA,h,NE,1.3,0,Trent Sherfield,7,20,27,3,47,win
+1,2022,TE,TB,a,DAL,1.2,0,Cameron Brate,19,3,22,-2.5,49.5,win
+1,2022,RB,LAC,h,LV,1.2,0,Sony Michel,19,24,43,3.5,52.5,win
+1,2022,TE,CLE,a,CAR,1.2,0,David Njoku,26,24,50,2.5,42.5,win
+1,2022,TE,TEN,h,NYG,1.2,0,Chigoziem Okonkwo,21,20,41,5.5,43.5,loss
+1,2022,WR,PHI,a,DET,1.2,0,Zach Pascal,38,35,73,-6,49,win
+1,2022,RB,BAL,a,NYJ,1.2,0,Patrick Ricard,24,9,33,-6.5,44,win
+1,2022,RB,BAL,a,NYJ,1.1,0,Mike Davis,24,9,33,-6.5,44,win
+1,2022,TE,ATL,h,NO,1.1,0,Anthony Firkser,27,26,53,-6,43.5,loss
+1,2022,RB,MIN,h,GB,1.1,0,C.J. Ham,7,23,30,2.5,47,win
+1,2022,TE,TEN,h,NYG,1.1,0,Austin Hooper,21,20,41,5.5,43.5,loss
+1,2022,TE,ATL,h,NO,1,0,Parker Hesse,27,26,53,-6,43.5,loss
+1,2022,TE,HOU,h,IND,1,0,Brevin Jordan,20,20,40,-7,46,tie
+1,2022,TE,BUF,a,LA,1,0,Dawson Knox,31,10,41,-1,51.5,win
+1,2022,WR,NYG,a,TEN,1,0,Wan'Dale Robinson,21,20,41,5.5,43.5,win
+1,2022,WR,CIN,h,PIT,1,0,Mike Thomas,23,20,43,7.5,44.5,loss
+1,2022,WR,NO,a,ATL,0.9,0,Deonte Harty,27,26,53,-6,43.5,win
+1,2022,RB,NO,a,ATL,0.8,0,Mark Ingram,27,26,53,-6,43.5,win
+1,2022,TE,GB,a,MIN,0.8,0,Tyler Davis,7,23,30,2.5,47,loss
+1,2022,WR,PIT,a,CIN,0.8,0,George Pickens,23,20,43,7.5,44.5,win
+1,2022,RB,PIT,a,CIN,0.7,0,Jaylen Warren,23,20,43,7.5,44.5,win
+1,2022,RB,DEN,a,SEA,0.7,0,Mike Boone,16,17,33,-6,44,loss
+1,2022,TE,MIN,h,GB,0.7,0,Ben Ellefson,7,23,30,2.5,47,win
+1,2022,TE,CIN,h,PIT,0.7,0,Drew Sample,23,20,43,7.5,44.5,loss
+1,2022,TE,MIA,h,NE,0.6,0,Mike Gesicki,7,20,27,3,47,win
+1,2022,RB,LV,a,LAC,0.6,0,Jakob Johnson,19,24,43,3.5,52.5,loss
+1,2022,TE,CAR,h,CLE,0.6,0,Tommy Tremble,26,24,50,2.5,42.5,loss
+1,2022,QB,HOU,h,IND,0.5,0,Jeff Driskel,20,20,40,-7,46,tie
+1,2022,WR,SEA,h,DEN,0.5,0,D'Wayne Eskridge,16,17,33,-6,44,win
+1,2022,RB,CAR,h,CLE,0.5,0,D'Onta Foreman,26,24,50,2.5,42.5,loss
+1,2022,RB,CAR,h,CLE,0.3,0,Chuba Hubbard,26,24,50,2.5,42.5,loss
+1,2022,WR,TB,a,DAL,0.2,0,Jaelon Darden,19,3,22,-2.5,49.5,win
+1,2022,RB,SEA,h,DEN,0.2,0,Travis Homer,16,17,33,-6,44,win
+1,2022,RB,ATL,h,NO,0.2,0,Damien Williams,27,26,53,-6,43.5,loss
+1,2022,Def,PIT,a,CIN,26,0,Pittsburgh Steelers ,23,20,43,7.5,44.5,win
+1,2022,Def,MIA,h,NE,18,0,Miami Dolphins ,7,20,27,3,47,win
+1,2022,Def,BUF,a,LA,17,0,Buffalo Bills ,31,10,41,-1,51.5,win
+1,2022,Def,LAC,h,LV,13,0,Los Angeles Chargers ,19,24,43,3.5,52.5,win
+1,2022,Def,TB,a,DAL,13,0,Tampa Bay Buccaneers ,19,3,22,-2.5,49.5,win
+1,2022,Def,MIN,h,GB,12,0,Minnesota Vikings ,7,23,30,2.5,47,win
+1,2022,Def,BAL,a,NYJ,11,0,Baltimore Ravens ,24,9,33,-6.5,44,win
+1,2022,Def,CHI,h,SF,10,0,Chicago Bears ,10,19,29,-6.5,38,win
+1,2022,Def,LA,h,BUF,9,0,Los Angeles Rams ,31,10,41,-1,51.5,loss
+1,2022,Def,TEN,h,NYG,9,0,Tennessee Titans ,21,20,41,5.5,43.5,loss
+1,2022,Def,SEA,h,DEN,7,0,Seattle Seahawks ,16,17,33,-6,44,win
+1,2022,Def,HOU,h,IND,7,0,Houston Texans ,20,20,40,-7,46,tie
+1,2022,Def,IND,a,HOU,6,0,Indianapolis Colts ,20,20,40,-7,46,tie
+1,2022,Def,JAX,a,WAS,6,0,Jacksonville Jaguars ,22,28,50,3,43.5,loss
+1,2022,Def,ATL,h,NO,6,0,Atlanta Falcons ,27,26,53,-6,43.5,loss
+1,2022,Def,CLE,a,CAR,6,0,Cleveland Browns ,26,24,50,2.5,42.5,win
+1,2022,Def,NO,a,ATL,6,0,New Orleans Saints ,27,26,53,-6,43.5,win
+1,2022,Def,DEN,a,SEA,5,0,Denver Broncos ,16,17,33,-6,44,loss
+1,2022,Def,PHI,a,DET,5,0,Philadelphia Eagles ,38,35,73,-6,49,win
+1,2022,Def,DAL,h,TB,5,0,Dallas Cowboys ,19,3,22,-2.5,49.5,loss
+1,2022,Def,SF,a,CHI,5,0,San Francisco 49ers ,10,19,29,-6.5,38,loss
+1,2022,Def,WAS,h,JAX,4,0,Washington Commanders ,22,28,50,3,43.5,win
+1,2022,Def,NYJ,h,BAL,4,0,New York Jets ,24,9,33,-6.5,44,loss
+1,2022,Def,NYG,a,TEN,4,0,New York Giants ,21,20,41,5.5,43.5,win
+1,2022,Def,NE,a,MIA,4,0,New England Patriots ,7,20,27,3,47,loss
+1,2022,Def,KC,a,ARI,3,0,Kansas City Chiefs ,44,21,65,-6,54,win
+1,2022,Def,CIN,h,PIT,2,0,Cincinnati Bengals ,23,20,43,7.5,44.5,loss
+1,2022,Def,GB,a,MIN,1,0,Green Bay Packers ,7,23,30,2.5,47,loss
+1,2022,Def,CAR,h,CLE,1,0,Carolina Panthers ,26,24,50,2.5,42.5,loss
+1,2022,Def,LV,a,LAC,0,0,Las Vegas Raiders ,19,24,43,3.5,52.5,loss
+1,2022,Def,DET,h,PHI,0,0,Detroit Lions ,38,35,73,-6,49,loss
+1,2022,Def,ARI,h,KC,-2,0,Arizona Cardinals ,44,21,65,-6,54,loss
+1,2022,PK,ATL,h,NO,19,0,Younghoe Koo ,27,26,53,-6,43.5,loss
+1,2022,PK,CLE,a,CAR,16,0,Cade York ,26,24,50,2.5,42.5,win
+1,2022,PK,TB,a,DAL,15,0,Ryan Succop ,19,3,22,-2.5,49.5,win
+1,2022,PK,PIT,a,CIN,14,0,Chris Boswell ,23,20,43,7.5,44.5,win
+1,2022,PK,MIN,h,GB,13,0,Greg Joseph ,7,23,30,2.5,47,win
+1,2022,PK,JAX,a,WAS,12,0,Riley Patterson ,22,28,50,3,43.5,loss
+1,2022,PK,DEN,a,SEA,11,0,Brandon McManus ,16,17,33,-6,44,loss
+1,2022,PK,HOU,h,IND,10,0,Ka'imi Fairbairn ,20,20,40,-7,46,tie
+1,2022,PK,MIA,h,NE,10,0,Jason Sanders ,7,20,27,3,47,win
+1,2022,PK,NO,a,ATL,10,0,Wil Lutz ,27,26,53,-6,43.5,win
+1,2022,PK,TEN,h,NYG,9,0,Randy Bullock ,21,20,41,5.5,43.5,loss
+1,2022,PK,LV,a,LAC,9,0,Daniel Carlson ,19,24,43,3.5,52.5,loss
+1,2022,PK,KC,a,ARI,9,0,Harrison Butker ,44,21,65,-6,54,win
+1,2022,PK,BUF,a,LA,8,0,Tyler Bass ,31,10,41,-1,51.5,win
+1,2022,PK,PHI,a,DET,8,0,Jake Elliott ,38,35,73,-6,49,win
+1,2022,PK,CIN,h,PIT,8,0,Evan McPherson ,23,20,43,7.5,44.5,loss
+1,2022,PK,LAC,h,LV,7,0,Dustin Hopkins ,19,24,43,3.5,52.5,win
+1,2022,PK,LA,h,BUF,6,0,Matt Gay ,31,10,41,-1,51.5,loss
+1,2022,PK,BAL,a,NYJ,6,0,Justin Tucker ,24,9,33,-6.5,44,win
+1,2022,PK,CAR,h,CLE,6,0,Eddy Pineiro ,26,24,50,2.5,42.5,loss
+1,2022,PK,SEA,h,DEN,6,0,Jason Myers ,16,17,33,-6,44,win
+1,2022,PK,DET,h,PHI,5,0,Austin Seibert ,38,35,73,-6,49,loss
+1,2022,PK,DAL,h,TB,5,0,Brett Maher ,19,3,22,-2.5,49.5,loss
+1,2022,PK,SF,a,CHI,4,0,Robbie Gould ,10,19,29,-6.5,38,loss
+1,2022,PK,NYJ,h,BAL,4,0,Greg Zuerlein ,24,9,33,-6.5,44,loss
+1,2022,PK,WAS,h,JAX,2,0,Joey Slye ,22,28,50,3,43.5,win
+1,2022,PK,GB,a,MIN,1,0,Mason Crosby ,7,23,30,2.5,47,loss
+1,2022,PK,NYG,a,TEN,1,0,Graham Gano ,21,20,41,5.5,43.5,win
+1,2022,PK,ARI,h,KC,1,0,Matt Prater ,44,21,65,-6,54,loss
+1,2022,PK,NE,a,MIA,1,0,Nick Folk ,7,20,27,3,47,loss
+1,2022,PK,CHI,h,SF,1,0,Cairo Santos ,10,19,29,-6.5,38,win
+1,2022,PK,DET,h,PHI,0,0,Dominik Eberle ,38,35,73,-6,49,loss
+1,2022,PK,IND,a,HOU,0,0,Chase McLaughlin ,20,20,40,-7,46,tie
+1,2022,PK,DET,h,PHI,0,0,Aldrick Rosas ,38,35,73,-6,49,loss
+1,2022,PK,CAR,h,CLE,0,0,Zane Gonzalez ,26,24,50,2.5,42.5,loss
+1,2022,PK,JAX,a,WAS,0,0,James McCourt ,22,28,50,3,43.5,loss
+1,2022,PK,TEN,h,NYG,0,0,Caleb Shudak ,21,20,41,5.5,43.5,loss
+1,2022,PK,GB,a,MIN,0,0,Ramiz Ahmed ,7,23,30,2.5,47,loss
+1,2022,PK,KC,a,ARI,0,0,Matt Ammendola ,44,21,65,-6,54,win
+1,2022,PK,NYJ,h,BAL,0,0,Steven Weatherford ,24,9,33,-6.5,44,loss
+1,2022,PK,NYJ,h,BAL,0,0,Parker Douglass ,24,9,33,-6.5,44,loss
+1,2022,PK,PIT,a,CIN,0,0,Piotr Czech ,23,20,43,7.5,44.5,win
+1,2022,PK,ATL,h,NO,0,0,Zac Derr ,27,26,53,-6,43.5,loss
+1,2022,PK,SF,a,CHI,0,0,Ricky Schmit ,10,19,29,-6.5,38,loss
+1,2022,PK,CAR,h,CLE,0,0,Andrew Wellock ,26,24,50,2.5,42.5,loss
+1,2022,PK,DAL,h,TB,0,0,Carlos Martinez ,19,3,22,-2.5,49.5,loss
+1,2022,PK,TB,a,DAL,0,0,Garrett Rivas ,19,3,22,-2.5,49.5,win
+1,2022,PK,CLE,a,CAR,0,0,Jason Reda ,26,24,50,2.5,42.5,win
+1,2022,PK,SF,a,CHI,0,0,MacKenzie Hoambrecker ,10,19,29,-6.5,38,loss
+1,2022,PK,NYG,a,TEN,0,0,Mark Hickok ,21,20,41,5.5,43.5,win
+1,2022,PK,NYJ,h,BAL,0,0,Sergio Castillo ,24,9,33,-6.5,44,loss
+1,2022,PK,SF,a,CHI,0,0,Andrew Jacas ,10,19,29,-6.5,38,loss
+1,2022,PK,NYJ,h,BAL,0,0,Ty Long ,24,9,33,-6.5,44,loss
+1,2022,PK,WAS,h,JAX,0,0,Saverio Rocca ,22,28,50,3,43.5,win
+1,2022,PK,LA,h,BUF,0,0,Kai Forbath ,31,10,41,-1,51.5,loss
+1,2022,PK,WAS,h,JAX,0,0,Clint Stitser ,22,28,50,3,43.5,win
+1,2022,PK,DAL,h,TB,0,0,Connor Hughes ,19,3,22,-2.5,49.5,loss
+1,2022,PK,ATL,h,NO,0,0,Garrett Lindholm ,27,26,53,-6,43.5,loss
+1,2022,PK,IND,a,HOU,0,0,Lucas Havrisik ,20,20,40,-7,46,tie
