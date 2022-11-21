@@ -24,7 +24,7 @@ poe_model_mutations <- function(pbp){
   model_cols <- c('season', 'posteam', 'game_id', 'play_id', 'play_clock', 'pace', 'wp',
                   'down', 'half_seconds_remaining',
                   'game_seconds_remaining', 'score_differential', 'diff_time_ratio',
-                  'no_huddle','prev_yds_gained')
+                  'prev_yds_gained') #'no_huddle',
   
   model_pbp <- pace_pbp %>% 
     mutate(pace = 40-play_clock) %>% 
