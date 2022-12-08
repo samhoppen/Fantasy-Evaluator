@@ -4,7 +4,7 @@ library(nbastatR)
 
 Sys.setenv("VROOM_CONNECTION_SIZE" = 131072 * 2)
 
-data <- nbastatR::game_logs(seasons = 2022,
+data <- nbastatR::game_logs(seasons = 2023,
                             season_types = "Regular Season")
 
 data$namePlayer <- sub("^(\\S*\\s+\\S+).*", "\\1", data$namePlayer)
@@ -30,7 +30,7 @@ final_data <- data %>%
 final_data$slugTeam <- sub("SAS", "SA", final_data$slugTeam)
 final_data$Opp <- sub("SAS", "SA", final_data$Opp)
 
-write_csv(final_data, "C:/Users/sphop/OneDrive/Betsperts/R/Fantasy-Evaluator/Data/NBA Player Stats 2021.csv")
+write_csv(final_data, "C:/Users/sphop/OneDrive/Betsperts/R/Fantasy-Evaluator/Data/NBA Player Stats 2022.csv")
 
 # team_logos <- final_data %>% 
 #   select(slugTeam, urlTeamSeasonLogo) %>% 
