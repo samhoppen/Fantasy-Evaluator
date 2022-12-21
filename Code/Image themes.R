@@ -22,19 +22,23 @@ library(rsvg)
 library(ggsci)
 library(extrafont)
 library(nflplotR)
+library(tidyverse)
+library(dplyr)
+library(nflreadr)
+library(nflfastR)
 
 # decide what font I should use based on what is available on computer
 #font_SB <- ifelse(length(grep('HP Simplified',fonts()))>0,'HP Simplified','Bahnschrift')
 
-nba_teams <- c('ATL', 'BKN', 'BOS', 'CHA', 'CHI', 'CLE', 'DAL', 'DEN', 'DET', 'GSW',
-               'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA', 'MIL', 'MIN', 'NOR', 
-               'NYK', 'OKC', 'ORL', 'PHI', 'PHO', 'POR', 'SAC', 'SAS', 'TOR', 'UTA', 'WAS')
+# nba_teams <- c('ATL', 'BKN', 'BOS', 'CHA', 'CHI', 'CLE', 'DAL', 'DEN', 'DET', 'GSW',
+#                'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA', 'MIL', 'MIN', 'NOR', 
+#                'NYK', 'OKC', 'ORL', 'PHI', 'PHO', 'POR', 'SAC', 'SAS', 'TOR', 'UTA', 'WAS')
 
 nfl_teams <- c('BUF', 'MIA', 'NE', 'NYJ', 'BAL', 'CIN', 'CLE', 'PIT', 'HOU', 'IND', 'JAX', 'TEN', 'DEN', 'KC', 'LAC', 'LV', 'DAL', 'NYG', 'PHI', 'WAS', 'CHI', 'DET', 'GB', 'MIN', 'ATL', 'CAR', 'NO', 'TB', 'ARI', 'LA', 'SEA', 'SF')
 
 # functions to retrieve images
 nfl_wordmark_url = function(x) ifelse(is.na(x),NA,paste0('https://raw.githubusercontent.com/samhoppen/Fantasy-Evaluator/main/Logos/NFL/',x,'.png'))
-nba_wordmark_url = function(x) ifelse(is.na(x),NA,paste0('https://raw.githubusercontent.com/samhoppen/Fantasy-Evaluator/main/Logos/NBA/',x,'.png'))
+# nba_wordmark_url = function(x) ifelse(is.na(x),NA,paste0('https://raw.githubusercontent.com/samhoppen/Fantasy-Evaluator/main/Logos/NBA/',x,'.png'))
 
 font_add_google("Encode Sans Condensed", "encode", regular.wt = 400, bold.wt = 600)
 font_add_google("Inconsolata", "incon")
@@ -221,87 +225,87 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_w
 # }
 # 
 # main function to save my branded plots
-brand_nba_plot <- function(orig_plot, save_name, asp = 16/9,tm_wordmarks = F, logo = F,
-                           logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F) {
-  
-  ## start by adding team wordmarks
-  if (tm_wordmarks) {
-    orig_plot_bld <- ggplot_gtable(ggplot_build(orig_plot))
-    grob_strip_index <- which(sapply(orig_plot_bld$grob, function(x) x$name)=='strip')
-    facet_id <- sapply(grob_strip_index, function(grb) {
-      orig_plot_bld$grobs[[grb]]$grobs[[1]]$children[[2]]$children[[1]]$label
-    })
-    
-    orig_plot_bld$layout$z[grob_strip_index] <- 0
-    
-    for (i in 1:length(facet_id)) {
-      team_wd <- rasterGrob(image = image_read(nba_wordmark_url(facet_id[i])), vp = viewport(height = 0.8, width = 0.6))
-      tot_tree <- grobTree(team_wd)
-      
-      orig_plot_bld$grobs[[grob_strip_index[i]]] <- tot_tree
-    }
-    orig_plot <- ggdraw(orig_plot_bld)
-  }
-  
-  # aesthetics for various logos used
-  if (logo_FE){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/Fantasy Evaluator/Logo.png")
-    logo_width <- 0.16
-    logo_height <- 0.09
-    logo_x <- 0.875
-    logo_y <- 0.875
-  }
-  if (logo_4for4){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
-    logo_width <- 0.09
-    logo_height <- 0.09
-    logo_x <- 0.92
-    logo_y <- 0.875
-  }
-  if (logo_4for4_red){
-    logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4_red.jpg")
-    logo_width <- 0.09
-    logo_height <- 0.09
-    logo_x <- 0.92
-    logo_y <- 0.875
-  }
-  if (logo_ETR){
-    logo_file <- magick::image_read_svg("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/etr.svg")
-    logo_width <- 0.12
-    logo_height <- 0.0675
-    logo_x <- 0.875
-    logo_y <- 0.875
-  }
-  
-  if (tm_wordmarks){
-    logo_x <- logo_x - 0.05
-    logo_y <- 0.875
-  }
-  
-  final_plot <- ggdraw(
-    xlim = c(0, 900*asp),
-    ylim = c(0, 900)
-  ) + 
-    draw_plot(
-      orig_plot,
-      x = ((900*asp)/2),
-      hjust = 0.5,
-      width = ((900*asp)-36),
-      y = (900-60)/2,
-      height = (900-60),
-      vjust = 0.5
-    ) + 
-    draw_image(logo_file, x = logo_x*900*asp, y = logo_y*900, hjust = 0, vjust = 0, height = logo_height*900, width = logo_width*1600)
-  
-  save_plot(
-    filename = save_name,
-    plot = final_plot,
-    base_height = 900 / 72,
-    base_asp = 16 / 9,
-    dpi = 72
-  )
-  
-}
+# brand_nba_plot <- function(orig_plot, save_name, asp = 16/9,tm_wordmarks = F, logo = F,
+#                            logo_ETR = F, logo_FE = F, logo_4for4 = F, logo_4for4_red = F) {
+#   
+#   ## start by adding team wordmarks
+#   if (tm_wordmarks) {
+#     orig_plot_bld <- ggplot_gtable(ggplot_build(orig_plot))
+#     grob_strip_index <- which(sapply(orig_plot_bld$grob, function(x) x$name)=='strip')
+#     facet_id <- sapply(grob_strip_index, function(grb) {
+#       orig_plot_bld$grobs[[grb]]$grobs[[1]]$children[[2]]$children[[1]]$label
+#     })
+#     
+#     orig_plot_bld$layout$z[grob_strip_index] <- 0
+#     
+#     for (i in 1:length(facet_id)) {
+#       team_wd <- rasterGrob(image = image_read(nba_wordmark_url(facet_id[i])), vp = viewport(height = 0.8, width = 0.6))
+#       tot_tree <- grobTree(team_wd)
+#       
+#       orig_plot_bld$grobs[[grob_strip_index[i]]] <- tot_tree
+#     }
+#     orig_plot <- ggdraw(orig_plot_bld)
+#   }
+#   
+#   # aesthetics for various logos used
+#   if (logo_FE){
+#     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/Fantasy Evaluator/Logo.png")
+#     logo_width <- 0.16
+#     logo_height <- 0.09
+#     logo_x <- 0.875
+#     logo_y <- 0.875
+#   }
+#   if (logo_4for4){
+#     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4.jpg")
+#     logo_width <- 0.09
+#     logo_height <- 0.09
+#     logo_x <- 0.92
+#     logo_y <- 0.875
+#   }
+#   if (logo_4for4_red){
+#     logo_file <- magick::image_read("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/4for4_red.jpg")
+#     logo_width <- 0.09
+#     logo_height <- 0.09
+#     logo_x <- 0.92
+#     logo_y <- 0.875
+#   }
+#   if (logo_ETR){
+#     logo_file <- magick::image_read_svg("C:/Users/Hoppy/OneDrive/NFL Analysis/Data Repository/etr.svg")
+#     logo_width <- 0.12
+#     logo_height <- 0.0675
+#     logo_x <- 0.875
+#     logo_y <- 0.875
+#   }
+#   
+#   if (tm_wordmarks){
+#     logo_x <- logo_x - 0.05
+#     logo_y <- 0.875
+#   }
+#   
+#   final_plot <- ggdraw(
+#     xlim = c(0, 900*asp),
+#     ylim = c(0, 900)
+#   ) + 
+#     draw_plot(
+#       orig_plot,
+#       x = ((900*asp)/2),
+#       hjust = 0.5,
+#       width = ((900*asp)-36),
+#       y = (900-60)/2,
+#       height = (900-60),
+#       vjust = 0.5
+#     ) + 
+#     draw_image(logo_file, x = logo_x*900*asp, y = logo_y*900, hjust = 0, vjust = 0, height = logo_height*900, width = logo_width*1600)
+#   
+#   save_plot(
+#     filename = save_name,
+#     plot = final_plot,
+#     base_height = 900 / 72,
+#     base_asp = 16 / 9,
+#     dpi = 72
+#   )
+#   
+# }
 
 theme_FE <-  theme(
   line = element_line(lineend = 'round', color='black'),     #rounds the edges of all lines; makes the color black
