@@ -8,10 +8,43 @@
 #' @export
 
 get_pbp_data <- function(years) {
-  purrr::map_dfr(years, function(x) {
-    suppressMessages(readr::read_csv(paste("https://raw.github.com/ryurko/nflscrapR-data/master/legacy_data/season_play_by_play/pbp_",
-                                           x, ".csv", sep = "")))
-  }) %>% return
+  # purrr::map_dfr(years, function(x) {
+  #   suppressMessages(readr::read_csv(paste("https://raw.github.com/ryurko/nflscrapR-data/master/legacy_data/season_play_by_play/pbp_",
+  #                                          x, ".csv", sep = "")))
+  # }) %>% return
+  
+  nflfastR::load_pbp(seasons = years) %>% 
+    dplyr::rename(Passer_ID = passer_id,
+                  Passer = passer,
+                  Receiver_ID = receiver_player_id,
+                  Receiver = receiver_player_name,
+                  Rusher_ID = rusher_player_id,
+                  Rusher = rusher_player_name,
+                  PlayType = play_type,
+                  Season = season,
+                  HomeTeam = home_team,
+                  Reception = complete_pass,
+                  airEPA = air_epa,
+                  EPA = epa,
+                  airWPA = air_wpa,
+                  WPA = wpa,
+                  yacEPA = yac_epa,
+                  yacWPA = yac_wpa,
+                  RunLocation = run_location,
+                  RunGap = run_gap,
+                  PassLocation = pass_location,
+                  Sack = sack,
+                  GameID = game_id,
+                  Drive = drive,
+                  `Yards.Gained` = yards_gained,
+                  AirYards = air_yards,
+                  YardsAfterCatch = yards_after_catch,
+                  QBHit = qb_hit,
+                  InterceptionThrown = interception,
+                  Touchdown = touchdown,
+                  Fumble = fumble,
+                  DefensiveTeam = defteam) %>% 
+    return
 }
 
 #' Adds Player Positions to Play-by-Play Data
@@ -40,6 +73,7 @@ add_positions <- function(pbp_df, years) {
     pbp_df$posteam[which(pbp_df$posteam == "JAC" & pbp_df$Season == 2016)] <- "JAX"
     pbp_df$DefensiveTeam[which(pbp_df$DefensiveTeam == "JAC" & pbp_df$Season == 2016)] <- "JAX"
   }
+  
   
   # Define a function to find the common name for a player:
   find_player_name <- function(player_names){
@@ -95,12 +129,16 @@ add_positions <- function(pbp_df, years) {
   # Create a data frame with the rosters for the given years
   # (which are already filtered down to only the offense skill positions),
   # selecting only the position and ID columns:
-  player_positions <- purrr::map_dfr(years, function(x) {
-    suppressMessages(readr::read_csv(paste("https://raw.github.com/ryurko/nflscrapR-data/master/legacy_data/team_rosters/team_",
-                                           x, "_rosters.csv", sep = "")))
-  }) %>%
-    dplyr::select(GSIS_ID, Pos) %>%
+  player_positions <- nflreadr::load_rosters(seasons = years) %>% 
+    dplyr::filter(!is.na(gsis_id)) %>% 
+    dplyr::select(GSIS_ID = gsis_id, Pos = position) %>% 
     dplyr::distinct()
+  # player_positions <- purrr::map_dfr(years, function(x) {
+  #   suppressMessages(readr::read_csv(paste("https://raw.github.com/ryurko/nflscrapR-data/master/legacy_data/team_rosters/team_",
+  #                                          x, "_rosters.csv", sep = "")))
+  # }) %>%
+  #   dplyr::select(GSIS_ID, Pos) %>%
+  #   dplyr::distinct()
   
   # Make three versions of the rosters for each type of player:
   passer_pos <- player_positions %>% dplyr::rename(Passer_Position=Pos)
@@ -144,8 +182,8 @@ add_positions <- function(pbp_df, years) {
 add_model_variables <- function(pbp_df) {
   
   # Create the additional model variables and return:
-  pbp_df %>% dplyr::mutate(Shotgun_Ind = as.numeric(grepl("Shotgun", desc)),
-                           No_Huddle_Ind = as.numeric(grepl("No Huddle", desc)),
+  pbp_df %>% dplyr::mutate(Shotgun_Ind = shotgun, #as.numeric(grepl("Shotgun", desc)),
+                           No_Huddle_Ind = no_huddle, # as.numeric(grepl("No Huddle", desc)),
                            Home_Ind = ifelse(posteam == HomeTeam, 1, 0),
                            airEPA_Result = ifelse(Reception == 1, airEPA, EPA),
                            airWPA_Result = ifelse(Reception == 1, airWPA, WPA),
@@ -171,7 +209,7 @@ prepare_model_data <- function(pbp_df) {
   
   # Create datasets that are only passing plays and rushing plays
   # with EPA calculations:
-  pass_pbp_df <- pbp_df %>% dplyr::filter(PlayType == "Pass",
+  pass_pbp_df <- pbp_df %>% dplyr::filter(PlayType == "pass",
                                           !is.na(airEPA_Result),
                                           !is.na(airWPA_Result),
                                           !is.na(yacEPA_Result),
@@ -186,7 +224,7 @@ prepare_model_data <- function(pbp_df) {
                                           Passer_Position == "QB",
                                           Receiver_Position != "QB")
   
-  rush_pbp_df <- pbp_df %>% dplyr::filter(PlayType %in% c("Run","Sack"),
+  rush_pbp_df <- pbp_df %>% dplyr::filter(PlayType %in% c("run","sack"),
                                           !is.na(EPA),
                                           !is.na(WPA),
                                           !is.na(Team_Side_Gap),
@@ -241,11 +279,15 @@ prepare_model_data <- function(pbp_df) {
 get_season_summary <- function(years) {
   # Create a data frame with the games data frames for the
   # given years from the nflscrapR-data repository:
-  games_df <- purrr::map_dfr(years, function(x) {
-    suppressMessages(readr::read_csv(paste("https://raw.github.com/ryurko/nflscrapR-data/master/legacy_data/season_games/games_",
-                                           x, ".csv", sep = "")))
-  })
-  
+  # games_df <- purrr::map_dfr(years, function(x) {
+  #   suppressMessages(readr::read_csv(paste("https://raw.github.com/ryurko/nflscrapR-data/master/legacy_data/season_games/games_",
+  #                                          x, ".csv", sep = "")))
+  # })
+  games_df <- nflreadr::load_schedules() %>% 
+    filter(season %in% years) %>% 
+    select(GameID = game_id, date = gameday, home = home_team,
+           away = away_team, homescore = home_score, awayscore = away_score,
+           Season = season)
   # Create a column, Winner for the games_data, that allows for tied games,
   # as well as score differential columns for both home and away:
   games_df <- games_df %>% dplyr::mutate(Winner = ifelse(homescore > awayscore,
