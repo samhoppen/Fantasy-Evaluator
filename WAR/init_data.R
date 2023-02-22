@@ -283,6 +283,7 @@ get_season_summary <- function(years) {
   #   suppressMessages(readr::read_csv(paste("https://raw.github.com/ryurko/nflscrapR-data/master/legacy_data/season_games/games_",
   #                                          x, ".csv", sep = "")))
   # })
+  nflreadr::.clear_cache()
   games_df <- nflreadr::load_schedules() %>% 
     filter(season %in% years) %>% 
     select(GameID = game_id, date = gameday, home = home_team,
