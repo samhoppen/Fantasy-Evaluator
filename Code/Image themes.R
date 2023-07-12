@@ -50,7 +50,7 @@ logo_asp <- 1.618
 showtext_opts(dpi = 480)
 
 brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_wordmarks = F, logo = F, 
-                           logo_fp = F, logo_bp = F logo_loc) {
+                           logo_fp = F, logo_bp = F, logo_loc) {
   
   ## start by adding team wordmarks
   if (tm_wordmarks) {
