@@ -25,6 +25,7 @@ poe_model_mutations <- function(pbp){
                                  TRUE ~ play_type),
            prev_td = if_else(lag(touchdown) == 1, 1, 0),
            prev_no_play = if_else(lag(play_type) == "no_play", 1, 0),
+           prev_yds_gained = lag(yards_gained),
            clock_stopped = if_else(play_type %in% c("kickoff", "extra_point") | prev_td == 1 | extra_point_attempt ==1 | two_point_attempt == 1 | two_min_warning == 1 | prev_no_play == 1 | time_left == 1 | prev_kickoff == 1 | change_of_poss == 1 | prev_oob == 1 | prev_inc_pass == 1 | prev_to == 1, 1, 0),
            diff_time_ratio = score_differential*exp(4*((3600-game_seconds_remaining)/3600))
     )  #%>% 
