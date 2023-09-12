@@ -10,7 +10,7 @@ poe_model_mutations <- function(pbp){
     mutate(change_of_poss = if_else(lag(posteam) == posteam, 0, 1),
            oob_stoppage = case_when(out_of_bounds == 1 & (half_seconds_remaining <= 120 | game_seconds_remaining <= 300) ~ 1,
                                     TRUE ~ 0),
-           prev_start = lag(start_seconds),
+           #prev_start = lag(start_seconds),
            time_left = if_else(time == "15:00" | half_seconds_remaining == 120, 1, 0),
            two_min_warning = if_else(120 <= prev_start & 120 >= start_seconds & (qtr == 2 | qtr == 4) & time_left == 0 & timeout == 0, 1, 0),
            prev_kickoff = if_else(lag(play_type) == "kickoff", 1, 0),
