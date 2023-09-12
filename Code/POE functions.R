@@ -7,16 +7,32 @@ poe_model <- xgb.load("C:/Users/sphop/OneDrive/Betsperts/R/Fantasy-Evaluator/Cod
 poe_model_mutations <- function(pbp){
   pace_pbp <- pbp %>% 
     filter(pass == 1 | rush == 1) %>% 
-    # filter(play_type != "no_play") %>% 
-    mutate(change_of_poss = if_else(lag(drive_play_id_started) == drive_play_id_started, 0, 1),
+    mutate(change_of_poss = if_else(lag(posteam) == posteam, 0, 1),
            oob_stoppage = case_when(out_of_bounds == 1 & (half_seconds_remaining <= 120 | game_seconds_remaining <= 300) ~ 1,
                                     TRUE ~ 0),
+           prev_start = lag(start_seconds),
+           time_left = if_else(time == "15:00" | half_seconds_remaining == 120, 1, 0),
+           two_min_warning = if_else(120 <= prev_start & 120 >= start_seconds & (qtr == 2 | qtr == 4) & time_left == 0 & timeout == 0, 1, 0),
+           prev_kickoff = if_else(lag(play_type) == "kickoff", 1, 0),
            prev_inc_pass = lag(incomplete_pass),
            prev_oob = lag(oob_stoppage),
-           prev_to = if_else(lag(home_timeouts_remaining) != home_timeouts_remaining | lag(away_timeouts_remaining) != away_timeouts_remaining, 1, 0),
-           prev_yds_gained = lag(yards_gained),
-           clock_stopped = if_else(change_of_poss == 1 | prev_oob == 1 | prev_inc_pass == 1 | prev_to == 1, 1, 0),
-           diff_time_ratio = score_differential*exp(4*((3600-game_seconds_remaining)/3600)))
+           prev_to = if_else(lag(timeout) == 1, 1, 0),
+           play_type = case_when(penalty == 1 & grepl("enforced", desc, ignore.case = T) ~ "no_play",
+                                 TRUE ~ play_type),
+           prev_td = if_else(lag(touchdown) == 1, 1, 0),
+           prev_no_play = if_else(lag(play_type) == "no_play", 1, 0),
+           clock_stopped = if_else(play_type %in% c("kickoff", "extra_point") | prev_td == 1 | extra_point_attempt ==1 | two_point_attempt == 1 | two_min_warning == 1 | prev_no_play == 1 | time_left == 1 | prev_kickoff == 1 | change_of_poss == 1 | prev_oob == 1 | prev_inc_pass == 1 | prev_to == 1, 1, 0),
+           diff_time_ratio = score_differential*exp(4*((3600-game_seconds_remaining)/3600))
+    )  #%>% 
+#    mutate(change_of_poss = if_else(lag(drive_play_id_started) == drive_play_id_started, 0, 1),
+#           oob_stoppage = case_when(out_of_bounds == 1 & (half_seconds_remaining <= 120 | game_seconds_remaining <= 300) ~ 1,
+#                                    TRUE ~ 0),
+#           prev_inc_pass = lag(incomplete_pass),
+#           prev_oob = lag(oob_stoppage),
+#           prev_to = if_else(lag(home_timeouts_remaining) != home_timeouts_remaining | lag(away_timeouts_remaining) != away_timeouts_remaining, 1, 0),
+#           prev_yds_gained = lag(yards_gained),
+#           clock_stopped = if_else(change_of_poss == 1 | prev_oob == 1 | prev_inc_pass == 1 | prev_to == 1, 1, 0),
+#           diff_time_ratio = score_differential*exp(4*((3600-game_seconds_remaining)/3600)))
   
   
   pace_pbp$play_clock <- as.numeric(pace_pbp$play_clock)
