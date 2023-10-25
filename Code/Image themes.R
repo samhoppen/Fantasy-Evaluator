@@ -85,14 +85,14 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_w
     logo_width <- 0.09*(5/base_size)
     logo_height <- 0.09*(5/base_size)
     logo_x <- 0.925
-    logo_y <- 0.91+(0.1*(base_size-5))
+    logo_y <- 0.91+(0.01*(base_size-5))
   }
   if (logo_bp){
     logo_file <- magick::image_read("C:/Users/sphop/OneDrive/FantasyPros/Logos/fp_logo.jpg")
-    logo_width <- 0.09
-    logo_height <- 0.09
+    logo_width <- 0.09*(5/base_size)
+    logo_height <- 0.09*(5/base_size)
     logo_x <- 0.925
-    logo_y <- 0.91
+    logo_y <- 0.91+(0.01*(base_size-5))
   }
   
   
@@ -317,7 +317,7 @@ theme_FE <-  theme(
   legend.key = element_blank(),     #removes the legend key
   panel.grid.minor = element_blank(),     #removes the lines on the plot between the ticks
   panel.grid.major = element_line(color='grey85', size = 0.3),     #changes the size of the major gridlines and makes them grey
-  panel.grid.major.x = element_blank(),
+  #panel.grid.major.x = element_blank(),
   axis.title.y = element_text(angle = 90, vjust = 0.5),     #changes the size of the axis labels
   strip.background = element_blank(),
   strip.text = element_text(size = 8, color = 'black'),
