@@ -26,6 +26,7 @@ library(tidyverse)
 library(dplyr)
 library(nflreadr)
 library(nflfastR)
+library(gtExtras)
 
 # decide what font I should use based on what is available on computer
 #font_SB <- ifelse(length(grep('HP Simplified',fonts()))>0,'HP Simplified','Bahnschrift')
@@ -327,6 +328,95 @@ theme_FE <-  theme(
   legend.title = element_text(size = 6)
 )
 
+gt_bars <- function(
+    gt_object,
+    column,
+    height = 16,
+    fill = "purple",
+    background = "#e1e1e1",
+    scaled = FALSE,
+    scaled_pct = FALSE,
+    labels = FALSE,
+    inside_label_color = "white",
+    outside_label_color = "black",
+    label_value_cutoff = 0.50,
+    digits = 1,
+    scale_label = TRUE,
+    percent_sign = TRUE,
+    font_style = "bold",
+    font_size = "12px") {
+
+
+  stopifnot(`'gt_object' must be a 'gt_tbl', have you accidentally passed raw data?` = "gt_tbl" %in%
+    class(gt_object))
+
+  # ensure font_style is one of the accepted values
+  stopifnot(font_style %in% c("bold", "normal", "italic"))
+
+  data_in <- gt_index(gt_object, column = {{ column }})
+
+  gt_object %>%
+    text_transform(
+      locations = cells_body(columns = {{ column }}),
+      fn = function(x) {
+        if (length(na.omit(x)) == 0) {
+          return("<div></div>")
+        } else {
+          if (isFALSE(scaled_pct)){
+            max_x <- max(as.double(x), na.rm = TRUE)
+          } else {
+              max_x <- 1.0
+            }
+          
+        }
+
+        bar <- lapply(data_in, function(x) {
+          scaled_value <- if (isFALSE(scaled)) {
+            x / max_x * 100
+          } else {
+            x
+          }
+
+          if (labels) {
+            # adjust values for labeling // scale_label
+            label_values <- if (scale_label) {
+              x * 100
+            } else {
+              x
+            }
+
+            # create label string to print out // add % sign if requested
+            label <- if (percent_sign) {
+              glue::glue("{round(label_values, digits)}%")
+            } else {
+              round(label_values, digits)
+            }
+
+            if (scaled_value > (label_value_cutoff * max_x) * 100) {
+              glue::glue("<div style='background:{fill};width:{scaled_value}%;height:{height}px;display:flex;align-items:center;justify-content:center;color:{inside_label_color};font-weight:{font_style};font-size:{font_size};'>{label}</div>")
+            } else {
+              glue::glue(
+                "<div style='background:{fill};width:{scaled_value}%;height:{height}px;display:flex;align-items:center;justify-content:flex-start;position:relative;'>",
+                "<span style='color:{outside_label_color};position:absolute;left:100%;margin-left:5px;font-weight:{font_style};font-size:{font_size};'>{label}</span></div>"
+              )
+            }
+          } else {
+            glue::glue(
+              "<div style='background:{fill};width:{scaled_value}%;height:{height}px;'></div>" # no labels added
+            )
+          }
+        })
+
+        chart <- lapply(bar, function(bar) {
+          glue::glue("<div style='flex-grow:1;margin-left:8px;background:{background};'>{bar}</div>")
+        })
+
+        chart
+      }
+    ) %>%
+    cols_align(align = "left", columns = {{ column }})
+}
+                                     
 # theme_FE <-  theme(
 #   line = element_line(lineend = 'round', color='black'),     #rounds the edges of all lines; makes the color black
 #   text = element_text(color='black'),     #uses the Incon text format for all text; makes the color black
