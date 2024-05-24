@@ -1,0 +1,7 @@
+game_date,game_id.x,team,team_score,closing_total_line,closing_total_price,team_abbr,team_name,closing_spread_line,closing_spread_price,game_id.y,home_half_score,away_half_score,total_1h,home_spread_1h,result_1h,race_to_10,race_to_15,race_to_20,race_to_25,race_to_30,race_to_35,race_to_40,home_away,team_half_score,team_spread
+8/3/2018,605,LVLas Vegas Aces,NA,169.5,-110,LVA,Las Vegas Aces,9,-110,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8/3/2018,606,WMWashington Mystics,NA,169.5,-110,WAS,Washington Mystics,-9,-110,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+9/20/2020,613,MLMinnesota Lynx,NA,162.5,-110,MIN,Minnesota Lynx,8.5,-115,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+9/20/2020,614,SSSeattle Storm,NA,162.5,-110,SEA,Seattle Storm,-8.5,-105,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6/7/2023,651,MMinnesota,NA,163,-115,MIN,Minnesota Lynx,13.5,-110,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6/7/2023,652,NYNew York,NA,163,-105,NYL,New York Liberty,-13.5,-110,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
