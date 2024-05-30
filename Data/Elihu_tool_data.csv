@@ -1,4 +1,4 @@
-game_date,game_id.x,team,team_score,closing_total_line,closing_total_price,team_abbr,team_name,closing_spread_line,closing_spread_price,game_id.y,home_half_score,away_half_score,race_to_10,race_to_15,race_to_20,race_to_25,race_to_30,race_to_35,race_to_40,home_score,away_score,home_win_margin,total_1h,home_spread_1h,result_1h,home_away,team_half_score,team_spread,game_total
+game_date,game_id.x,team,team_score,closing_total_line,closing_total_price,team_abbr,team_name,closing_spread_line,closing_spread_price,game_id.y,home_half_score,away_half_score,race_to_10,race_to_15,race_to_20,race_to_25,race_to_30,race_to_35,race_to_40,home_score,away_score,home_win_margin,total_1h,home_spread_1h,result_1h,home_away,team_half_score,team_1h_win_margin,game_total
 5/19/2018,303,CSChicago Sky,82,153,-110,CHI,Chicago Sky,2,-110,1021800002,34,36,0,0,1,1,1,1,1,64,82,18,70,2,away,away,36,-2,146
 5/19/2018,304,IFIndiana Fever,64,153,-110,IND,Indiana Fever,-2,-110,1021800002,34,36,1,1,0,0,0,0,0,64,82,18,70,2,away,home,34,2,146
 6/8/2018,305,ADAtlanta Dream,87,162.5,-110,ATL,Atlanta Dream,-4.5,-108,1021800044,32,38,1,0,1,1,1,1,1,83,87,4,70,6,away,away,38,-6,170
