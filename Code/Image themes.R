@@ -86,14 +86,16 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_w
     logo_width <- 0.06*(5/base_size)
     logo_height <- 0.06*(5/base_size)
     logo_x <- 0.94
-    logo_y <- 0.93+(0.01*(base_size-5))
+    #logo_y <- 0.93+(0.01*(base_size-5))
+    logo_y <- 0.94
   }
   if (logo_bp){
     logo_file <- magick::image_read("C:/Users/sphop/OneDrive/FantasyPros/Logos/bp_logo.jpg")
     logo_width <- 0.06*(5/base_size)
     logo_height <- 0.06*(5/base_size)
     logo_x <- 0.94
-    logo_y <- 0.93+(0.01*(base_size-5))
+    #logo_y <- 0.93+(0.01*(base_size-5))
+    logo_y <- 0.94
   }
   
   
