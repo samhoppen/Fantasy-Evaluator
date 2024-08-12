@@ -79,13 +79,18 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_w
   #} else {
   #  base_size_rat_wid <- (5/base_size) / asp
   #}
-  
+
+  if (asp == 1){
+    logo_x <- 0.94
+  } else{
+    logo_x <- 0.95
+  }
   # aesthetics for various logos used
   if (logo_fp){
     logo_file <- magick::image_read("C:/Users/sphop/OneDrive/FantasyPros/Logos/fp_logo.jpg")
     logo_width <- 0.06*(5/base_size)
     logo_height <- 0.06*(5/base_size)
-    logo_x <- 0.94
+    #logo_x <- 0.94
     #logo_y <- 0.93+(0.01*(base_size-5))
     logo_y <- 0.94
   }
@@ -93,7 +98,7 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_w
     logo_file <- magick::image_read("C:/Users/sphop/OneDrive/FantasyPros/Logos/bp_logo.jpg")
     logo_width <- 0.06*(5/base_size)
     logo_height <- 0.06*(5/base_size)
-    logo_x <- 0.94
+    #logo_x <- 0.94
     #logo_y <- 0.93+(0.01*(base_size-5))
     logo_y <- 0.94
   }
