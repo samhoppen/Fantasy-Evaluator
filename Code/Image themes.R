@@ -38,7 +38,7 @@ library(gtExtras)
 nfl_teams <- c('BUF', 'MIA', 'NE', 'NYJ', 'BAL', 'CIN', 'CLE', 'PIT', 'HOU', 'IND', 'JAX', 'TEN', 'DEN', 'KC', 'LAC', 'LV', 'DAL', 'NYG', 'PHI', 'WAS', 'CHI', 'DET', 'GB', 'MIN', 'ATL', 'CAR', 'NO', 'TB', 'ARI', 'LA', 'SEA', 'SF')
 
 # functions to retrieve images
-nfl_wordmark_url = function(x) ifelse(is.na(x),NA,paste0('https://raw.githubusercontent.com/samhoppen/Fantasy-Evaluator/main/Logos/NFL/',x,'.png'))
+# nfl_wordmark_url = function(x) ifelse(is.na(x),NA,paste0('https://raw.githubusercontent.com/samhoppen/Fantasy-Evaluator/main/Logos/NFL/',x,'.png'))
 # nba_wordmark_url = function(x) ifelse(is.na(x),NA,paste0('https://raw.githubusercontent.com/samhoppen/Fantasy-Evaluator/main/Logos/NBA/',x,'.png'))
 
 font_add_google("Encode Sans Condensed", "encode", regular.wt = 400, bold.wt = 600)
@@ -128,8 +128,8 @@ theme_FE <-  theme(
   axis.line = element_line(color = 'black', size = 0.5),
   axis.ticks = element_line(color = 'black', size = 0.5),     #changes the size (width) of the x-axis ticks
   axis.ticks.length = unit(0.15, 'lines'),     #changes the length of the axis ticks
-  axis.title = element_text(size = 8),     #changes the size of the axis titles, if any
-  axis.text = element_text(size = 8, color = 'black'),     #changes the size of the axis labels
+  axis.title = element_text(size = 8, family = "encode"),     #changes the size of the axis titles, if any
+  axis.text = element_text(size = 8, color = 'black', family = "encode"),     #changes the size of the axis labels
   plot.title = element_text(size = 16, face = "bold", margin = margin(0,0,5,0), family = "encode"),     #changes the size of the title
   plot.subtitle = element_text(size = 8, margin = margin(0,0,5,0), family = "encode"),     #changes the size of the subtitle
   plot.caption = element_text(size = 8, family = "encode"),     #changes the size of the caption , family = "encode"
