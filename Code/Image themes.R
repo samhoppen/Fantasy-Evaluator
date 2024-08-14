@@ -28,9 +28,6 @@ library(nflreadr)
 library(nflfastR)
 library(gtExtras)
 
-# decide what font I should use based on what is available on computer
-#font_SB <- ifelse(length(grep('HP Simplified',fonts()))>0,'HP Simplified','Bahnschrift')
-
 # nba_teams <- c('ATL', 'BKN', 'BOS', 'CHA', 'CHI', 'CLE', 'DAL', 'DEN', 'DET', 'GSW',
 #                'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA', 'MIL', 'MIN', 'NOR', 
 #                'NYK', 'OKC', 'ORL', 'PHI', 'PHO', 'POR', 'SAC', 'SAS', 'TOR', 'UTA', 'WAS')
@@ -42,11 +39,10 @@ nfl_teams <- c('BUF', 'MIA', 'NE', 'NYJ', 'BAL', 'CIN', 'CLE', 'PIT', 'HOU', 'IN
 # nba_wordmark_url = function(x) ifelse(is.na(x),NA,paste0('https://raw.githubusercontent.com/samhoppen/Fantasy-Evaluator/main/Logos/NBA/',x,'.png'))
 
 font_add_google("Encode Sans Condensed", "encode", regular.wt = 400, bold.wt = 600)
-font_add_google("Inconsolata", "incon")
+font_add_google("Cairo", "cairo")
 showtext_auto()
 
 logo_asp <- 1.618
-#logo_asp <- 1.778
 
 showtext_opts(dpi = 480)
 
@@ -122,29 +118,29 @@ brand_nfl_plot <- function(orig_plot, save_name, asp = 16/9, base_size = 5, tm_w
 
 theme_FE <-  theme(
   line = element_line(lineend = 'round', color='black'),     #rounds the edges of all lines; makes the color black
-  text = element_text(color='black'),     #uses the Incon text format for all text; makes the color black
+  text = element_text(color='black', family = "cairo"),     #uses the Incon text format for all text; makes the color black
   panel.border = element_blank(),     #makes the panel around the plotting area the color black
   panel.background = element_rect(fill = 'white', color = 'transparent'),     #background of the non-plotting area is white
   axis.line = element_line(color = 'black', size = 0.5),
   axis.ticks = element_line(color = 'black', size = 0.5),     #changes the size (width) of the x-axis ticks
   axis.ticks.length = unit(0.15, 'lines'),     #changes the length of the axis ticks
-  axis.title = element_text(size = 8, family = "encode"),     #changes the size of the axis titles, if any
-  axis.text = element_text(size = 8, color = 'black', family = "encode"),     #changes the size of the axis labels
-  plot.title = element_text(size = 16, face = "bold", margin = margin(0,0,5,0), family = "encode"),     #changes the size of the title
-  plot.subtitle = element_text(size = 8, margin = margin(0,0,5,0), family = "encode"),     #changes the size of the subtitle
-  plot.caption = element_text(size = 8, family = "encode"),     #changes the size of the caption , family = "encode"
+  axis.title = element_text(size = 8, family = "cairo"),     #changes the size of the axis titles, if any
+  axis.text = element_text(size = 8, color = 'black', family = "cairo"),     #changes the size of the axis labels
+  plot.title = element_text(size = 16, face = "bold", margin = margin(0,0,5,0), family = "cairo"),     #changes the size of the title
+  plot.subtitle = element_text(size = 8, margin = margin(0,0,5,0), family = "cairo"),     #changes the size of the subtitle
+  plot.caption = element_text(size = 8, family = "cairo"),     #changes the size of the caption , family = "encode"
   legend.background = element_blank(),     #makes background of the legend to be grey
   legend.key = element_blank(),     #removes the legend key
   panel.grid.minor = element_blank(),     #removes the lines on the plot between the ticks
   panel.grid.major = element_line(color='grey85', size = 0.3),     #changes the size of the major gridlines and makes them grey
   #panel.grid.major.x = element_blank(),
-  axis.title.y = element_text(angle = 90, vjust = 0.5),     #changes the size of the axis labels
+  axis.title.y = element_text(angle = 90, vjust = 0.5, family = "cairo"),     #changes the size of the axis labels
   strip.background = element_blank(),
-  strip.text = element_text(size = 8, color = 'black'),
+  strip.text = element_text(size = 8, color = 'black', family = "cairo"),
   panel.spacing.y = unit(0, 'lines'),
   panel.spacing.x = unit(0.5, 'lines'),
-  legend.text = element_text(size = 6),
-  legend.title = element_text(size = 6)
+  legend.text = element_text(size = 6, family = "cairo"),
+  legend.title = element_text(size = 6, family = "cairo")
 )
 
 gt_bars <- function(
