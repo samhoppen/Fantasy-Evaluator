@@ -28,6 +28,9 @@ library(nflreadr)
 library(nflfastR)
 library(gtExtras)
 
+# hide warnings for fonts
+options(warn = -1)
+
 # nba_teams <- c('ATL', 'BKN', 'BOS', 'CHA', 'CHI', 'CLE', 'DAL', 'DEN', 'DET', 'GSW',
 #                'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA', 'MIL', 'MIN', 'NOR', 
 #                'NYK', 'OKC', 'ORL', 'PHI', 'PHO', 'POR', 'SAC', 'SAS', 'TOR', 'UTA', 'WAS')
